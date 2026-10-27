@@ -2,7 +2,7 @@ const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search),reduced=matchMedia('(prefers-reduced-motion:reduce)');
 let scene=null,active=null,lastTrigger=null,motion=!reduced.matches,failed=false;
 const known=['projects','about','quicklinks'];
-function track(name,data={}){if(typeof gtag==='function')gtag(name,{...data,page_location:location.href})}
+function track(name,data={}){if(typeof gtag==='function')gtag('event',name,{...data,page_location:location.href})}
 // Carry only campaign attribution across internal routes, never arbitrary query parameters.
 for(const a of document.querySelectorAll('[data-attribution]')){const u=new URL(a.href);for(const[k,v]of params)if(k.startsWith('utm_'))u.searchParams.set(k,v);a.href=u.href}
 function fallback(message){failed=true;scene?.dispose();scene=null;document.body.classList.remove('enhanced','panel-open');$('hotspots').hidden=true;$('overview').hidden=true;$('motion-toggle').hidden=true;$('view-toggle').textContent='Try 3D view';const retry=new URL('./',location.href);for(const[k,v]of params)if(k.startsWith('utm_'))retry.searchParams.set(k,v);$('view-toggle').href=retry.href;$('scene-status').classList.remove('ready');$('scene-status').textContent=message;for(const s of document.querySelectorAll('.archive-page'))s.classList.remove('open');$('where').textContent='Simple archive · all content below';}
