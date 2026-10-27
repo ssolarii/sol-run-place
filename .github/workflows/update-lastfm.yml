@@ -1,0 +1,49 @@
+name: Refresh Last.fm tracks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch recent scrobbles
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { writeFile } from 'node:fs/promises';
+          if (!process.env.LASTFM_API_KEY) throw new Error('Add LASTFM_API_KEY in the repository Actions secrets.');
+          const params = new URLSearchParams({
+            method: 'user.getRecentTracks',
+            user: 'saltsaltsalty',
+            api_key: process.env.LASTFM_API_KEY,
+            format: 'json',
+            limit: '10'
+          });
+          const response = await fetch('https://ws.audioscrobbler.com/2.0/?' + params);
+          const data = await response.json();
+          if (!response.ok || data.error || !data.recenttracks) {
+            throw new Error(data.message || 'Last.fm request failed');
+          }
+          const value = data.recenttracks.track;
+          const tracks = Array.isArray(value) ? value : value ? [value] : [];
+          await writeFile('lastfm.json', JSON.stringify({ tracks }, null, 2) + '\n');
+          NODE
+      - name: Publish track data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add lastfm.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh Last.fm tracks'
+          git push
