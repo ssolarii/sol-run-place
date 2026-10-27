@@ -84,7 +84,7 @@ export async function createWorld({container,onReady,onFailure,onPick,motionAllo
   loader.load('/background.jpg',t=>{if(disposed){t.dispose();return}t.colorSpace=THREE.SRGBColorSpace;const wall=plane(40,24,t,0,5,-15,scene);wall.material.color.set('#75907a');render()},undefined,()=>{});
   function view(stop){
     const small=innerWidth<=700;
-    if(stop==='overview')return{p:small?[17,20,39]:[12,10,18],t:small?[0,2,0]:[-1.8,1,0]};
+    if(stop==='overview')return{p:small?[17,20,39]:[12,10,18],t:small?[0,3.2,0]:[-1.8,1,0]};
     const d=boardData[stop];return{p:small?[d.x+3,5.2,d.z+11]:[d.x+6,5.3,d.z+10],t:small?[d.x,d.y-.4,d.z]:[d.x+1.7,d.y-.15,d.z]};
   }
   function positionLabels(){for(const[id,p]of Object.entries(labelPositions)){const q=p.clone().project(camera);const el=document.querySelector('#spot-'+id);el.style.left=(q.x*.5+.5)*innerWidth+'px';el.style.top=(-q.y*.5+.5)*innerHeight+'px';el.hidden=q.z>1||q.z<0||Math.abs(q.x)>.95||Math.abs(q.y)>.87}}
