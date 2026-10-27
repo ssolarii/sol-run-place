@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c1513"><meta name="description" content="Sol's projects, loose notes, and music. An explorable archive in progress.">
+  <title>sol's world · working draft</title>
+  <link rel="stylesheet" href="./world.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCHBCRP2LX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}if(location.hostname==='sol.run.place'){gtag('js',new Date());gtag('config','G-TCHBCRP2LX',{allow_google_signals:false,allow_ad_personalization_signals:false})}</script>
+</head>
+<body>
+  <a class="skip" href="#archive">Skip to archive content</a>
+  <div id="world" aria-hidden="true"></div>
+  <div class="shade" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="home-link" href="/" data-attribution>sol.run.place <span>↗ quicklinks</span></a>
+    <div class="tools"><span class="draft">working draft / 01</span><a href="?view=simple" id="view-toggle">Simple view</a></div>
+  </header>
+  <main id="archive" tabindex="-1">
+    <div class="intro" id="intro">
+      <p class="index-line">A small personal archive</p>
+      <h1>sol<span>.</span></h1>
+      <p class="intro-copy">Projects, loose notes,<br>and whatever is playing.</p>
+      <p class="scene-instruction" id="scene-instruction">Pick a place to look closer.</p>
+    </div>
+    <p id="scene-status" class="scene-status" role="status">The readable archive is ready. Preparing the world…</p>
+    <nav class="stations" aria-label="Explore the archive">
+      <a href="#projects" data-stop="projects"><span>01</span> Projects <b>↗</b></a>
+      <a href="#about" data-stop="about"><span>02</span> About <b>↗</b></a>
+      <a href="#quicklinks" data-stop="quicklinks"><span>03</span> Quicklinks <b>↗</b></a>
+      <button type="button" id="overview" hidden>↶ Whole world</button>
+    </nav>
+    <div id="hotspots" aria-label="Places in the world" hidden>
+      <button type="button" data-stop="projects" class="hotspot" id="spot-projects"><span>01</span> Projects ↗</button>
+      <button type="button" data-stop="about" class="hotspot" id="spot-about"><span>02</span> About ↗</button>
+      <button type="button" data-stop="quicklinks" class="hotspot" id="spot-quicklinks"><span>03</span> Quicklinks ↗</button>
+    </div>
+    <div class="archive-pages" id="archive-pages">
+      <section id="projects" class="archive-page" aria-labelledby="projects-title" tabindex="-1">
+        <div class="page-top"><p>01 / Things made</p><button class="close-page" type="button" aria-label="Close Projects">×</button></div>
+        <h2 id="projects-title">Projects</h2>
+        <a href="./projects/shifty.html" class="project-photo" data-attribution><img src="./assets/shifty-schedule.jpg" width="1425" height="891" alt="Schedule Assistant interface showing a school day timetable"><span>Shifty <b>Read the project ↗</b></span></a>
+        <p class="caption">Schedule Assistant, being rebranded as Shifty.<br>A school schedule project for the Itz’at community.</p>
+        <div class="missing"><span>Next frame</span><p>More projects and photographs are still being selected.</p></div>
+      </section>
+      <section id="about" class="archive-page" aria-labelledby="about-title" tabindex="-1">
+        <div class="page-top"><p>02 / Loose notes</p><button class="close-page" type="button" aria-label="Close About">×</button></div>
+        <h2 id="about-title">About</h2>
+        <p class="about-intro">I'm Sol. This is where my projects, notes, and music live.</p>
+        <p class="unfinished">A longer introduction is still to come.</p>
+        <div class="note-board" id="note-board"><button type="button" class="peel-note" aria-expanded="false"><span class="pin" aria-hidden="true"></span><span id="note-front">Something is tucked underneath.</span><span class="note-action">Peel this note ↗</span></button><p class="under-note" id="note-back">Still making room for the next thing.</p></div>
+        <button type="button" class="text-button" id="reset-note">Put the note back</button>
+        <div class="music-frame" aria-live="polite"><div class="music-label" id="np-label">Finding the last record…</div><p id="np-track">Music</p><p id="np-artist"></p><p id="np-time" class="music-meta"></p><a id="np-link" href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">Open track ↗</a></div>
+        <details class="recent"><summary>Last played tracks</summary><p id="recent-message">Loading listening history…</p><ol id="recent-list"></ol><a href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">More on Last.fm ↗</a></details>
+      </section>
+      <section id="quicklinks" class="archive-page" aria-labelledby="links-title" tabindex="-1">
+        <div class="page-top"><p>03 / Other places</p><button class="close-page" type="button" aria-label="Close Quicklinks">×</button></div>
+        <h2 id="links-title">Quicklinks</h2>
+        <nav class="social-list" aria-label="Social links">
+          <a href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener"><img src="/assets/icons/discord.png" alt="" width="28" height="28">Discord <span>↗</span></a>
+          <a href="https://www.instagram.com/sol.tar.xz/" target="_blank" rel="noopener"><img src="/assets/icons/instagram.png" alt="" width="28" height="28">Instagram <span>↗</span></a>
+          <a href="https://www.tiktok.com/@...solari" target="_blank" rel="noopener"><img src="/assets/icons/tiktok.png" alt="" width="28" height="28">TikTok <span>↗</span></a>
+          <a href="https://open.spotify.com/user/312tpdqjc4wbmnjm6qhv2i5zxl5m" target="_blank" rel="noopener"><img src="/assets/icons/spotify.png" alt="" width="28" height="28">Spotify <span>↗</span></a>
+        </nav>
+        <div class="private-note"><h3>Say something private</h3><p>This part is still being built. Nothing can be sent or saved here yet.</p><p>The plan is a private note only Sol can read. A public guestbook, if added, would be separate.</p></div>
+      </section>
+    </div>
+  </main>
+  <footer class="world-footer"><span id="where">You are at the entrance</span><button type="button" id="motion-toggle" aria-pressed="false" hidden>Camera motion: on</button><span>Sound stays off.</span></footer>
+  <noscript><p class="noscript">The simple archive works without JavaScript. Music updates and note peeling need JavaScript.</p></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

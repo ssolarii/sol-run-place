@@ -101,7 +101,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1></header>
+    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1><a id="world-entry" href="./world-draft/" style="display:inline-flex;align-items:center;min-height:44px;margin-top:.6rem;color:inherit;font-size:.9rem;text-underline-offset:4px">enter the world ↗ <span style="margin-left:.5rem;font-size:.65rem;opacity:.72">draft</span></a></header>
 
     <nav class="links" aria-label="Social links">
       <a class="link" id="discord-link" href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener" aria-label="Discord">
@@ -143,6 +143,9 @@
   const CONFIG = {
     discordUserId: "903330250610577418"
   };
+  const worldEntryUrl=new URL(document.getElementById('world-entry').href);
+  for(const [key,value] of new URLSearchParams(location.search))if(key.startsWith('utm_'))worldEntryUrl.searchParams.set(key,value);
+  document.getElementById('world-entry').href=worldEntryUrl.href;
 
   const els = {
     discordLink:   document.getElementById("discord-link"),
