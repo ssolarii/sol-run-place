@@ -61,6 +61,24 @@
   .visitor{font-weight:900;font-size:.95rem}
   .private{display:inline-block;margin-top:.3rem;font-size:.85rem;color:var(--dim);text-decoration:underline;text-underline-offset:2px;cursor:default}
 
+  .recent-toggle{margin-top:.55rem;padding:0;border:0;background:none;color:var(--dim);font:inherit;font-size:.82rem;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+  .recent-toggle:hover,.recent-toggle:focus-visible{color:var(--white)}
+  .recent-overlay[hidden]{display:none}
+  .recent-overlay{position:fixed;inset:0;z-index:10;display:grid;place-items:center;padding:1.25rem;background:rgba(0,0,0,.82);backdrop-filter:blur(8px)}
+  .recent-panel{width:min(100%,34rem);max-height:min(82dvh,42rem);overflow:auto;padding:1.35rem 1.5rem 1.5rem;border:1px solid rgba(255,255,255,.24);background:rgba(5,7,5,.94);box-shadow:0 1.5rem 5rem rgba(0,0,0,.45)}
+  .recent-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:1rem}
+  .recent-heading h2{font-size:1.15rem;font-weight:900}
+  .recent-close{border:0;background:none;color:var(--dim);font:inherit;font-size:1.4rem;line-height:1;cursor:pointer}
+  .recent-close:hover,.recent-close:focus-visible{color:var(--white)}
+  .recent-list{list-style:none}
+  .recent-item{padding:.8rem 0;border-top:1px solid rgba(255,255,255,.18)}
+  .recent-item a{color:var(--white);text-decoration:none}
+  .recent-item a:hover,.recent-item a:focus-visible{text-decoration:underline;text-underline-offset:3px}
+  .recent-track{font-weight:700}
+  .recent-artist,.recent-time,.recent-message{color:var(--dim);font-size:.85rem}
+  .recent-time{margin-top:.2rem;font-style:italic}
+  .recent-message{padding:.8rem 0}
+  @media(max-width:480px){.footer{align-items:flex-end}.meta{max-width:42%}.track{max-width:56vw}.recent-panel{padding:1.1rem}}
   .sr-only{
     position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
     clip:rect(0,0,0,0);white-space:nowrap;border:0;
@@ -98,8 +116,15 @@
         <span class="private" title="Not wired up yet">say something private</span>
       </div>
     </footer>
+    <button class="recent-toggle" id="recent-toggle" type="button" aria-expanded="false" aria-controls="recent-overlay">last played tracks</button>
   </div>
-
+  <section class="recent-overlay" id="recent-overlay" role="dialog" aria-modal="true" aria-labelledby="recent-title" hidden>
+    <div class="recent-panel">
+      <div class="recent-heading"><h2 id="recent-title">Last played tracks</h2><button class="recent-close" id="recent-close" type="button" aria-label="Close recent tracks">&times;</button></div>
+      <p class="recent-message" id="recent-message" role="status">Loading tracks…</p><ol class="recent-list" id="recent-list"></ol>
+      <p class="recent-message"><a href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener" style="color:inherit">View saltsaltsalty on Last.fm ↗</a></p>
+    </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script>
   const CONFIG = {
@@ -115,7 +140,12 @@
     npLabel:       document.getElementById("np-label"),
     npTrack:       document.getElementById("np-track"),
     npArtist:      document.getElementById("np-artist"),
-    visitorCount:  document.getElementById("visitor-count")
+    visitorCount:  document.getElementById("visitor-count"),
+    recentToggle:  document.getElementById("recent-toggle"),
+    recentOverlay: document.getElementById("recent-overlay"),
+    recentClose:   document.getElementById("recent-close"),
+    recentMessage: document.getElementById("recent-message"),
+    recentList:    document.getElementById("recent-list")
   };
 
   function ordinal(n){
@@ -127,6 +157,77 @@
     els.discordStatus.textContent = status;
     els.discordDot.dataset.status = status;
     els.discordLink.setAttribute("aria-label", "Discord — " + status);
+  }
+
+  async function getRecentTracks(){
+    const response=await fetch(`./lastfm.json?updated=${Date.now()}`,{cache:"no-store"});
+    if(!response.ok)throw new Error("Recent tracks are not available yet");
+    const data=await response.json();
+    return Array.isArray(data.tracks)?data.tracks:[];
+  }
+
+  function formatTrackTime(track){
+    if(track["@attr"]&&track["@attr"].nowplaying==="true")return "Listening now";
+    const seconds=Number(track.date&&track.date.uts);
+    if(!Number.isFinite(seconds)||seconds<=0)return "";
+    return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(seconds*1000));
+  }
+
+  function renderCurrentTrack(tracks){
+    const now=tracks.find(track=>track["@attr"]&&track["@attr"].nowplaying==="true");
+    const latest=tracks.find(track=>!(track["@attr"]&&track["@attr"].nowplaying==="true"))||tracks[0];
+    const current=now||latest;
+    els.npLabel.textContent=now?"Listening now…":latest?"Last scrobbled":"No recent scrobbles";
+    els.npTrack.textContent=current&&current.name||"";
+    els.npArtist.textContent=current&&current.artist&&(current.artist["#text"]||current.artist.name)||"";
+  }
+
+  function createTrackItem(track){
+    const item=document.createElement("li");item.className="recent-item";
+    const link=document.createElement("a");
+    try{
+      const url=new URL(track.url);
+      link.href=url.hostname==="last.fm"||url.hostname.endsWith(".last.fm")?url.href:"https://www.last.fm/user/saltsaltsalty";
+    }catch{link.href="https://www.last.fm/user/saltsaltsalty";}
+    link.target="_blank";link.rel="noopener";
+    const title=document.createElement("div");title.className="recent-track";title.textContent=track.name||"Untitled track";
+    const artist=document.createElement("div");artist.className="recent-artist";artist.textContent=track.artist&&(track.artist["#text"]||track.artist.name)||"Unknown artist";
+    link.append(title,artist);item.append(link);
+    const time=formatTrackTime(track);
+    if(time){const stamp=document.createElement("div");stamp.className="recent-time";stamp.textContent=time;item.append(stamp);}
+    return item;
+  }
+
+  let recentTracks=[];
+  function showRecentTracks(){
+    els.recentList.replaceChildren();
+    const played=recentTracks.filter(track=>!(track["@attr"]&&track["@attr"].nowplaying==="true"));
+    if(!played.length){els.recentMessage.hidden=false;els.recentMessage.textContent="No recent scrobbles yet.";return;}
+    els.recentMessage.hidden=true;
+    played.forEach(track=>els.recentList.append(createTrackItem(track)));
+  }
+
+  function openRecentTracks(){
+    els.recentOverlay.hidden=false;els.recentToggle.setAttribute("aria-expanded","true");els.recentClose.focus();
+    showRecentTracks();
+  }
+  function closeRecentTracks(){
+    els.recentOverlay.hidden=true;els.recentToggle.setAttribute("aria-expanded","false");els.recentToggle.focus();
+  }
+  els.recentToggle.addEventListener("click",openRecentTracks);
+  els.recentClose.addEventListener("click",closeRecentTracks);
+  els.recentOverlay.addEventListener("click",event=>{if(event.target===els.recentOverlay)closeRecentTracks();});
+  document.addEventListener("keydown",event=>{if(event.key==="Escape"&&!els.recentOverlay.hidden)closeRecentTracks();});
+
+  async function updateLastFm(){
+    try{
+      recentTracks=await getRecentTracks();
+      renderCurrentTrack(recentTracks);
+      if(!els.recentOverlay.hidden)showRecentTracks();
+    }catch(error){
+      console.warn("Last.fm tracks unavailable.",error);
+      if(!recentTracks.length)els.npLabel.textContent="Last.fm updates pending";
+    }
   }
 
   async function bumpVisitorCount(){
@@ -188,7 +289,9 @@
 
   bumpVisitorCount();
   updatePresence();
+  updateLastFm();
   setInterval(updatePresence, 20000);
+  setInterval(updateLastFm, 30000);
   </script>
 </body>
 </html>
