@@ -178,7 +178,7 @@
   }
 
   async function getRecentTracks(){
-    const response=await fetch(`./lastfm.json?updated=${Date.now()}`,{cache:"no-store"});
+    const response=await fetch(`https://raw.githubusercontent.com/ssolarii/sol-run-place/main/lastfm.json?updated=${Date.now()}`,{cache:"no-store"});
     if(!response.ok)throw new Error("Recent tracks are not available yet");
     const data=await response.json();
     lastFmUpdatedAt = Date.parse(data.updatedAt) || 0;
