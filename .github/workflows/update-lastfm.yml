@@ -37,7 +37,7 @@ jobs:
           }
           const value = data.recenttracks.track;
           const tracks = Array.isArray(value) ? value : value ? [value] : [];
-          await writeFile('lastfm.json', JSON.stringify({ tracks }, null, 2) + '\n');
+          await writeFile('lastfm.json', JSON.stringify({ updatedAt: new Date().toISOString(), tracks }, null, 2) + '\n');
           NODE
       - name: Publish track data
         run: |
