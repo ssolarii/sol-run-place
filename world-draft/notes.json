@@ -1,5 +1,1 @@
-{
-  "front": "Something is tucked underneath.",
-  "back": "Still making room for the next thing.",
-  "editorNote": "Edit front and back to change the peelable note. Visitor peeling is local to their browser; no visitor text is collected."
-}
+{"front":"This is a demo note.","back":"Only your view changes. Put the note back whenever you like."}

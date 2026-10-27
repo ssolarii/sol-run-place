@@ -2,6 +2,13 @@ import * as THREE from './vendor/three.module.js';
 
 export async function createWorld({container,onReady,onFailure,onPick,motionAllowed}){
   const mobile=matchMedia('(max-width:700px)').matches;
+  const [kit,fernMap]=await Promise.all([
+    fetch('./assets/botanical-kit.json').then(r=>{if(!r.ok)throw Error('Botanical assets unavailable');return r.json()}),
+    new THREE.TextureLoader().loadAsync('./assets/fern-rgba.webp')
+  ]);
+  fernMap.colorSpace=THREE.SRGBColorSpace;fernMap.anisotropy=4;
+  const geometry=data=>{const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(data.position,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(data.normal,3));g.setAttribute('uv',new THREE.Float32BufferAttribute(data.uv,2));g.setIndex(data.index);g.computeBoundingSphere();return g};
+  const timberGeometry=geometry(kit.timber);
   const renderer=new THREE.WebGLRenderer({antialias:!mobile,alpha:true,powerPreference:'low-power'});
   renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1:1.5));
   renderer.setSize(innerWidth,innerHeight);renderer.outputColorSpace=THREE.SRGBColorSpace;
@@ -24,7 +31,7 @@ export async function createWorld({container,onReady,onFailure,onPick,motionAllo
   const paperMat=new THREE.MeshStandardMaterial({map:paper,roughness:1,side:THREE.DoubleSide});
   const metalMat=new THREE.MeshStandardMaterial({color:'#a6996b',metalness:.7,roughness:.6});
   const redMat=new THREE.MeshStandardMaterial({color:'#a14e3b',roughness:.9});
-  const box=(w,h,d,mat,x,y,z,parent=scene)=>{const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat);m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m};
+  const box=(w,h,d,mat,x,y,z,parent=scene)=>{const m=new THREE.Mesh(timberGeometry,mat);m.scale.set(w,h,d);m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m};
   const line=(points,mat,r=.015,parent=scene)=>{const curve=new THREE.CatmullRomCurve3(points.map(p=>new THREE.Vector3(...p)));const m=new THREE.Mesh(new THREE.TubeGeometry(curve,20,r,5,false),mat);parent.add(m);return m};
   const pin=(x,y,z,parent)=>{const p=new THREE.Mesh(new THREE.SphereGeometry(.044,8,6),redMat);p.position.set(x,y,z);parent.add(p)};
   const groundMat=new THREE.MeshStandardMaterial({color:'#27352a',roughness:1});
@@ -32,7 +39,10 @@ export async function createWorld({container,onReady,onFailure,onPick,motionAllo
   // A deliberately irregular deck and connected footpath, cut from the same timber.
   for(let i=0;i<24;i++){const x=(i-11.5)*.48;const width=8.7-Math.abs(x)*.62+rand()*.7;box(.455,.14,width,woodMat,x,.04,rand()*.2-.1)}
   for(let i=0;i<8;i++){const z=4.4+i*.43;box(1.45,.1,.39,woodMat,1.2+Math.sin(i*.3)*.25,-.025,z)}
-  for(let i=0;i<24;i++){const a=rand()*Math.PI*2;const r=8+rand()*1.4;const rock=new THREE.Mesh(new THREE.DodecahedronGeometry(.25+rand()*.6,0),new THREE.MeshStandardMaterial({color:rand()>.5?'#414939':'#58604b',roughness:1}));rock.position.set(Math.cos(a)*r,-.02,Math.sin(a)*r*.65);rock.scale.y=.5;rock.castShadow=true;scene.add(rock)}
+  const stoneGeometries=kit.stones.map(geometry);
+  const stoneMat=new THREE.MeshStandardMaterial({color:'#4b5140',roughness:.98});
+  const stones=[[-8.2,2.5,.65],[-7.6,3.4,.45],[-7.9,4,.3],[-5.3,5.1,.5],[-4.4,5.8,.3],[5.9,4.8,.7],[7.2,3.9,.45],[8,2.2,.9],[8.8,1.5,.4],[-7,-3.7,.65],[6,-4.6,.5]];
+  stones.forEach(([x,z,size],i)=>{const rock=new THREE.Mesh(stoneGeometries[i%3],stoneMat);rock.position.set(x,-.04,z);rock.rotation.y=i*1.8;rock.scale.setScalar(size);rock.castShadow=!mobile;rock.receiveShadow=true;scene.add(rock)});
   const boardData={projects:{x:-4.0,z:-.5,y:2.25,w:2.9,h:2.15,rotation:.16},about:{x:0,z:-3.0,y:2.5,w:3.1,h:2.1,rotation:-.06},quicklinks:{x:4.0,z:.25,y:1.9,w:2.35,h:1.75,rotation:-.18}};
   const hits=[];const labelPositions={};
   function printed(title,sub){return texture((c,w,h)=>{c.fillStyle='#dedbc6';c.fillRect(0,0,w,h);c.fillStyle='#1d2a21';c.font='900 83px Helvetica,Arial';c.fillText(title,35,135);c.font='23px Helvetica,Arial';c.fillText(sub,38,185);for(let i=0;i<5000;i++){c.fillStyle='#46472b14';c.fillRect(rand()*w,rand()*h,1,1)}},512,256)}
@@ -48,7 +58,7 @@ export async function createWorld({container,onReady,onFailure,onPick,motionAllo
   }
   const projects=boards.projects;
   box(2.4,1.5,.08,edgeMat,-.05,.1,.23,projects);plane(2.23,1.34,printed('Shifty','Schedule Assistant'),-.05,.1,.28,projects);
-  plane(2.5,.36,printed('Projects','01 / Things made'),0,-.83,.22,projects);
+  plane(2.5,.36,printed('Projects','Shifty'),0,-.83,.22,projects);
   const loader=new THREE.TextureLoader();
   loader.load('./assets/shifty-schedule.jpg',t=>{if(disposed){t.dispose();return}t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=4;const img=plane(2.23,1.34,t,-.05,.1,.29,projects);img.userData.stop='projects';hits.push(img);render()},undefined,()=>{});
   const about=boards.about;
@@ -62,21 +72,18 @@ export async function createWorld({container,onReady,onFailure,onPick,motionAllo
   // A framed record at the foot of the note board, echoed in the readable About page.
   const record=new THREE.Group();record.position.set(1.25,.48,-1.85);record.rotation.x=-.12;record.rotation.y=-.12;scene.add(record);box(1.3,.85,.13,edgeMat,0,0,0,record);box(1.13,.69,.03,new THREE.MeshStandardMaterial({color:'#15261d'}),0,0,.09,record);
   const disc=new THREE.Mesh(new THREE.CylinderGeometry(.25,.25,.025,32),new THREE.MeshStandardMaterial({color:'#080e0b',roughness:.65}));disc.rotation.x=Math.PI/2;disc.position.set(-.25,0,.13);record.add(disc);plane(.45,.45,printed('Music','Now / recent'),.3,0,.12,record);
-  // Broad leaves with curved geometry, varied normals and a central vein.
-  const leafShape=new THREE.Shape();leafShape.moveTo(0,0);leafShape.bezierCurveTo(-.25,.2,-.35,.7,0,1);leafShape.bezierCurveTo(.35,.7,.25,.2,0,0);
-  const leafGeo=new THREE.ShapeGeometry(leafShape,5);const lp=leafGeo.attributes.position;for(let i=0;i<lp.count;i++){const x=lp.getX(i),y=lp.getY(i);lp.setZ(i,Math.sin(y*Math.PI)*.12-Math.abs(x)*.23)}leafGeo.computeVertexNormals();
-  const count=mobile?250:570;const leafMat=new THREE.MeshStandardMaterial({color:'#577647',roughness:.84,side:THREE.DoubleSide});const leaves=new THREE.InstancedMesh(leafGeo,leafMat,count);leaves.castShadow=!mobile;leaves.receiveShadow=true;const dummy=new THREE.Object3D();let index=0;
-  for(let n=0;n<(mobile?15:25);n++){
-    const a=rand()*Math.PI*2,r=6.4+rand()*2.6;const px=Math.cos(a)*r,pz=Math.sin(a)*r*.63;
-    for(let b=0;b<(mobile?3:4);b++){
-      const az=rand()*Math.PI*2,stemH=.7+rand()*1.4;const ex=px+Math.cos(az)*1.4,ez=pz+Math.sin(az)*1.4;
-      line([[px,-.05,pz],[px+Math.cos(az)*.7,stemH*.65,pz+Math.sin(az)*.7],[ex,stemH,ez]],new THREE.MeshStandardMaterial({color:'#43563a',roughness:1}),.012);
-      for(let l=0;l<5&&index<count;l++){
-        const f=(l+1)/5;dummy.position.set(px+(ex-px)*f,stemH*(f*.8+.15),pz+(ez-pz)*f);dummy.rotation.set(-.5+rand()*.7,az+(l%2?1.2:-1.2),-.7+rand()*1.4);dummy.scale.setScalar(.5+rand()*.65);dummy.updateMatrix();leaves.setMatrixAt(index,dummy.matrix);leaves.setColorAt(index,new THREE.Color().setHSL(.23+rand()*.06,.24+rand()*.2,.12+rand()*.16));index++;
-      }
-    }
+  // Four botanically distinct CC0 fern clumps, prepared and indexed in Blender MCP.
+  const fernGeometries=kit.ferns.map(geometry);
+  const fernMat=new THREE.MeshStandardMaterial({map:fernMap,alphaTest:.43,side:THREE.DoubleSide,roughness:.9,color:'#a1af89'});
+  const planting=[[-7.5,-3,4.2,.5],[-8,-.8,3.7,1.7],[-7.8,2.1,3.8,2.8],[-6.4,4.5,3.5,.2],[-3.5,5.4,2.8,1.2],[4.9,4.9,3.6,2.3],[7.2,3.6,4.6,.8],[8.3,1.3,4.2,2.1],[7.7,-2,3.8,1.3],[5.8,-4,4.2,3.5],[-3.5,-4.9,3.3,.9],[1.6,-5.1,3.7,2.9],[-8.7,1.6,2.6,4.2],[8.6,3,2.4,3.6],[-5.8,4.9,2.2,2.1],[6.2,5,2.6,.6]];
+  const foliageDummy=new THREE.Object3D();
+  for(let variant=0;variant<4;variant++){
+    const positions=planting.slice(0,mobile?12:planting.length).filter((_,i)=>i%4===variant);
+    const clumps=new THREE.InstancedMesh(fernGeometries[variant],fernMat,positions.length);
+    clumps.castShadow=!mobile;clumps.receiveShadow=true;
+    positions.forEach(([x,z,size,angle],i)=>{foliageDummy.position.set(x,-.06,z);foliageDummy.rotation.set(0,angle,0);foliageDummy.scale.setScalar(size);foliageDummy.updateMatrix();clumps.setMatrixAt(i,foliageDummy.matrix)});
+    clumps.computeBoundingSphere();scene.add(clumps);
   }
-  leaves.count=index;scene.add(leaves);
   // Trunks, roots and the site's existing photographic foliage provide depth beyond the deck.
   for(let i=0;i<(mobile?6:11);i++){
     const x=(i%2?-1:1)*(7+rand()*4),z=-3-rand()*8;const trunk=new THREE.Mesh(new THREE.CylinderGeometry(.11,.27,8+rand()*5,7),woodMat);trunk.position.set(x,3.6,z);trunk.rotation.z=(rand()-.5)*.1;trunk.castShadow=true;scene.add(trunk);
