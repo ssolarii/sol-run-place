@@ -4,6 +4,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>sol's quicklinks</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCHBCRP2LX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  if (location.hostname === "sol.run.place" || location.hostname === "www.sol.run.place") {
+    gtag('js', new Date());
+    gtag('config', 'G-TCHBCRP2LX', {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+  }
+</script>
 <style>
   @font-face{font-family:'Helvetica Now Display';font-weight:400;font-style:normal;font-display:swap;
     src:url('./assets/fonts/HelveticaNowDisplay-Regular.woff2') format('woff2');}
@@ -57,11 +69,14 @@
 
   .eyebrow{font-style:italic;font-size:.8rem;color:var(--dim);margin-bottom:.15rem}
   .track{font-weight:900;font-size:clamp(1.1rem,5vw,1.4rem);text-transform:uppercase;line-height:1.05;max-width:60vw}
+  .now-playing[data-state="now"] .eyebrow{color:var(--green);font-style:normal;font-weight:700}
+  .now-playing[data-state="now"] .eyebrow::before{content:"";display:inline-block;width:6px;height:6px;margin-right:.4rem;border-radius:50%;background:var(--green);vertical-align:middle}
+  .scrobble-time{font-size:.75rem;color:var(--dim);margin-top:.25rem}
   .artist{font-size:.95rem;color:var(--dim);margin-top:.1rem}
   .visitor{font-weight:900;font-size:.95rem}
   .private{display:inline-block;margin-top:.3rem;font-size:.85rem;color:var(--dim);text-decoration:underline;text-underline-offset:2px;cursor:default}
 
-  .recent-toggle{margin-top:.55rem;padding:0;border:0;background:none;color:var(--dim);font:inherit;font-size:.82rem;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+  .recent-toggle{text-align:left;align-self:flex-start;margin-top:.55rem;padding:0;border:0;background:none;color:var(--dim);font:inherit;font-size:.82rem;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
   .recent-toggle:hover,.recent-toggle:focus-visible{color:var(--white)}
   .recent-overlay[hidden]{display:none}
   .recent-overlay{position:fixed;inset:0;z-index:10;display:grid;place-items:center;padding:1.25rem;background:rgba(0,0,0,.82);backdrop-filter:blur(8px)}
@@ -106,10 +121,11 @@
     </nav>
 
     <footer class="footer">
-      <div class="now-playing">
+      <div class="now-playing" id="now-playing" data-state="loading" aria-live="polite">
         <p class="eyebrow" id="np-label">Loading…</p>
         <p class="track" id="np-track"></p>
         <p class="artist" id="np-artist"></p>
+        <p class="scrobble-time" id="np-time"></p>
       </div>
       <div class="meta">
         <p class="visitor" id="visitor-count">—</p>
@@ -137,6 +153,8 @@
     discordLink:   document.getElementById("discord-link"),
     discordDot:    document.getElementById("discord-dot"),
     discordStatus: document.getElementById("discord-status-text"),
+    nowPlaying:    document.getElementById("now-playing"),
+    npTime:        document.getElementById("np-time"),
     npLabel:       document.getElementById("np-label"),
     npTrack:       document.getElementById("np-track"),
     npArtist:      document.getElementById("np-artist"),
@@ -163,23 +181,31 @@
     const response=await fetch(`./lastfm.json?updated=${Date.now()}`,{cache:"no-store"});
     if(!response.ok)throw new Error("Recent tracks are not available yet");
     const data=await response.json();
+    lastFmUpdatedAt = Date.parse(data.updatedAt) || 0;
     return Array.isArray(data.tracks)?data.tracks:[];
   }
 
   function formatTrackTime(track){
-    if(track["@attr"]&&track["@attr"].nowplaying==="true")return "Listening now";
+    if(track["@attr"]&&track["@attr"].nowplaying==="true")return "Now scrobbling";
     const seconds=Number(track.date&&track.date.uts);
     if(!Number.isFinite(seconds)||seconds<=0)return "";
     return new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(seconds*1000));
   }
 
   function renderCurrentTrack(tracks){
-    const now=tracks.find(track=>track["@attr"]&&track["@attr"].nowplaying==="true");
-    const latest=tracks.find(track=>!(track["@attr"]&&track["@attr"].nowplaying==="true"))||tracks[0];
-    const current=now||latest;
-    els.npLabel.textContent=now?"Listening now…":latest?"Last scrobbled":"No recent scrobbles";
+    const reportedNow=tracks.find(track=>track["@attr"]&&track["@attr"].nowplaying==="true");
+    const latest=tracks.find(track=>!(track["@attr"]&&track["@attr"].nowplaying==="true"));
+    const fresh=lastFmUpdatedAt>0 && Date.now()-lastFmUpdatedAt<180000;
+    const current=reportedNow||latest;
+    els.nowPlaying.dataset.state=reportedNow&&fresh?"now":"last";
+    els.npLabel.textContent=reportedNow
+      ? fresh?"Now scrobbling":"Scrobbling at last sync"
+      : latest?"Last scrobble":"No recent scrobbles";
     els.npTrack.textContent=current&&current.name||"";
     els.npArtist.textContent=current&&current.artist&&(current.artist["#text"]||current.artist.name)||"";
+    els.npTime.textContent=reportedNow
+      ? lastFmUpdatedAt?"Last.fm checked "+new Intl.DateTimeFormat(undefined,{timeStyle:"short"}).format(new Date(lastFmUpdatedAt)):"Awaiting the next Last.fm sync"
+      : latest?formatTrackTime(latest):"";
   }
 
   function createTrackItem(track){
@@ -199,6 +225,7 @@
   }
 
   let recentTracks=[];
+  let lastFmUpdatedAt=0;
   function showRecentTracks(){
     els.recentList.replaceChildren();
     const played=recentTracks.filter(track=>!(track["@attr"]&&track["@attr"].nowplaying==="true"));
@@ -256,42 +283,96 @@
     }
   }
 
-  async function updatePresence(){
-    try {
-      const res = await fetch(`https://api.lanyard.rest/v1/users/${CONFIG.discordUserId}`);
-      const json = await res.json();
+  let presenceSocket=null, heartbeatTimer=null, reconnectTimer=null, fallbackTimer=null, handshakeTimer=null;
+  let reconnectDelay=1000, presenceRequest=null, hasPresence=false;
 
-      if (!res.ok || !json || !json.success || !json.data) {
-        throw new Error((json && json.error && json.error.message) || "Lanyard unavailable");
-      }
-
-      const data = json.data;
-      const status = data.discord_status || "offline";
-      setDiscordStatus(status);
-
-      if (data.listening_to_spotify && data.spotify) {
-        els.npLabel.textContent = "Listening now…";
-        els.npTrack.textContent = data.spotify.song || "";
-        els.npArtist.textContent = data.spotify.artist || "";
-      } else {
-        els.npLabel.textContent = "Not listening to anything";
-        els.npTrack.textContent = "";
-        els.npArtist.textContent = "";
-      }
-    } catch (e) {
-      console.warn("Discord presence unavailable — make sure the user is monitored by Lanyard.", e);
-      setDiscordStatus("offline");
-      els.npLabel.textContent = "Presence unavailable";
-      els.npTrack.textContent = "";
-      els.npArtist.textContent = "";
-    }
+  function applyPresence(data){
+    if(!data || !data.discord_status)return;
+    hasPresence=true;
+    setDiscordStatus(data.discord_status);
   }
+
+  async function updatePresence(){
+    if(document.hidden || presenceRequest)return;
+    presenceRequest=(async()=>{
+      try{
+        const response=await fetch(`https://api.lanyard.rest/v1/users/${CONFIG.discordUserId}`,{signal:AbortSignal.timeout(8000)});
+        const result=await response.json();
+        if(!response.ok || !result.success || !result.data)throw new Error("Presence unavailable");
+        applyPresence(result.data);
+      }catch(error){
+        if(!hasPresence){
+          els.discordStatus.textContent="status unavailable";
+          els.discordDot.dataset.status="offline";
+          els.discordLink.setAttribute("aria-label","Discord — status unavailable");
+        }
+      }finally{presenceRequest=null;}
+    })();
+    await presenceRequest;
+  }
+
+  function startPresenceFallback(){
+    if(document.hidden || fallbackTimer)return;
+    updatePresence();
+    fallbackTimer=setInterval(updatePresence,60000);
+  }
+
+  function connectPresence(){
+    if(document.hidden || presenceSocket)return;
+    clearTimeout(reconnectTimer);
+    let socket;
+    try{socket=new WebSocket("wss://api.lanyard.rest/socket");}
+    catch{startPresenceFallback();reconnectTimer=setTimeout(connectPresence,30000);return;}
+    presenceSocket=socket;
+    handshakeTimer=setTimeout(()=>socket.close(),10000);
+    socket.onmessage=event=>{
+      if(presenceSocket!==socket)return;
+      try{
+        const message=JSON.parse(event.data);
+        if(message.op===1){
+          socket.send(JSON.stringify({op:2,d:{subscribe_to_id:CONFIG.discordUserId}}));
+          clearInterval(heartbeatTimer);
+          heartbeatTimer=setInterval(()=>{
+            if(socket.readyState===WebSocket.OPEN)socket.send(JSON.stringify({op:3}));
+          },Math.max(1000,Number(message.d.heartbeat_interval)||30000));
+        }else if(message.op===0 && (message.t==="INIT_STATE" || message.t==="PRESENCE_UPDATE")){
+          clearTimeout(handshakeTimer);
+          clearInterval(fallbackTimer);fallbackTimer=null;reconnectDelay=1000;
+          applyPresence(message.d);
+        }
+      }catch{socket.close();}
+    };
+    socket.onerror=()=>socket.close();
+    socket.onclose=()=>{
+      if(presenceSocket!==socket)return;
+      presenceSocket=null;clearInterval(heartbeatTimer);clearTimeout(handshakeTimer);
+      if(!document.hidden){
+        startPresenceFallback();
+        reconnectTimer=setTimeout(connectPresence,reconnectDelay);
+        reconnectDelay=Math.min(reconnectDelay*2,30000);
+      }
+    };
+  }
+
+  function pausePresence(){
+    clearTimeout(reconnectTimer);clearTimeout(handshakeTimer);
+    clearInterval(heartbeatTimer);clearInterval(fallbackTimer);fallbackTimer=null;
+    const socket=presenceSocket;presenceSocket=null;
+    if(socket)socket.close();
+  }
+
+  document.addEventListener("visibilitychange",()=>{
+    if(document.hidden)pausePresence();
+    else{connectPresence();updateLastFm();}
+  });
+  window.addEventListener("pagehide",pausePresence);
+  window.addEventListener("pageshow",()=>{if(!document.hidden)connectPresence();});
 
   bumpVisitorCount();
   updatePresence();
+  connectPresence();
   updateLastFm();
-  setInterval(updatePresence, 20000);
-  setInterval(updateLastFm, 30000);
+  setInterval(()=>{if(!document.hidden)updateLastFm();},60000);
   </script>
 </body>
 </html>
