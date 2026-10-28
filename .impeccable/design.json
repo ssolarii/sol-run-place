@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T03:49:46.307Z",
+  "title": "Design System: Sol archive",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "ground",
+        "canonical": "#101111",
+        "tonalRamp": [
+          "oklch(15% 0.002 125)",
+          "oklch(27% 0.002 125)",
+          "oklch(39% 0.002 125)",
+          "oklch(51% 0.002 125)",
+          "oklch(63% 0.002 125)",
+          "oklch(75% 0.002 125)",
+          "oklch(87% 0.002 125)",
+          "oklch(95% 0.002 125)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "canonical": "#eff0db",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "canonical": "#bac8b7",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "accent",
+        "canonical": "#c4d484",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "paper-ink": {
+        "role": "neutral",
+        "displayName": "paper ink",
+        "canonical": "#17251e",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "submission-paper": {
+        "role": "neutral",
+        "displayName": "submission paper",
+        "canonical": "#a6a695",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "field-paper": {
+        "role": "neutral",
+        "displayName": "field paper",
+        "canonical": "#b7b7a5",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "field border",
+        "canonical": "#4c5a4b",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "button hover",
+        "canonical": "#2d412c",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.035 125)",
+          "oklch(39% 0.035 125)",
+          "oklch(51% 0.035 125)",
+          "oklch(63% 0.035 125)",
+          "oklch(75% 0.035 125)",
+          "oklch(87% 0.035 125)",
+          "oklch(95% 0.035 125)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "error",
+        "canonical": "#6a211e",
+        "tonalRamp": [
+          "oklch(15% 0.065 28)",
+          "oklch(27% 0.065 28)",
+          "oklch(39% 0.065 28)",
+          "oklch(51% 0.065 28)",
+          "oklch(63% 0.065 28)",
+          "oklch(75% 0.065 28)",
+          "oklch(87% 0.065 28)",
+          "oklch(95% 0.065 28)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Composition title",
+        "purpose": "Projects heading within the measured portrait composition."
+      },
+      "headline": {
+        "displayName": "Section heading",
+        "purpose": "About and Quicklinks headings in normal flow."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Supporting copy and submission explanations."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Visible submission field labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "under-note",
+        "value": "2px 7px 14px #0004",
+        "purpose": "Revealed paper beneath the note."
+      },
+      {
+        "name": "submission-sheet",
+        "value": "3px 9px 24px #0004",
+        "purpose": "Depth beneath the shared submission paper."
+      },
+      {
+        "name": "project-picture",
+        "value": "drop-shadow(2px 15px 18px #0008)",
+        "purpose": "Project-page framed illustration; CSS filter, not box-shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "paper-duration",
+        "value": "450ms",
+        "purpose": "Explicit peel and restore transitions."
+      },
+      {
+        "name": "paper-ease",
+        "value": "1 - (1 - elapsed)^3",
+        "purpose": "Cubic ease-out in app.js."
+      },
+      {
+        "name": "leaf-interpolation",
+        "value": "0.13",
+        "purpose": "Per-frame approach to pointer/scroll targets in scene.js."
+      },
+      {
+        "name": "section-arrival",
+        "value": ".55s cubic-bezier(.16,1,.3,1)",
+        "purpose": "9px heading arrival on explicit section navigation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "archive-small-max",
+        "value": "420px"
+      },
+      {
+        "name": "about-columns-min",
+        "value": "700px"
+      },
+      {
+        "name": "archive-desktop-min",
+        "value": "1000px"
+      },
+      {
+        "name": "project-mobile-max",
+        "value": "480px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Submit button",
+      "kind": "button",
+      "refersTo": "button-submit",
+      "description": "Private delivery or guestbook review action.",
+      "html": "<button class=\"ds-submit\" type=\"button\">Send private message</button>",
+      "css": ".ds-submit{font-family:HelveticaNow,Arial,sans-serif;background:var(--paper-ink);color:var(--ink);border:0;border-radius:0;min-height:48px;padding:13px 18px;width:100%;font-size:16px;line-height:1.2;cursor:pointer}.ds-submit:hover:not(:disabled){background:#2d412c}.ds-submit:focus-visible{outline:2px solid var(--paper-ink);outline-offset:6px}.ds-submit:active:not(:disabled){transform:translateY(1px)}.ds-submit:disabled{opacity:.55;cursor:default}"
+    },
+    {
+      "name": "Paper text field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Visible label and plain text input on the submission sheet.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">Name (optional)</label><input class=\"ds-field\" id=\"ds-name\" maxlength=\"60\">",
+      "css": ".ds-label{font-family:HelveticaNow,Arial,sans-serif;display:block;color:var(--paper-ink);font-size:16px;line-height:1.4;margin:24px 0 8px}.ds-field{font-family:HelveticaNow,Arial,sans-serif;border:1px solid #4c5a4b;border-radius:0;background:#b7b7a5;color:var(--paper-ink);width:100%;padding:12px;line-height:1.5;min-height:48px}.ds-field:hover{border-color:var(--paper-ink)}.ds-field:focus-visible{outline:2px solid var(--paper-ink);outline-offset:6px}"
+    },
+    {
+      "name": "Archive navigation",
+      "kind": "nav",
+      "description": "HTML section anchors with the active location visible.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Explore the archive\"><a href=\"#projects\" aria-current=\"location\">Projects</a><a href=\"#about\">About</a><a href=\"#quicklinks\">Quicklinks</a></nav>",
+      "css": ".ds-nav{font-family:HelveticaNow,Arial,sans-serif;display:flex;flex-wrap:wrap;gap:.5rem 1.4rem}.ds-nav a{display:inline-flex;min-height:44px;color:var(--muted);font-size:.875rem;line-height:1.4;text-decoration:none;padding-block:.2rem}.ds-nav a[aria-current]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:.45rem}.ds-nav a:hover{color:var(--ink)}.ds-nav a:focus-visible{outline:2px solid var(--accent);outline-offset:6px}"
+    },
+    {
+      "name": "Paper container",
+      "kind": "card",
+      "refersTo": "submission-sheet",
+      "description": "Material sheet used by the two submission sections.",
+      "html": "<section class=\"ds-sheet\"><h3>Say something private</h3><p>Only Sol can read this message.</p></section>",
+      "css": ".ds-sheet{font-family:HelveticaNow,Arial,sans-serif;background:#a6a695;color:var(--paper-ink);padding:clamp(24px,4vw,48px);box-shadow:3px 9px 24px #0004;transform:rotate(.25deg)}.ds-sheet:focus-within{transform:none}.ds-sheet h3{font-size:clamp(27px,4vw,35px);line-height:1.05;margin:0 0 20px;font-weight:900;letter-spacing:-.015em}.ds-sheet p{font-size:16px;line-height:1.5;max-width:65ch}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "Restore note and refresh guestbook controls.",
+      "html": "<button class=\"ds-text\" type=\"button\">Put the note back</button>",
+      "css": ".ds-text{font-family:HelveticaNow,Arial,sans-serif;display:inline-flex;align-items:center;min-height:44px;background:none;border:0;padding:8px 0;color:var(--ink);text-decoration:underline;text-underline-offset:.2em;font-size:15px;cursor:pointer}.ds-text:hover{color:var(--accent)}.ds-text:focus-visible{outline:2px solid var(--accent);outline-offset:6px}"
+    },
+    {
+      "name": "Recent listening",
+      "kind": "custom",
+      "description": "Native disclosure keeps history readable and keyboard accessible.",
+      "html": "<details class=\"ds-recent\"><summary>Last played tracks</summary><p>Listening history appears here.</p></details>",
+      "css": ".ds-recent{font-family:HelveticaNow,Arial,sans-serif;color:var(--ink);margin:18px 0 0;font-size:15px;line-height:1.45}.ds-recent summary{cursor:pointer;min-height:44px;padding:12px 0;border-bottom:1px solid #607265}.ds-recent summary:hover{color:var(--accent)}.ds-recent summary:focus-visible{outline:2px solid var(--accent);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The shallow leaf archive",
+    "overview": "Dark foliage surrounds Sol's work, with carved timber holding project imagery and matte paper carrying readable content. Material objects provide character; live HTML carries navigation, project copy, forms and links. This records the implemented archive and project page, not a replacement for the fast homepage's established design.\n\nThree curved leaves share a fixed orthographic camera. Restrained movement belongs to their shallow layers. The portfolio remains an ordinary scrolling document with immediate Projects, About and Quicklinks destinations.",
+    "keyCharacteristics": [
+      "Green-black ground, pale ink and a restrained leaf accent.",
+      "Self-hosted Helvetica Now with heavy headings and regular reading text.",
+      "Timber, paper and foliage as specific materials.",
+      "Semantic controls and static fallbacks beneath graphics."
+    ],
+    "rules": [
+      {
+        "name": "The Live Ink Rule",
+        "body": "Keep headings, captions, links and forms as semantic HTML; the moving note temporarily paints matching ink into its bending texture.",
+        "section": "typography"
+      },
+      {
+        "name": "The Settled Paper Rule",
+        "body": "The flat note is a whole HTML surface. Peeling bends one continuous 96-row WebGL sheet with paper texture and note ink over 450ms with cubic ease-out. Reduced motion snaps to the target, including when enabled mid-transition.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep navigation, reading and submissions usable without decorative graphics.",
+      "**Do** preserve self-hosted fonts, approved imagery and honest image descriptions.",
+      "**Do** keep motion shallow, optional and still for reduced motion.",
+      "**Do** preserve entered messages on failed or uncertain delivery."
+    ],
+    "donts": [
+      "**Don't** substitute an island, terrain or primitive fern garden for the split leaves.",
+      "**Don't** rasterize the interface or invent biography, project evidence or personal notes.",
+      "**Don't** add automatic audio or camera travel in Z.",
+      "**Don't** present pending guestbook notes as published entries."
+    ]
+  }
+}

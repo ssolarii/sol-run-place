@@ -1,0 +1,17 @@
+{
+  "name": "sol-portfolio-firebase-rules",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "firebase emulators:exec --only firestore --project demo-sol-submissions --config firebase.json \"node --test firestore.rules.test.mjs\"",
+    "test:client": "node --test submissions-client.test.mjs",
+    "test:client:emulator": "firebase emulators:exec --only firestore --project demo-sol-submissions --config firebase.json \"node --test submissions-client.emulator.test.mjs\"",
+    "build:client": "node build-client.mjs"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "6.0.0",
+    "esbuild": "0.28.2",
+    "firebase": "13.0.0",
+    "firebase-tools": "14.27.0"
+  }
+}

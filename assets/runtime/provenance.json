@@ -1,0 +1,65 @@
+[
+  {
+    "file": "assets/runtime/foliage-leaf-right.webp",
+    "source": "assets/plates/foliage-leaf-right.png",
+    "sourceSha256": "101933828d7128244fe9a40f2ca1983eee1cce5934f4758834ef64213bb68687",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1941222,
+    "bytes": 1208932,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/foliage-leaf-lower-left.webp",
+    "source": "assets/plates/foliage-leaf-lower-left.png",
+    "sourceSha256": "9fa394b21a3a7e581545dbec6a4c89c408edf01ee88a9d0fc94640d65400dfd9",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1111827,
+    "bytes": 717838,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/foliage-leaf-upper-left.webp",
+    "source": "assets/plates/foliage-leaf-upper-left.png",
+    "sourceSha256": "c9f170ccebecd7bc5e8649614683ed558603d8d589bec859cc1f98598b7b24bf",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 463355,
+    "bytes": 295982,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/project-frame.webp",
+    "source": "assets/plates/project-frame.png",
+    "sourceSha256": "b8898974392ef2a6e79a14af01dcf271682a9b4afa2b18129c1bb4999dad1807",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1939848,
+    "bytes": 1315558,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/project-view.webp",
+    "source": "assets/plates/project-view.png",
+    "sourceSha256": "746b25e7127cbac700c7292dbf65f493bc43508c30b8a8c9a21b73635ad81802",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1184860,
+    "bytes": 766410,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/story-paper.webp",
+    "source": "assets/plates/story-paper.png",
+    "sourceSha256": "afd087301dd693e9a6f5f3337d78f47825a7e72ad5265553654079c675987349",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1663914,
+    "bytes": 637674,
+    "pixelEqualityVerified": true
+  },
+  {
+    "file": "assets/runtime/leaf-texture.webp",
+    "source": "assets/foliage/leaf-texture.png",
+    "sourceSha256": "3a103d84a9a2326c4efdd317220afc2131c0887ae079da36770acf9f5d949a01",
+    "transform": "lossless WebP encoding, identical decoded RGBA pixels",
+    "sourceBytes": 1630617,
+    "bytes": 1051338,
+    "pixelEqualityVerified": true
+  }
+]

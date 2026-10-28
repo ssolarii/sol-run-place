@@ -1,0 +1,85 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function validEntryId(entryId) {
+      return entryId is string && entryId.matches('[A-Za-z0-9]{20}');
+    }
+
+    function validText(data, maxLength) {
+      return data.body is string
+        && data.body.size() > 0
+        && data.body.size() <= maxLength
+        && data.body.matches('[\\s\\S]*[^\\s][\\s\\S]*')
+        && (!('displayName' in data)
+          || (data.displayName is string && data.displayName.size() <= 60));
+    }
+
+    function validEntry(data, entryId, kind, maxLength) {
+      return signedIn()
+        && validEntryId(entryId)
+        && data.senderId == request.auth.uid
+        && data.createdAt == request.time
+        && validText(data, maxLength)
+        && matchingLimiter(entryId, kind);
+    }
+
+    // getAfter reads the same atomic batch; it does not recursively evaluate rules.
+    function matchingLimiter(entryId, kind) {
+      let limiter = getAfter(/databases/$(database)/documents/submissionLimits/$(request.auth.uid)).data;
+      return limiter.lastSentAt == request.time
+        && limiter.entryId == entryId
+        && limiter.kind == kind;
+    }
+
+    function newlyCreatedEntry(collectionName, entryId) {
+      let path = /databases/$(database)/documents/$(collectionName)/$(entryId);
+      let entry = getAfter(path).data;
+      return !exists(path)
+        && entry.senderId == request.auth.uid
+        && entry.createdAt == request.time;
+    }
+
+    function validLimiter(uid) {
+      let data = request.resource.data;
+      return signedIn()
+        && uid == request.auth.uid
+        && data.keys().hasAll(['lastSentAt', 'entryId', 'kind'])
+        && data.keys().hasOnly(['lastSentAt', 'entryId', 'kind'])
+        && data.lastSentAt == request.time
+        && validEntryId(data.entryId)
+        && ((data.kind == 'private' && newlyCreatedEntry('privateMessages', data.entryId))
+          || (data.kind == 'guestbook' && newlyCreatedEntry('guestbook', data.entryId)));
+    }
+
+    match /privateMessages/{entryId} {
+      allow create: if request.resource.data.keys().hasAll(['senderId', 'body', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['senderId', 'body', 'createdAt', 'displayName'])
+        && validEntry(request.resource.data, entryId, 'private', 2000);
+      allow read, update, delete: if false;
+    }
+
+    match /guestbook/{entryId} {
+      allow create: if request.resource.data.keys().hasAll(['senderId', 'body', 'createdAt', 'status'])
+        && request.resource.data.keys().hasOnly(['senderId', 'body', 'createdAt', 'displayName', 'status'])
+        && request.resource.data.status == 'pending'
+        && validEntry(request.resource.data, entryId, 'guestbook', 500);
+      allow get: if resource.data.status == 'published';
+      allow list: if request.query.limit != null
+        && request.query.limit <= 50
+        && resource.data.status == 'published';
+      allow update, delete: if false;
+    }
+
+    match /submissionLimits/{uid} {
+      allow get: if signedIn() && uid == request.auth.uid;
+      allow create: if validLimiter(uid);
+      allow update: if validLimiter(uid)
+        && request.time >= resource.data.lastSentAt + duration.value(60, 's');
+      allow list, delete: if false;
+    }
+  }
+}

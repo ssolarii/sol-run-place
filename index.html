@@ -73,7 +73,7 @@
   .now-playing[data-state="now"] .eyebrow::before{content:"";display:inline-block;width:6px;height:6px;margin-right:.4rem;border-radius:50%;background:var(--green);vertical-align:middle}
   .scrobble-time{font-size:.75rem;color:var(--dim);margin-top:.25rem}
   .artist{font-size:.95rem;color:var(--dim);margin-top:.1rem}
-  .private{display:inline-block;margin-top:.3rem;font-size:.85rem;color:var(--dim);text-decoration:underline;text-underline-offset:2px;cursor:default}
+  .private{display:inline-flex;align-items:center;min-height:44px;margin-top:.3rem;font-size:.85rem;color:var(--dim);text-decoration:underline;text-underline-offset:2px;cursor:pointer}.private:hover,.private:focus-visible{color:var(--white)}
 
   .recent-toggle{text-align:left;align-self:flex-start;margin-top:.55rem;padding:0;border:0;background:none;color:var(--dim);font:inherit;font-size:.82rem;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
   .recent-toggle:hover,.recent-toggle:focus-visible{color:var(--white)}
@@ -101,7 +101,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1><a id="world-entry" href="./world-draft/" style="display:inline-flex;align-items:center;min-height:44px;margin-top:.6rem;color:inherit;font-size:.9rem;text-underline-offset:4px">enter the world ↗ <span style="margin-left:.5rem;font-size:.65rem;opacity:.72">draft</span></a></header>
+    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1><a id="world-entry" href="./world-draft/" style="display:inline-flex;align-items:center;min-height:44px;margin-top:.6rem;color:inherit;font-size:.9rem;text-underline-offset:4px">enter the world ↗</a></header>
 
     <nav class="links" aria-label="Social links">
       <a class="link" id="discord-link" href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener" aria-label="Discord">
@@ -127,7 +127,7 @@
         <p class="scrobble-time" id="np-time"></p>
       </div>
       <div class="meta">
-        <span class="private" title="Not wired up yet">say something private</span>
+        <a class="private" id="private-link" href="./world-draft/#private-title">say something private</a>
       </div>
     </footer>
     <button class="recent-toggle" id="recent-toggle" type="button" aria-expanded="false" aria-controls="recent-overlay">last played tracks</button>
@@ -143,9 +143,11 @@
   const CONFIG = {
     discordUserId: "903330250610577418"
   };
-  const worldEntryUrl=new URL(document.getElementById('world-entry').href);
+  for(const entryId of ['world-entry','private-link']){
+  const worldEntryUrl=new URL(document.getElementById(entryId).href);
   for(const [key,value] of new URLSearchParams(location.search))if(key.startsWith('utm_'))worldEntryUrl.searchParams.set(key,value);
-  document.getElementById('world-entry').href=worldEntryUrl.href;
+  document.getElementById(entryId).href=worldEntryUrl.href;
+  }
 
   const els = {
     discordLink:   document.getElementById("discord-link"),

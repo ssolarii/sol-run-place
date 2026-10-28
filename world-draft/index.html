@@ -1,70 +1,101 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0c1513"><meta name="description" content="Sol's projects, loose notes, and music. An explorable archive in progress.">
-  <title>sol's world · working draft</title>
-  <link rel="stylesheet" href="./world.css?v=20261027b">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCHBCRP2LX"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}if(location.hostname==='sol.run.place'){gtag('js',new Date());gtag('config','G-TCHBCRP2LX',{allow_google_signals:false,allow_ad_personalization_signals:false})}</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101111"><meta name="description" content="Sol's projects, notes and music."><title>Sol · Projects, About, Quicklinks</title>
+<link rel="preload" href="../assets/fonts/HelveticaNowDisplay-Black.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./world.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCHBCRP2LX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}if(location.hostname==='sol.run.place'){gtag('js',new Date());gtag('config','G-TCHBCRP2LX',{allow_google_signals:false,allow_ad_personalization_signals:false})}</script>
 </head>
 <body>
-  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="arrow-out" viewBox="0 0 20 20"><path d="M5 15 15 5M5 5h10v10"/></symbol><symbol id="arrow-back" viewBox="0 0 20 20"><path d="M15 10H5m5-5-5 5 5 5"/></symbol><symbol id="close-icon" viewBox="0 0 20 20"><path d="m5 5 10 10M15 5 5 15"/></symbol></defs></svg>
-  <a class="skip" href="#archive">Skip to archive content</a>
-  <div id="world" aria-hidden="true"></div>
-  <div class="shade" aria-hidden="true"></div>
-  <header class="masthead">
-    <a class="home-link" href="/" aria-label="Sol's quicklinks homepage" data-attribution>sol.run.place</a>
-    <div class="tools"><span class="draft">Work in progress</span><a href="?view=simple" id="view-toggle" data-attribution>Simple view</a></div>
-  </header>
-  <main id="archive" tabindex="-1">
-    <div class="intro" id="intro">
-      <h1>sol<span>.</span></h1>
-      <p class="intro-copy">Projects, loose notes,<br>and whatever is playing.</p>
-      <p class="scene-instruction" id="scene-instruction">Pick a place to look closer.</p>
-    </div>
-    <p id="scene-status" class="scene-status" role="status">The readable archive is ready. Preparing the world…</p>
-    <nav class="stations" aria-label="Explore the archive">
-      <a href="#projects" data-stop="projects">Projects <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-      <a href="#about" data-stop="about">About <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-      <a href="#quicklinks" data-stop="quicklinks">Quicklinks <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-      <button type="button" id="overview" hidden><svg class="icon" aria-hidden="true"><use href="#arrow-back"></use></svg>Whole world</button>
-    </nav>
-    <div id="hotspots" aria-label="Places in the world" hidden>
-      <button type="button" data-stop="projects" class="hotspot" id="spot-projects" aria-label="Look at Projects"><span class="hotspot-dot" aria-hidden="true"></span><span class="hotspot-label">Projects</span></button>
-      <button type="button" data-stop="about" class="hotspot" id="spot-about" aria-label="Look at About"><span class="hotspot-dot" aria-hidden="true"></span><span class="hotspot-label">About</span></button>
-      <button type="button" data-stop="quicklinks" class="hotspot" id="spot-quicklinks" aria-label="Look at Quicklinks"><span class="hotspot-dot" aria-hidden="true"></span><span class="hotspot-label">Quicklinks</span></button>
-    </div>
-    <div class="archive-pages" id="archive-pages">
-      <section id="projects" class="archive-page" aria-labelledby="projects-title" tabindex="-1">
-        <div class="page-top"><h2 id="projects-title">Projects</h2><button class="close-page" type="button" aria-label="Close Projects"><svg class="icon" aria-hidden="true"><use href="#close-icon"></use></svg></button></div>
-        <a href="./projects/shifty.html" class="project-photo" data-attribution><img src="./assets/shifty-schedule.jpg" width="1425" height="891" alt="Schedule Assistant interface showing a school day timetable"><span>Shifty <b>Read the project <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></b></span></a>
-        <p class="caption">Schedule Assistant, being rebranded as Shifty.<br>A school schedule project for the Itz’at community.</p>
-        <div class="missing"><span>Next frame</span><p>More projects and photographs are still being selected.</p></div>
-      </section>
-      <section id="about" class="archive-page" aria-labelledby="about-title" tabindex="-1">
-        <div class="page-top"><h2 id="about-title">About</h2><button class="close-page" type="button" aria-label="Close About"><svg class="icon" aria-hidden="true"><use href="#close-icon"></use></svg></button></div>
-        <p class="about-intro">I'm Sol. This is where my projects, notes, and music live.</p>
-        <p class="unfinished">A longer introduction is still to come.</p>
-        <div class="note-board" id="note-board"><button type="button" class="peel-note" aria-expanded="false"><span class="pin" aria-hidden="true"></span><span id="note-front">This is a demo note.</span><span class="note-action">Peel note <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></span></button><p class="under-note" id="note-back">Only your view changes. Put the note back whenever you like.</p></div>
-        <button type="button" class="text-button" id="reset-note">Put the note back</button>
-        <div class="music-frame" aria-live="polite"><div class="music-label" id="np-label">Finding the last record…</div><p id="np-track">Music</p><p id="np-artist"></p><p id="np-time" class="music-meta"></p><a id="np-link" href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">Open track <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a></div>
-        <details class="recent"><summary>Last played tracks</summary><p id="recent-message">Loading listening history…</p><ol id="recent-list"></ol><a href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">More on Last.fm <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a></details>
-      </section>
-      <section id="quicklinks" class="archive-page" aria-labelledby="links-title" tabindex="-1">
-        <div class="page-top"><h2 id="links-title">Quicklinks</h2><button class="close-page" type="button" aria-label="Close Quicklinks"><svg class="icon" aria-hidden="true"><use href="#close-icon"></use></svg></button></div>
-        <nav class="social-list" aria-label="Social links">
-          <a href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener"><img src="/assets/icons/discord.png" alt="" width="28" height="28">Discord <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-          <a href="https://www.instagram.com/sol.tar.xz/" target="_blank" rel="noopener"><img src="/assets/icons/instagram.png" alt="" width="28" height="28">Instagram <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-          <a href="https://www.tiktok.com/@...solari" target="_blank" rel="noopener"><img src="/assets/icons/tiktok.png" alt="" width="28" height="28">TikTok <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-          <a href="https://open.spotify.com/user/312tpdqjc4wbmnjm6qhv2i5zxl5m" target="_blank" rel="noopener"><img src="/assets/icons/spotify.png" alt="" width="28" height="28">Spotify <svg class="icon" aria-hidden="true"><use href="#arrow-out"></use></svg></a>
-        </nav>
-        <div class="private-note"><h3>Say something private</h3><p>This part is still being built. Nothing can be sent or saved here yet.</p><p>The plan is a private note only Sol can read. A public guestbook, if added, would be separate.</p></div>
-      </section>
-    </div>
-  </main>
-  <footer class="world-footer"><span id="where">You are at the entrance</span><button type="button" id="motion-toggle" aria-pressed="false" hidden>Camera motion: on</button></footer>
-  <noscript><style>.peel-note,#reset-note,.music-frame,.recent,.scene-status{display:none}.under-note{position:static;min-height:150px}</style><p class="noscript">The simple archive works without JavaScript. Music updates and note peeling need JavaScript. <a href="https://www.last.fm/user/saltsaltsalty">Open listening history on Last.fm ↗</a></p></noscript>
-  <script type="module" src="./app.js?v=20261027b"></script>
-</body>
-</html>
+<main id="archive">
+<section id="projects" class="comp-frame" aria-label="Projects">
+<div class="foliage" aria-hidden="true">
+<div id="world" class="leaf-world"></div>
+<picture><source srcset="../assets/runtime/foliage-leaf-right.webp" type="image/webp"><img class="leaf leaf-right" data-region="foliage-leaf-right" src="../assets/plates/foliage-leaf-right.png" alt=""></picture>
+<picture><source srcset="../assets/runtime/foliage-leaf-lower-left.webp" type="image/webp"><img class="leaf leaf-lower-left" data-region="foliage-leaf-lower-left" src="../assets/plates/foliage-leaf-lower-left.png" alt=""></picture>
+<picture><source srcset="../assets/runtime/foliage-leaf-upper-left.webp" type="image/webp"><img class="leaf leaf-upper-left" data-region="foliage-leaf-upper-left" src="../assets/plates/foliage-leaf-upper-left.png" alt=""></picture>
+</div>
+<div class="project-art"><a class="project-view" aria-label="Read the Shifty project" data-region="project-view" href="./projects/shifty.html" data-attribution><picture><source srcset="../assets/runtime/project-view.webp" type="image/webp"><img src="../assets/plates/project-view.png" alt="Illustrative planning scene with an open school timetable notebook and pencil"></picture></a>
+<picture><source srcset="../assets/runtime/project-frame.webp" type="image/webp"><img class="project-frame" data-region="project-frame" src="../assets/plates/project-frame.png" alt=""></picture></div>
+<picture><source srcset="../assets/runtime/story-paper.webp" type="image/webp"><img class="story-paper" data-region="story-paper" src="../assets/plates/story-paper.png" alt=""></picture>
+<a class="skip" href="#project-title">Skip to project</a>
+<header>
+<a class="brand" data-region="brand" href="/" aria-label="Sol's homepage" data-attribution>sol<span>.</span></a>
+<nav aria-label="Explore the archive">
+<a class="nav-projects" data-region="nav-projects" href="#projects" aria-current="location">Projects</a>
+<a class="nav-about" data-region="nav-about" href="#about">About</a>
+<a class="nav-quicklinks" data-region="nav-quicklinks" href="#quicklinks">Quicklinks</a>
+<span class="nav-active" data-region="nav-active" aria-hidden="true"></span>
+</nav>
+</header>
+<h1 id="project-title" data-region="title">Projects</h1>
+<article class="project-story" aria-labelledby="shifty-title">
+<h2 id="shifty-title" data-region="story-title">Shifty</h2>
+<p class="story-subtitle" data-region="story-subtitle">Schedule Assistant</p>
+<p class="story-description" data-region="story-description">A school schedule project<br>for the Itz’at community.</p>
+<a class="story-link" data-region="story-link" href="./projects/shifty.html" data-attribution>Read the project <svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a>
+</article>
+</section>
+<section id="about" class="archive-section" aria-labelledby="about-title" tabindex="-1">
+<div class="section-heading"><h2 id="about-title">About</h2><a class="back-to-projects" href="#projects">Back to Projects <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M15 10H5m5-5-5 5 5 5"/></svg></a></div>
+<div class="about-copy"><p>I'm Sol. This is where my projects, notes, and music live.</p></div>
+<div class="about-objects">
+<div class="note-object">
+<div id="note-board" class="note-board">
+<div class="under-note" id="note-back" hidden>Only your view changes. Put the note back whenever you like.</div>
+<button type="button" class="peel-note" id="peel-note" aria-expanded="false" aria-controls="note-back" aria-label="Peel demo note">
+<span class="note-face"><picture><source srcset="../assets/runtime/story-paper.webp" type="image/webp"><img src="../assets/plates/story-paper.png" alt=""></picture><span class="note-front" id="note-front">This is a demo note.</span><span class="note-action">Peel note <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></span></span>
+</button>
+<div class="curl-surface" id="curl-surface" aria-hidden="true"></div>
+</div>
+<button type="button" class="text-button" id="reset-note" hidden>Put the note back</button>
+</div>
+<div class="listening">
+<div class="music-frame" aria-live="polite" aria-atomic="true">
+<picture><source srcset="../assets/runtime/project-frame.webp" type="image/webp"><img class="music-frame-art" src="../assets/plates/project-frame.png" alt=""></picture>
+<div class="music-copy"><p id="np-label" class="music-label">Finding the last record…</p><h3 id="np-track">Music</h3><p id="np-artist"></p><p id="np-time" class="music-meta"></p><a id="np-link" href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">Open track <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a></div>
+</div>
+<details class="recent"><summary>Last played tracks</summary><p id="recent-message">Loading listening history…</p><ol id="recent-list"></ol><a href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener">More on Last.fm</a></details>
+</div>
+</div>
+</section>
+<section id="quicklinks" class="archive-section" aria-labelledby="links-title" tabindex="-1">
+<div class="section-heading"><h2 id="links-title">Quicklinks</h2><a class="back-to-projects" href="#projects">Back to Projects <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M15 10H5m5-5-5 5 5 5"/></svg></a></div>
+<nav class="social-list" aria-label="Social links">
+<a href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener"><img src="../assets/icons/discord.png" alt="" width="28" height="28"><span>Discord</span><svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+<a href="https://www.instagram.com/sol.tar.xz/" target="_blank" rel="noopener"><img src="../assets/icons/instagram.png" alt="" width="28" height="28"><span>Instagram</span><svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+<a href="https://www.tiktok.com/@...solari" target="_blank" rel="noopener"><img src="../assets/icons/tiktok.png" alt="" width="28" height="28"><span>TikTok</span><svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+<a href="https://open.spotify.com/user/312tpdqjc4wbmnjm6qhv2i5zxl5m" target="_blank" rel="noopener"><img src="../assets/icons/spotify.png" alt="" width="28" height="28"><span>Spotify</span><svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+</nav>
+<div class="submission-sheet">
+<section class="private-message" aria-labelledby="private-title">
+<h3 id="private-title">Say something private</h3><p id="private-help">Only Sol can read this message. It won't appear in the guestbook.</p>
+<form id="private-form" aria-describedby="private-help">
+<label for="private-name">Name <span>(optional)</span></label><input id="private-name" name="displayName" type="text" maxlength="60" autocomplete="nickname">
+<label for="private-body">Your message</label><textarea id="private-body" name="body" rows="5" maxlength="2000" required aria-describedby="private-count"></textarea>
+<p id="private-count" class="character-count">0 / 2,000</p>
+<button type="submit" disabled>Send private message <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></button>
+<p class="form-status" id="private-status" role="status" aria-live="polite">Preparing messages…</p>
+</form>
+</section>
+<section class="guestbook" aria-labelledby="guestbook-title">
+<div class="guestbook-heading"><h3 id="guestbook-title">Guestbook</h3><button type="button" class="text-button" id="guestbook-refresh" disabled>Refresh</button></div>
+<p id="guestbook-help">Leave a public note. Sol reviews each entry before it appears here. Use the private form for anything personal.</p>
+<p id="guestbook-message" role="status">Loading the guestbook…</p><ol id="guestbook-entries" class="guestbook-entries"></ol>
+<form id="guestbook-form" aria-describedby="guestbook-help">
+<label for="guestbook-name">Name <span>(optional, public)</span></label><input id="guestbook-name" name="displayName" type="text" maxlength="60" autocomplete="nickname">
+<label for="guestbook-body">Your public note</label><textarea id="guestbook-body" name="body" rows="4" maxlength="500" required aria-describedby="guestbook-count"></textarea>
+<p id="guestbook-count" class="character-count">0 / 500</p>
+<button type="submit" disabled>Send for review <svg class="small-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></button>
+<p class="form-status" id="guestbook-status" role="status" aria-live="polite">Preparing messages…</p>
+</form>
+</section>
+</div>
+</section>
+</main>
+<footer class="world-footer"><a href="/" data-attribution>sol.run.place</a><button id="motion-toggle" type="button" aria-pressed="false">Motion: on</button></footer>
+<noscript><p class="noscript">Music updates, note peeling and visitor messages need JavaScript. <a href="https://www.last.fm/user/saltsaltsalty">Open listening history on Last.fm</a>.</p><style>.peel-note{cursor:default}.note-action,#motion-toggle,.form-status{display:none}</style></noscript>
+<script type="module" src="./app.js"></script>
+</body></html>

@@ -1,110 +1,86 @@
 import * as THREE from './vendor/three.module.js';
 
-export async function createWorld({container,onReady,onFailure,onPick,motionAllowed}){
-  const mobile=matchMedia('(max-width:700px)').matches;
-  const [kit,fernMap]=await Promise.all([
-    fetch('./assets/botanical-kit.json').then(r=>{if(!r.ok)throw Error('Botanical assets unavailable');return r.json()}),
-    new THREE.TextureLoader().loadAsync('./assets/fern-rgba.webp')
+// The camera and each independently curved surface are the approved Blender export.
+// No island, primitive replacement foliage, or travelling camera is involved.
+export async function createWorld({container,motionAllowed,onReady,onFailure}) {
+  const [layout,texture]=await Promise.all([
+    fetch('../assets/foliage/leaf-layout.json').then(r=>{if(!r.ok)throw Error('Leaf geometry unavailable');return r.json()}),
+    new THREE.TextureLoader().loadAsync('../assets/runtime/leaf-texture.webp').catch(()=>new THREE.TextureLoader().loadAsync('../assets/foliage/leaf-texture.png'))
   ]);
-  fernMap.colorSpace=THREE.SRGBColorSpace;fernMap.anisotropy=4;
-  const geometry=data=>{const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(data.position,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(data.normal,3));g.setAttribute('uv',new THREE.Float32BufferAttribute(data.uv,2));g.setIndex(data.index);g.computeBoundingSphere();return g};
-  const timberGeometry=geometry(kit.timber);
-  const renderer=new THREE.WebGLRenderer({antialias:!mobile,alpha:true,powerPreference:'low-power'});
-  renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1:1.5));
-  renderer.setSize(innerWidth,innerHeight);renderer.outputColorSpace=THREE.SRGBColorSpace;
-  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.35;
-  renderer.shadowMap.enabled=!mobile;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
-  container.append(renderer.domElement);
-  const scene=new THREE.Scene();scene.background=new THREE.Color('#101d18');scene.fog=new THREE.Fog('#101d18',mobile?60:19,mobile?95:48);
-  const camera=new THREE.PerspectiveCamera(39,innerWidth/innerHeight,.1,80);
-  const target=new THREE.Vector3(-1.5,.6,0);
-  const hemi=new THREE.HemisphereLight('#d8e0c3','#2c3024',2.7);scene.add(hemi);
-  const light=new THREE.DirectionalLight('#e7e5cb',4.2);light.position.set(-7,13,7);light.castShadow=true;light.shadow.mapSize.set(1024,1024);Object.assign(light.shadow.camera,{left:-12,right:12,top:12,bottom:-12,near:.5,far:35});light.shadow.bias=-.0005;scene.add(light);
-  const rim=new THREE.DirectionalLight('#91b5ac',1.9);rim.position.set(8,5,-7);scene.add(rim);
-  let disposed=false,frame=0,tween=null,current='overview',allowMotion=motionAllowed;
-  let seed=247;const rand=()=>{seed=(seed*16807)%2147483647;return(seed-1)/2147483646};
-  const texture=(paint,w=512,h=512)=>{const c=document.createElement('canvas');c.width=w;c.height=h;paint(c.getContext('2d'),w,h);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=4;return t};
-  const wood=texture((c,w,h)=>{c.fillStyle='#4b3c2c';c.fillRect(0,0,w,h);for(let i=0;i<1400;i++){const y=rand()*h;c.strokeStyle=rand()>.5?'#70573a55':'#211f1770';c.lineWidth=.3+rand()*2;c.beginPath();c.moveTo(0,y);c.bezierCurveTo(w*.3,y+rand()*14,w*.7,y-rand()*12,w,y+rand()*8);c.stroke()}});
-  const paper=texture((c,w,h)=>{c.fillStyle='#d7d4ba';c.fillRect(0,0,w,h);for(let i=0;i<16000;i++){c.fillStyle=rand()>.5?'#5e5a3320':'#fff8e929';c.fillRect(rand()*w,rand()*h,1,1)}});
-  const woodMat=new THREE.MeshStandardMaterial({map:wood,roughness:.91,color:'#b1a488'});
-  const edgeMat=new THREE.MeshStandardMaterial({color:'#40372b',roughness:1});
-  const paperMat=new THREE.MeshStandardMaterial({map:paper,roughness:1,side:THREE.DoubleSide});
-  const metalMat=new THREE.MeshStandardMaterial({color:'#a6996b',metalness:.7,roughness:.6});
-  const redMat=new THREE.MeshStandardMaterial({color:'#a14e3b',roughness:.9});
-  const box=(w,h,d,mat,x,y,z,parent=scene)=>{const m=new THREE.Mesh(timberGeometry,mat);m.scale.set(w,h,d);m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m};
-  const line=(points,mat,r=.015,parent=scene)=>{const curve=new THREE.CatmullRomCurve3(points.map(p=>new THREE.Vector3(...p)));const m=new THREE.Mesh(new THREE.TubeGeometry(curve,20,r,5,false),mat);parent.add(m);return m};
-  const pin=(x,y,z,parent)=>{const p=new THREE.Mesh(new THREE.SphereGeometry(.044,8,6),redMat);p.position.set(x,y,z);parent.add(p)};
-  const groundMat=new THREE.MeshStandardMaterial({color:'#27352a',roughness:1});
-  const ground=new THREE.Mesh(new THREE.CylinderGeometry(10.7,10.1,.65,64),groundMat);ground.scale.z=.65;ground.position.set(0,-.38,0);ground.receiveShadow=true;scene.add(ground);
-  // A deliberately irregular deck and connected footpath, cut from the same timber.
-  for(let i=0;i<24;i++){const x=(i-11.5)*.48;const width=8.7-Math.abs(x)*.62+rand()*.7;box(.455,.14,width,woodMat,x,.04,rand()*.2-.1)}
-  for(let i=0;i<8;i++){const z=4.4+i*.43;box(1.45,.1,.39,woodMat,1.2+Math.sin(i*.3)*.25,-.025,z)}
-  const stoneGeometries=kit.stones.map(geometry);
-  const stoneMat=new THREE.MeshStandardMaterial({color:'#4b5140',roughness:.98});
-  const stones=[[-8.2,2.5,.65],[-7.6,3.4,.45],[-7.9,4,.3],[-5.3,5.1,.5],[-4.4,5.8,.3],[5.9,4.8,.7],[7.2,3.9,.45],[8,2.2,.9],[8.8,1.5,.4],[-7,-3.7,.65],[6,-4.6,.5]];
-  stones.forEach(([x,z,size],i)=>{const rock=new THREE.Mesh(stoneGeometries[i%3],stoneMat);rock.position.set(x,-.04,z);rock.rotation.y=i*1.8;rock.scale.setScalar(size);rock.castShadow=!mobile;rock.receiveShadow=true;scene.add(rock)});
-  const boardData={projects:{x:-4.0,z:-.5,y:2.25,w:2.9,h:2.15,rotation:.16},about:{x:0,z:-3.0,y:2.5,w:3.1,h:2.1,rotation:-.06},quicklinks:{x:4.0,z:.25,y:1.9,w:2.35,h:1.75,rotation:-.18}};
-  const hits=[];const labelPositions={};
-  function printed(title,sub){return texture((c,w,h)=>{c.fillStyle='#dedbc6';c.fillRect(0,0,w,h);c.fillStyle='#1d2a21';c.font='900 83px Helvetica,Arial';c.fillText(title,35,135);c.font='23px Helvetica,Arial';c.fillText(sub,38,185);for(let i=0;i<5000;i++){c.fillStyle='#46472b14';c.fillRect(rand()*w,rand()*h,1,1)}},512,256)}
-  function plane(w,h,map,x,y,z,parent){const m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshStandardMaterial({map,roughness:.95,side:THREE.DoubleSide}));m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m}
-  const boards={};
-  for(const [id,d]of Object.entries(boardData)){
-    const g=new THREE.Group();g.position.set(d.x,d.y,d.z);g.rotation.y=d.rotation;scene.add(g);boards[id]=g;
-    box(d.w+.18,d.h+.18,.15,edgeMat,0,0,0,g);box(d.w,d.h,.12,woodMat,0,0,.1,g);
-    for(const x of[-d.w*.38,d.w*.38])box(.11,d.y+1,.12,woodMat,x,-d.y*.5-.25,-.08,g);
-    const h=box(d.w,d.h,.12,new THREE.MeshBasicMaterial({visible:false}),0,0,.3,g);h.userData.stop=id;hits.push(h);
-    labelPositions[id]=new THREE.Vector3(d.x,d.y+d.h*.5+.36,d.z);
-    for(const x of[-d.w*.44,d.w*.44])for(const y of[-d.h*.43,d.h*.43]){const nail=new THREE.Mesh(new THREE.SphereGeometry(.026,6,4),metalMat);nail.position.set(x,y,.19);g.add(nail)}
+  texture.colorSpace=THREE.SRGBColorSpace;
+  texture.flipY=layout.texture.flipY;
+  texture.anisotropy=4;
+  const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));
+  renderer.outputColorSpace=THREE.SRGBColorSpace;
+  renderer.toneMapping=THREE.NoToneMapping;
+  renderer.setClearColor(0x101111,0);
+  const canvas=renderer.domElement;canvas.setAttribute('aria-hidden','true');canvas.dataset.curvedMeshes=String(layout.leaves.length);canvas.dataset.triangles=String(layout.leaves.length*layout.meshTopology.indices.length/3);
+  container.append(canvas);
+  const scene=new THREE.Scene(),span=layout.camera.verticalSpan;
+  const camera=new THREE.OrthographicCamera(-layout.camera.horizontalSpan/2,layout.camera.horizontalSpan/2,span/2,-span/2,.1,100);
+  camera.position.fromArray(layout.camera.position);
+  const ambient=new THREE.AmbientLight(0xffffff,.32);scene.add(ambient);
+  const key=new THREE.DirectionalLight(0xfffcf4,.96);key.position.set(-3,4,7);scene.add(key);
+  const fill=new THREE.DirectionalLight(0xd7e5d6,.26);fill.position.set(4,-2,5);scene.add(fill);
+  const leaves=layout.leaves.map(item=>{
+    const geometry=new THREE.BufferGeometry();
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(item.positions,3));
+    geometry.setAttribute('normal',new THREE.Float32BufferAttribute(item.normals,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(layout.meshTopology.uvs,2));
+    geometry.setIndex(layout.meshTopology.indices);
+    const material=new THREE.MeshLambertMaterial({map:texture,emissive:0x141414,transparent:true,alphaTest:.025,side:THREE.DoubleSide,depthWrite:false});
+    const mesh=new THREE.Mesh(geometry,material);mesh.position.fromArray(item.position);mesh.rotation.fromArray([...item.rotationEulerXYZ,'XYZ']);mesh.scale.fromArray(item.scale);mesh.userData.home=mesh.position.clone();mesh.userData.angle=mesh.rotation.z;scene.add(mesh);return mesh;
+  });
+  let allowed=motionAllowed,frame=0,disposed=false,visible=true;
+  let x=0,y=0,s=0,targetX=0,targetY=0,targetS=0,sectionX=0,sectionY=0;
+  function draw(){
+    if(disposed)return;
+    x+=(targetX-x)*.13;y+=(targetY-y)*.13;s+=(targetS-s)*.13;
+    leaves.forEach((leaf,i)=>{const depth=[1,-.8,.55][i];leaf.position.x=leaf.userData.home.x+(x*.016+sectionX)*depth;leaf.position.y=leaf.userData.home.y+(y*.012+s*.022+sectionY)*depth;leaf.rotation.z=leaf.userData.angle+x*.0016*depth});
+    renderer.render(scene,camera);
+    frame=0;
+    if(visible&&(Math.abs(x-targetX)+Math.abs(y-targetY)+Math.abs(s-targetS)>.0005))frame=requestAnimationFrame(draw);
   }
-  const projects=boards.projects;
-  box(2.4,1.5,.08,edgeMat,-.05,.1,.23,projects);plane(2.23,1.34,printed('Shifty','Schedule Assistant'),-.05,.1,.28,projects);
-  plane(2.5,.36,printed('Projects','Shifty'),0,-.83,.22,projects);
-  const loader=new THREE.TextureLoader();
-  loader.load('./assets/shifty-schedule.jpg',t=>{if(disposed){t.dispose();return}t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=4;const img=plane(2.23,1.34,t,-.05,.1,.29,projects);img.userData.stop='projects';hits.push(img);render()},undefined,()=>{});
-  const about=boards.about;
-  const papers=[[-.75,.15,1.02,1.33,-.13],[.55,.28,1.1,.88,.12],[.75,-.55,.8,.5,-.09]];
-  papers.forEach(([x,y,w,h,r],i)=>{const p=plane(w,h,i===1?printed('sol.','Notes in progress'):paper,x,y,.22+i*.008,about);p.rotation.z=r;pin(x,y+h*.43,.28+i*.008,about)});
-  line([[-.75,.7,.29],[-.3,.35,.3],[.55,.64,.3],[.7,-.31,.31]],redMat,.009,about);
-  const note=new THREE.Mesh(new THREE.PlaneGeometry(.8,.62),new THREE.MeshStandardMaterial({color:'#cad382',roughness:1,side:THREE.DoubleSide}));note.position.set(-.5,-.37,.25);note.rotation.z=.13;about.add(note);pin(-.5,-.13,.3,about);
-  const links=boards.quicklinks;plane(2.03,1.35,printed('Elsewhere','Discord / Instagram / TikTok / Spotify'),0,0,.22,links);pin(0,.57,.26,links);
-  // Red thread makes the three landmarks part of one archive.
-  line([[-4,3.55,-.4],[-2,3.1,-1.7],[0,3.65,-2.8],[2,2.9,-1],[4,2.9,.4]],redMat,.018);
-  // A framed record at the foot of the note board, echoed in the readable About page.
-  const record=new THREE.Group();record.position.set(1.25,.48,-1.85);record.rotation.x=-.12;record.rotation.y=-.12;scene.add(record);box(1.3,.85,.13,edgeMat,0,0,0,record);box(1.13,.69,.03,new THREE.MeshStandardMaterial({color:'#15261d'}),0,0,.09,record);
-  const disc=new THREE.Mesh(new THREE.CylinderGeometry(.25,.25,.025,32),new THREE.MeshStandardMaterial({color:'#080e0b',roughness:.65}));disc.rotation.x=Math.PI/2;disc.position.set(-.25,0,.13);record.add(disc);plane(.45,.45,printed('Music','Now / recent'),.3,0,.12,record);
-  // Four botanically distinct CC0 fern clumps, prepared and indexed in Blender MCP.
-  const fernGeometries=kit.ferns.map(geometry);
-  const fernMat=new THREE.MeshStandardMaterial({map:fernMap,alphaTest:.43,side:THREE.DoubleSide,roughness:.9,color:'#a1af89'});
-  const planting=[[-7.5,-3,4.2,.5],[-8,-.8,3.7,1.7],[-7.8,2.1,3.8,2.8],[-6.4,4.5,3.5,.2],[-3.5,5.4,2.8,1.2],[4.9,4.9,3.6,2.3],[7.2,3.6,4.6,.8],[8.3,1.3,4.2,2.1],[7.7,-2,3.8,1.3],[5.8,-4,4.2,3.5],[-3.5,-4.9,3.3,.9],[1.6,-5.1,3.7,2.9],[-8.7,1.6,2.6,4.2],[8.6,3,2.4,3.6],[-5.8,4.9,2.2,2.1],[6.2,5,2.6,.6]];
-  const foliageDummy=new THREE.Object3D();
-  for(let variant=0;variant<4;variant++){
-    const positions=planting.slice(0,mobile?12:planting.length).filter((_,i)=>i%4===variant);
-    const clumps=new THREE.InstancedMesh(fernGeometries[variant],fernMat,positions.length);
-    clumps.castShadow=!mobile;clumps.receiveShadow=true;
-    positions.forEach(([x,z,size,angle],i)=>{foliageDummy.position.set(x,-.06,z);foliageDummy.rotation.set(0,angle,0);foliageDummy.scale.setScalar(size);foliageDummy.updateMatrix();clumps.setMatrixAt(i,foliageDummy.matrix)});
-    clumps.computeBoundingSphere();scene.add(clumps);
+  function invalidate(){if(!frame&&visible&&!disposed)frame=requestAnimationFrame(draw)}
+  function size(){const box=container.getBoundingClientRect();renderer.setSize(box.width,box.height,false);invalidate()}
+  const resize=new ResizeObserver(size);resize.observe(container);size();draw();
+  const observer=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)invalidate()});observer.observe(container);
+  function lost(event){event.preventDefault();onFailure?.();dispose()}
+  canvas.addEventListener('webglcontextlost',lost);
+  function dispose(){disposed=true;cancelAnimationFrame(frame);resize.disconnect();observer.disconnect();canvas.removeEventListener('webglcontextlost',lost);leaves.forEach(mesh=>{mesh.geometry.dispose();mesh.material.dispose()});texture.dispose();renderer.dispose();canvas.remove()}
+  onReady?.();
+  return {
+    setMotion(value){allowed=value;if(!allowed){x=0;y=0;s=0;targetX=0;targetY=0;targetS=0;sectionX=0;sectionY=0;draw()}},
+    setPointer(px,py){targetX=allowed?px:0;targetY=allowed?py:0;invalidate()},
+    setScroll(value){targetS=allowed?Math.max(-1,Math.min(1,value)):0;invalidate()},
+    setSection(id){sectionX=allowed&&id!=='projects'?.008:0;sectionY=allowed&&id==='about'?-.008:0;invalidate()},
+    dispose
+  };
+}
+
+
+// One indexed paper surface replaces the clipped DOM slices. The approved paper
+// and its editable note text share UVs, so the ink bends continuously with it.
+export async function createPaperCurl({container,source,front,action}) {
+  await document.fonts.ready;
+  const image=new Image();image.src='../assets/runtime/story-paper.webp';await image.decode();
+  const paint=document.createElement('canvas');paint.width=1024;paint.height=768;const context=paint.getContext('2d');
+  const texture=new THREE.CanvasTexture(paint);texture.colorSpace=THREE.SRGBColorSpace;
+  const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.setClearColor(0x000000,0);renderer.domElement.dataset.surfaceRows='96';renderer.domElement.dataset.triangles='768';container.append(renderer.domElement);
+  const scene=new THREE.Scene(),camera=new THREE.OrthographicCamera(-2/3,2/3,.5,-.5,.1,10);camera.position.z=3;
+  const geometry=new THREE.PlaneGeometry(4/3,1,4,96),original=new Float32Array(geometry.attributes.position.array);
+  const face=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({map:texture,side:THREE.FrontSide,transparent:true,depthWrite:true}));scene.add(face);
+  const reverseTexture=new THREE.Texture(image);reverseTexture.colorSpace=THREE.SRGBColorSpace;reverseTexture.needsUpdate=true;const reverse=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({map:reverseTexture,side:THREE.BackSide,transparent:true}));scene.add(reverse);
+  let value=0;
+  function paintText(){
+    const width=source.getBoundingClientRect().width||336,scale=paint.width/width,style=getComputedStyle(front),actionStyle=getComputedStyle(action);context.clearRect(0,0,paint.width,paint.height);context.drawImage(image,0,0,paint.width,paint.height);context.fillStyle='#17251e';context.textBaseline='top';context.font=`${style.fontWeight} ${parseFloat(style.fontSize)*scale}px HelveticaNow`;
+    const words=front.textContent.split(/\s+/);let line='',row=0;const lineHeight=parseFloat(style.fontSize)*1.2*scale;
+    for(const word of words){const candidate=line?line+' '+word:word;if(line&&context.measureText(candidate).width>paint.width*.76){context.fillText(line,paint.width*.12,paint.height*.3+row++*lineHeight);line=word}else line=candidate}context.fillText(line,paint.width*.12,paint.height*.3+row*lineHeight);
+    context.font=`400 ${parseFloat(actionStyle.fontSize)*scale}px HelveticaNow`;context.fillText('Peel note',paint.width*.12,paint.height*.75);const ax=paint.width*.12+context.measureText('Peel note').width+12*scale,ay=paint.height*.75+3*scale;context.strokeStyle='#17251e';context.lineWidth=1.4*scale;context.beginPath();context.moveTo(ax,ay+12*scale);context.lineTo(ax+12*scale,ay);context.moveTo(ax,ay);context.lineTo(ax+12*scale,ay);context.lineTo(ax+12*scale,ay+12*scale);context.stroke();texture.needsUpdate=true;
   }
-  // Trunks, roots and the site's existing photographic foliage provide depth beyond the deck.
-  for(let i=0;i<(mobile?6:11);i++){
-    const x=(i%2?-1:1)*(7+rand()*4),z=-3-rand()*8;const trunk=new THREE.Mesh(new THREE.CylinderGeometry(.11,.27,8+rand()*5,7),woodMat);trunk.position.set(x,3.6,z);trunk.rotation.z=(rand()-.5)*.1;trunk.castShadow=true;scene.add(trunk);
-  }
-  loader.load('/background.jpg',t=>{if(disposed){t.dispose();return}t.colorSpace=THREE.SRGBColorSpace;const wall=plane(40,24,t,0,5,-15,scene);wall.material.color.set('#75907a');render()},undefined,()=>{});
-  function view(stop){
-    const small=innerWidth<=700;
-    if(stop==='overview')return{p:small?[17,20,39]:[12,10,18],t:small?[0,3.2,0]:[-1.8,1,0]};
-    const d=boardData[stop];return{p:small?[d.x+3,5.2,d.z+11]:[d.x+6,5.3,d.z+10],t:small?[d.x,d.y-.4,d.z]:[d.x+1.7,d.y-.15,d.z]};
-  }
-  function positionLabels(){for(const[id,p]of Object.entries(labelPositions)){const q=p.clone().project(camera);const el=document.querySelector('#spot-'+id);el.style.left=(q.x*.5+.5)*innerWidth+'px';el.style.top=(-q.y*.5+.5)*innerHeight+'px';el.hidden=q.z>1||q.z<0||Math.abs(q.x)>.95||Math.abs(q.y)>.87}}
-  function render(){if(disposed||document.hidden)return;renderer.render(scene,camera);positionLabels()}
-  function go(stop){current=stop;cancelAnimationFrame(frame);const v=view(stop),endP=new THREE.Vector3(...v.p),endT=new THREE.Vector3(...v.t);if(!allowMotion){camera.position.copy(endP);target.copy(endT);camera.lookAt(target);tween=null;render();return}const fromP=camera.position.clone(),fromT=target.clone(),start=performance.now();let samples=[];tween={endP,endT};const tick=now=>{if(disposed||document.hidden)return;const t=Math.min(1,(now-start)/700);const eased=t*t*(3-2*t);camera.position.lerpVectors(fromP,endP,eased);target.lerpVectors(fromT,endT,eased);camera.lookAt(target);const before=performance.now();render();samples.push(performance.now()-before);if(t<1)frame=requestAnimationFrame(tick);else{tween=null;if(samples.length>5&&samples.reduce((a,b)=>a+b,0)/samples.length>80)onFailure('The 3D view is running slowly. The simple archive is ready.')}};frame=requestAnimationFrame(tick)}
-  const initial=view('overview');camera.position.set(...initial.p);target.set(...initial.t);camera.lookAt(target);
-  const ray=new THREE.Raycaster();const pointer=new THREE.Vector2();
-  const pick=e=>{if(disposed)return;pointer.set(e.clientX/innerWidth*2-1,-e.clientY/innerHeight*2+1);ray.setFromCamera(pointer,camera);const hit=ray.intersectObjects(hits,false)[0];if(hit)onPick(hit.object.userData.stop)};
-  renderer.domElement.addEventListener('click',pick);
-  const resize=()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);const v=view(current);camera.position.set(...v.p);target.set(...v.t);camera.lookAt(target);render()};
-  const visible=()=>{if(!document.hidden){if(tween){camera.position.copy(tween.endP);target.copy(tween.endT);camera.lookAt(target);tween=null}render()}};
-  addEventListener('resize',resize);document.addEventListener('visibilitychange',visible);
-  renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();onFailure('The graphics connection was lost. The simple archive is ready.')});
-  render();onReady({renderer:'Three.js WebGL2',triangles:renderer.info.render.triangles,drawCalls:renderer.info.render.calls,mobile});
-  return{go,setMotion(value){allowMotion=value;if(!value&&tween){cancelAnimationFrame(frame);camera.position.copy(tween.endP);target.copy(tween.endT);camera.lookAt(target);tween=null;render()}},dispose(){disposed=true;cancelAnimationFrame(frame);removeEventListener('resize',resize);document.removeEventListener('visibilitychange',visible);const geometries=new Set(),materials=new Set(),maps=new Set();scene.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.material)for(const m of(Array.isArray(o.material)?o.material:[o.material])){materials.add(m);if(m.map)maps.add(m.map)}});geometries.forEach(g=>g.dispose());maps.forEach(t=>t.dispose());materials.forEach(m=>m.dispose());renderer.dispose();renderer.domElement.remove()}};
+  function setProgress(progress){value=progress;const positions=geometry.attributes.position;const rows=97,projected=new Float32Array(rows),depth=new Float32Array(rows);for(let row=1;row<rows;row++){const t=(row-.5)/96,angle=value*Math.PI*1.42*Math.pow(t,1.55);projected[row]=projected[row-1]+Math.cos(angle)/96;depth[row]=depth[row-1]+Math.sin(angle)/96}for(let i=0;i<positions.count;i++){const row=Math.round((.5-original[i*3+1])*96);positions.setXYZ(i,original[i*3],.5-projected[row],depth[row])}positions.needsUpdate=true;geometry.computeVertexNormals();renderer.domElement.dataset.progress=String(value);renderer.domElement.dataset.maxVertexDepth=String(Math.max(...depth));renderer.render(scene,camera)}
+  function size(){const box=source.getBoundingClientRect();renderer.setSize(box.width,box.height,false);paintText();setProgress(value)}
+  const observer=new ResizeObserver(size);observer.observe(source);size();
+  return {setProgress,refresh:paintText,dispose(){observer.disconnect();geometry.dispose();face.material.dispose();reverse.material.dispose();reverseTexture.dispose();texture.dispose();renderer.dispose();renderer.domElement.remove()}};
 }

@@ -1,13 +1,27 @@
-# Sol's world draft
+# Sol's archive
 
-Public route: `/world-draft/`. Static HTML, CSS and a real Three.js WebGL2 scene; no backend or private message submission.
+Route: /world-draft/. This source implements the replacement flat-leaf archive. This document does not certify publication or final visual-review completion.
 
-The homepage is preserved with an entry link. Projects, About, Quicklinks and music are readable at `?view=simple` even if WebGL or the scene bundle fails. Save-Data selects the simple view. A twelve-second load timeout and a context-loss handler release the renderer and reveal the document. Mobile uses fewer leaves, no shadow map, no antialiasing and a pixel ratio capped at 1. Desktop caps it at 1.5. The scene renders on demand; only a requested camera transition schedules frames. Reduced motion disables camera travel, and visitors can switch it off manually.
+The fast homepage retains immediate quicklinks and the world entry. Its private-message link now reaches #private-title. Internal attributed links preserve utm_ parameters. Projects, About and Quicklinks use ordinary anchors and scrolling, including on phones. projects/shifty.html is the readable project page.
 
-Edit `notes.json` for the peelable note. Visitor peeling is stored locally under `sol-world-note-peeled-v1` and is reversible. No text is submitted. Longer biography, additional project entries, message delivery and a separate public guestbook remain unfinished.
+## Graphics and accessibility
 
-Music uses Lanyard's Spotify WebSocket first, then the repository's existing secret-backed Last.fm JSON/history. Last.fm refresh workflow remains unchanged. There is no browser API key and no audio autoplay. Existing Firebase/GA4 measurement ID is used; no Supabase integration. Internal links retain `utm_` campaign values.
+scene.js loads local Three.js and three independently curved split-leaf meshes exported through the official local Blender MCP workflow. ../assets/foliage/leaf-layout.json preserves geometry, normals, UVs and transforms: 5,400 triangles total. The orthographic camera stays fixed. Pointer/scroll/section response changes shallow leaf positions in X/Y with slight rotation, never camera travel in Z. Rendering runs on demand, pauses offscreen and caps pixel ratio at 1.75.
 
-Assets: foliage photograph and fonts are existing site assets; project screenshot is the existing `school-live-desktop.jpg` from Sol's Schedule Assistant source. Four fern variants are from Poly Haven's CC0 Fern 02, prepared through the official Blender MCP server. Stones and beveled timber geometry were authored in Blender for this scene. See `assets/SOURCES.md`. Three.js 0.180.0 is MIT; license retained under `vendor/`. Source is `scene.js`, browser runtime is the bundled/minified `scene.bundle.js`.
+Raster foliage and semantic content exist before graphics load. Initialization failure or context loss leaves the plates visible. ?view=simple skips the leaf world; there is no visible Simple view label. It does not disable the separately loaded paper renderer. There is no current Save-Data switch or twelve-second timeout. Narrow widths and enlarged root text activate a flowing reading layout. Focus, skip link and touch controls stay in HTML.
 
-Design maturity: L1 with a provisional `DESIGN.md` contract, not a component library. The visual contract is shaded green-black foliage, worn timber, paper, rust-red string, sharp Helvetica Now type, and persistent readable navigation. No invented biography, fake projects, generic feature cards or looping decorative motion.
+The note uses original HTML while flat and a continuous 96-row WebGL sheet during curling, with approved paper texture and matching ink. The transition lasts 450ms. Reduced motion snaps to the target even if enabled mid-transition. notes.json edits public front/back text. Peeling is reversible and stores only a local boolean under sol-world-note-peeled-v1; it submits nothing. The leaf-motion toggle is separate from the operating system's reduced-motion preference.
+
+## Listening and messages
+
+Music uses Lanyard's Spotify WebSocket first, then existing Last.fm JSON/history. There is no audio autoplay or browser Last.fm secret. Analytics uses only the existing Firebase/GA4 ID G-TCHBCRP2LX, guarded to the production hostname.
+
+submissions.js provides private delivery and a separate moderated public guestbook. The self-hosted Firebase 13 Firestore Lite client loads when needed; anonymous authentication occurs only on send. Private text is limited to 2,000 characters, guestbook text to 500, optional names to 60. An atomic server limiter enforces 60 seconds between sends per anonymous UID across both forms. Public reading returns published guestbook entries; new notes are pending until approved. Private client reads are denied. Sol reads and moderates using existing Firebase console IAM access.
+
+Errors and uncertain delivery preserve entered text. There is no offline queue or automatic send retry. See [Firebase operations](../firebase/README.md) for the live service contract and authoring/moderation instructions. Rebuild the client with npm ci then npm run build:client in ../firebase; source is ../firebase/submissions-client.mjs.
+
+## Assets and maintenance
+
+Canonical approved PNGs remain unchanged in ../assets/plates/ and ../assets/foliage/. Lossless WebP derivatives in ../assets/runtime/ preserve exact decoded RGBA, recorded in provenance.json and adjacent sidecars. The planning image is illustrative, not a software screenshot or school photograph; alt descriptions remain honest. Helvetica Now uses the existing self-hosted font files.
+
+See [asset sources](assets/SOURCES.md) and [the root design system](../DESIGN.md). Old fern/botanical-kit assets remain as legacy material; this renderer does not use them. Do not remove them just because the new route does not need them. Local Blender sources and internal studies are development files, not public runtime dependencies.
