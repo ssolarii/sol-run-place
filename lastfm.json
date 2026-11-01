@@ -1,6 +1,222 @@
 {
-  "updatedAt": "2026-11-01T01:26:51.075Z",
+  "updatedAt": "2026-11-01T07:55:15.411Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Webinar™"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/af34a5e3720ca4aea0a71e0482e78e89.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/af34a5e3720ca4aea0a71e0482e78e89.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/af34a5e3720ca4aea0a71e0482e78e89.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/af34a5e3720ca4aea0a71e0482e78e89.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "w w w . d e e p d i v e . c o m"
+      },
+      "name": "フィジーSunburst",
+      "url": "https://www.last.fm/music/Webinar%E2%84%A2/_/%E3%83%95%E3%82%A3%E3%82%B8%E3%83%BCSunburst",
+      "date": {
+        "uts": "1793504811",
+        "#text": "01 Nov 2026, 03:46"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "36fdc640-aebc-41c5-a4df-c86b953dd1fd",
+        "#text": "Cortex"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/998a988bbdf6f25104f5787a6dd4f909.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/998a988bbdf6f25104f5787a6dd4f909.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/998a988bbdf6f25104f5787a6dd4f909.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/998a988bbdf6f25104f5787a6dd4f909.jpg"
+        }
+      ],
+      "mbid": "c0fa4d59-203b-314e-ab39-a625e04ea5fc",
+      "album": {
+        "mbid": "",
+        "#text": "Cortex, Vol. 2"
+      },
+      "name": "Efficace Swing",
+      "url": "https://www.last.fm/music/Cortex/_/Efficace+Swing",
+      "date": {
+        "uts": "1793504633",
+        "#text": "01 Nov 2026, 03:43"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "806b793c-fb2c-401e-be44-f753c0ea2f15",
+        "#text": "Piero Umiliani"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/f1057b4f45f6447ba39f566912e365b7.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/f1057b4f45f6447ba39f566912e365b7.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/f1057b4f45f6447ba39f566912e365b7.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f1057b4f45f6447ba39f566912e365b7.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Il fidanzamento (Original Motion Picture Soundtrack)"
+      },
+      "name": "Incontro al caffe'",
+      "url": "https://www.last.fm/music/Piero+Umiliani/_/Incontro+al+caffe%27",
+      "date": {
+        "uts": "1793504460",
+        "#text": "01 Nov 2026, 03:41"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Lelio Luttazzi"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8bff7896e611a0104a256c45eae1a25d.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8bff7896e611a0104a256c45eae1a25d.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8bff7896e611a0104a256c45eae1a25d.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8bff7896e611a0104a256c45eae1a25d.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "86bb1cfb-75a3-4f7a-a742-117c008fafb2",
+        "#text": "Le mie preferite"
+      },
+      "name": "Souvenir dItalie",
+      "url": "https://www.last.fm/music/Lelio+Luttazzi/_/Souvenir+dItalie",
+      "date": {
+        "uts": "1793504415",
+        "#text": "01 Nov 2026, 03:40"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
+        "#text": "Piero Piccioni"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+        }
+      ],
+      "mbid": "cc5763e3-32ac-3c52-a633-d8696d8c8b8c",
+      "album": {
+        "mbid": "",
+        "#text": "Camille 2000 (Original Motion Picture Soundtrack)"
+      },
+      "name": "Easy Lovers",
+      "url": "https://www.last.fm/music/Piero+Piccioni/_/Easy+Lovers",
+      "date": {
+        "uts": "1793504137",
+        "#text": "01 Nov 2026, 03:35"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "de22adae-f8ac-414f-b653-b0162611bd60",
+        "#text": "KAROL G"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/c0357411ccafbf6454480d9f78978f11.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/c0357411ccafbf6454480d9f78978f11.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/c0357411ccafbf6454480d9f78978f11.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c0357411ccafbf6454480d9f78978f11.png"
+        }
+      ],
+      "mbid": "215f7fe5-4dba-4410-bda4-549be5c41760",
+      "album": {
+        "mbid": "ec779688-402b-4136-8300-66890b8a751d",
+        "#text": "Tropicoqueta"
+      },
+      "name": "Si Antes Te Hubiera Conocido",
+      "url": "https://www.last.fm/music/KAROL+G/_/Si+Antes+Te+Hubiera+Conocido",
+      "date": {
+        "uts": "1793503227",
+        "#text": "01 Nov 2026, 03:20"
+      }
+    },
     {
       "artist": {
         "mbid": "de22adae-f8ac-414f-b653-b0162611bd60",
@@ -143,222 +359,6 @@
       "date": {
         "uts": "1793458351",
         "#text": "31 Oct 2026, 14:52"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "9e031ad0-8f7f-44ab-905e-6ed093eca2e3",
-        "#text": "Walter Wanderley"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9773726957c207aa8cd04a0d1621ec61.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9773726957c207aa8cd04a0d1621ec61.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9773726957c207aa8cd04a0d1621ec61.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9773726957c207aa8cd04a0d1621ec61.jpg"
-        }
-      ],
-      "mbid": "86941fa2-6295-4cb8-8a13-52c65ca4141e",
-      "album": {
-        "mbid": "eb1790ca-bb74-4411-91ab-f6ee13ba3048",
-        "#text": "Moondreams"
-      },
-      "name": "One Of The Nicer Things",
-      "url": "https://www.last.fm/music/Walter+Wanderley/_/One+Of+The+Nicer+Things",
-      "date": {
-        "uts": "1793458231",
-        "#text": "31 Oct 2026, 14:50"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Lelio Luttazzi"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8bff7896e611a0104a256c45eae1a25d.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8bff7896e611a0104a256c45eae1a25d.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8bff7896e611a0104a256c45eae1a25d.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8bff7896e611a0104a256c45eae1a25d.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "86bb1cfb-75a3-4f7a-a742-117c008fafb2",
-        "#text": "Le mie preferite"
-      },
-      "name": "Souvenir dItalie",
-      "url": "https://www.last.fm/music/Lelio+Luttazzi/_/Souvenir+dItalie",
-      "date": {
-        "uts": "1793458043",
-        "#text": "31 Oct 2026, 14:47"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "4163b62b-c043-4eb0-8af2-0e7e1362afa6",
-        "#text": "ESPRIT 空想"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/a44f9eef72359890bfa26c0cf3122316.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/a44f9eef72359890bfa26c0cf3122316.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/a44f9eef72359890bfa26c0cf3122316.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a44f9eef72359890bfa26c0cf3122316.jpg"
-        }
-      ],
-      "mbid": "855b37b7-d5ed-4ed0-848e-8541be098a47",
-      "album": {
-        "mbid": "0ae1f6b6-b970-4e73-97c4-6cb8d4b97128",
-        "#text": "200% Electronica"
-      },
-      "name": "Warmpop",
-      "url": "https://www.last.fm/music/ESPRIT+%E7%A9%BA%E6%83%B3/_/Warmpop",
-      "date": {
-        "uts": "1793457970",
-        "#text": "31 Oct 2026, 14:46"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
-        "#text": "Piero Piccioni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
-        }
-      ],
-      "mbid": "cc5763e3-32ac-3c52-a633-d8696d8c8b8c",
-      "album": {
-        "mbid": "",
-        "#text": "Camille 2000 (Original Motion Picture Soundtrack)"
-      },
-      "name": "Easy Lovers",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Easy+Lovers",
-      "date": {
-        "uts": "1793457572",
-        "#text": "31 Oct 2026, 14:39"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "VVS $."
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/210664f6e2acd69ce4e22e269e38df36.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/210664f6e2acd69ce4e22e269e38df36.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/210664f6e2acd69ce4e22e269e38df36.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/210664f6e2acd69ce4e22e269e38df36.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "2-9-0-0"
-      },
-      "name": "2-9-0-0",
-      "url": "https://www.last.fm/music/VVS+$./_/2-9-0-0",
-      "date": {
-        "uts": "1793457514",
-        "#text": "31 Oct 2026, 14:38"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "c6d1f982-ed7a-40a8-bfa2-5a1342376636",
-        "#text": "Jackie Gleason"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/fde17fb193884e239f599b290c42efac.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/fde17fb193884e239f599b290c42efac.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/fde17fb193884e239f599b290c42efac.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fde17fb193884e239f599b290c42efac.jpg"
-        }
-      ],
-      "mbid": "34195f43-a401-4918-a688-89184377ce24",
-      "album": {
-        "mbid": "2d6f22e1-c47b-47e5-b747-a9c226bac673",
-        "#text": "Movie Themes For Lovers Only"
-      },
-      "name": "La Dolce Vita",
-      "url": "https://www.last.fm/music/Jackie+Gleason/_/La+Dolce+Vita",
-      "date": {
-        "uts": "1793440561",
-        "#text": "31 Oct 2026, 09:56"
       }
     }
   ]
