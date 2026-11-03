@@ -1,364 +1,399 @@
 {
-  "updatedAt": "2026-11-02T19:27:58.193Z",
+  "updatedAt": "2026-11-03T01:44:23.104Z",
   "tracks": [
     {
       "artist": {
-        "mbid": "b29020d6-5dbf-4c99-b16f-c009f8a712ff",
-        "#text": "Steve Lacy"
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3ddbcb76b0872091404a741e58b59562.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3ddbcb76b0872091404a741e58b59562.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3ddbcb76b0872091404a741e58b59562.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3ddbcb76b0872091404a741e58b59562.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/10cf93995de9215931f95e1a2f34c37c.jpg"
         }
       ],
-      "mbid": "7f586f5c-2c50-4f93-947e-99c8474f6955",
+      "mbid": "d8385a6e-63c7-4e4f-a27a-ae87e1c0f987",
       "album": {
-        "mbid": "",
-        "#text": "Dark Red"
+        "mbid": "e8308f36-b5c9-4e42-b110-fc70f609dae5",
+        "#text": "Music"
       },
-      "name": "Dark Red",
-      "url": "https://www.last.fm/music/Steve+Lacy/_/Dark+Red",
+      "name": "RATHER LIE (with The Weeknd)",
+      "@attr": {
+        "nowplaying": "true"
+      },
+      "url": "https://www.last.fm/music/Playboi+Carti/_/RATHER+LIE+(with+The+Weeknd)"
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        }
+      ],
+      "mbid": "3a82ad2a-ad96-4aac-9e6f-7d8e33269b6f",
+      "album": {
+        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
+        "#text": "Playboi Carti"
+      },
+      "name": "Location",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Location",
       "date": {
-        "uts": "1793596963",
-        "#text": "02 Nov 2026, 05:22"
+        "uts": "1793669908",
+        "#text": "03 Nov 2026, 01:38"
       }
     },
     {
       "artist": {
-        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
-        "#text": "Men I Trust"
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/544aa5fe7908d216e17bf614c7e1ab27.gif"
         }
       ],
-      "mbid": "",
+      "mbid": "27fafd98-1e28-4aaf-a659-c3264a7b0af2",
       "album": {
-        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
-        "#text": "Oncle Jazz"
+        "mbid": "77c11f45-c808-4487-af46-39a26891403d",
+        "#text": "Eternal Atake"
       },
-      "name": "Show Me How (Album V)",
-      "url": "https://www.last.fm/music/Men+I+Trust/_/Show+Me+How+(Album+V)",
+      "name": "Homecoming",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/Homecoming",
       "date": {
-        "uts": "1793596747",
-        "#text": "02 Nov 2026, 05:19"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "b29020d6-5dbf-4c99-b16f-c009f8a712ff",
-        "#text": "Steve Lacy"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/1d9dd2300aeb209bc12997eb83782135.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/1d9dd2300aeb209bc12997eb83782135.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/1d9dd2300aeb209bc12997eb83782135.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1d9dd2300aeb209bc12997eb83782135.jpg"
-        }
-      ],
-      "mbid": "b2cec810-2976-4ef4-94e7-1afc9dc5a4b4",
-      "album": {
-        "mbid": "eb30b1a0-3a0a-47cb-b2b1-0856f0cb6aa8",
-        "#text": "Oh Yeah?"
-      },
-      "name": "nothing",
-      "url": "https://www.last.fm/music/Steve+Lacy/_/nothing",
-      "date": {
-        "uts": "1793596577",
-        "#text": "02 Nov 2026, 05:16"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
-        "#text": "Men I Trust"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
-        "#text": "Oncle Jazz"
-      },
-      "name": "Numb (Album V)",
-      "url": "https://www.last.fm/music/Men+I+Trust/_/Numb+(Album+V)",
-      "date": {
-        "uts": "1793596304",
-        "#text": "02 Nov 2026, 05:11"
+        "uts": "1793669661",
+        "#text": "03 Nov 2026, 01:34"
       }
     },
     {
       "artist": {
         "mbid": "",
-        "#text": "Sven Libaek"
+        "#text": "Kanye West"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d9ffbb9b5e96b3a5bbee244a2954412e.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8c6af1315c66631bad022085c7992b34.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d9ffbb9b5e96b3a5bbee244a2954412e.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8c6af1315c66631bad022085c7992b34.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d9ffbb9b5e96b3a5bbee244a2954412e.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8c6af1315c66631bad022085c7992b34.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d9ffbb9b5e96b3a5bbee244a2954412e.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8c6af1315c66631bad022085c7992b34.jpg"
         }
       ],
-      "mbid": "",
+      "mbid": "994262c2-5d1a-4a37-9188-12cb040af0ad",
       "album": {
-        "mbid": "",
-        "#text": "The Set (Original Motion Picture Soundtrack) [Remastered]"
+        "mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
+        "#text": "The Life of Pablo"
       },
-      "name": "Love Me",
-      "url": "https://www.last.fm/music/Sven+Libaek/_/Love+Me",
+      "name": "Father Stretch My Hands Pt. 1",
+      "url": "https://www.last.fm/music/Kanye+West/_/Father+Stretch+My+Hands+Pt.+1",
       "date": {
-        "uts": "1793596219",
-        "#text": "02 Nov 2026, 05:10"
+        "uts": "1793669525",
+        "#text": "03 Nov 2026, 01:32"
       }
     },
     {
       "artist": {
-        "mbid": "",
-        "#text": "Armando Trovajoli"
+        "mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
+        "#text": "Madvillain"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/893fce336634c600b2bab31de7bbc9bd.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/893fce336634c600b2bab31de7bbc9bd.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/893fce336634c600b2bab31de7bbc9bd.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/893fce336634c600b2bab31de7bbc9bd.jpg"
         }
       ],
-      "mbid": "",
+      "mbid": "0c9c470a-ef1d-481f-8bd0-cb23bb5ed977",
       "album": {
-        "mbid": "",
-        "#text": "La Matriarca - The Libertine (Original Motion Picture Soundtrack)"
+        "mbid": "264702af-dd10-46b5-83ef-7419552de193",
+        "#text": "Madvillainy"
       },
-      "name": "L'amore dice Ciao (Slow Take) - Remastered",
-      "url": "https://www.last.fm/music/Armando+Trovajoli/_/L%27amore+dice+Ciao+(Slow+Take)+-+Remastered",
+      "name": "All Caps",
+      "url": "https://www.last.fm/music/Madvillain/_/All+Caps",
       "date": {
-        "uts": "1793595961",
-        "#text": "02 Nov 2026, 05:06"
+        "uts": "1793669281",
+        "#text": "03 Nov 2026, 01:28"
       }
     },
     {
       "artist": {
-        "mbid": "806b793c-fb2c-401e-be44-f753c0ea2f15",
-        "#text": "Piero Umiliani"
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d3be4be9736d4a538bd818e1bb701bac.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/dd7df4864af8cf12a2f3b736c47c4315.png"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d3be4be9736d4a538bd818e1bb701bac.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/dd7df4864af8cf12a2f3b736c47c4315.png"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d3be4be9736d4a538bd818e1bb701bac.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/dd7df4864af8cf12a2f3b736c47c4315.png"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d3be4be9736d4a538bd818e1bb701bac.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dd7df4864af8cf12a2f3b736c47c4315.png"
         }
       ],
-      "mbid": "",
+      "mbid": "f59bc7f4-bfd1-4b14-acb0-b8b6c58786c5",
       "album": {
         "mbid": "",
-        "#text": "Piano Fender Blues (Remastered)"
+        "#text": "Luv Is Rage 2 (Deluxe)"
       },
-      "name": "Gardens - Remastered",
-      "url": "https://www.last.fm/music/Piero+Umiliani/_/Gardens+-+Remastered",
+      "name": "20 Min",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/20+Min",
       "date": {
-        "uts": "1793595859",
-        "#text": "02 Nov 2026, 05:04"
+        "uts": "1793669061",
+        "#text": "03 Nov 2026, 01:24"
       }
     },
     {
       "artist": {
-        "mbid": "83e71a21-caf7-4e48-8ff7-6512d51e88a3",
-        "#text": "Henry Mancini"
+        "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d",
+        "#text": "ScHoolboy Q"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/46fc90c6a7f6696a27b0d5a2e5313842.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/46fc90c6a7f6696a27b0d5a2e5313842.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/46fc90c6a7f6696a27b0d5a2e5313842.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/46fc90c6a7f6696a27b0d5a2e5313842.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         }
       ],
-      "mbid": "e1f0156c-58f3-3fd3-9f68-b34fe339dbf2",
+      "mbid": "006582e3-eb07-4076-81f1-02f3d1736855",
       "album": {
-        "mbid": "5acb9b73-4afc-47c7-a6a8-d08c29d4a6fd",
-        "#text": "The Blues and the Beat"
+        "mbid": "",
+        "#text": "Oxymoron (Deluxe)"
       },
-      "name": "Gorgeous And Guilty",
-      "url": "https://www.last.fm/music/Henry+Mancini/_/Gorgeous+And+Guilty",
+      "name": "Collard Greens",
+      "url": "https://www.last.fm/music/ScHoolboy+Q/_/Collard+Greens",
       "date": {
-        "uts": "1793595656",
-        "#text": "02 Nov 2026, 05:00"
+        "uts": "1793668761",
+        "#text": "03 Nov 2026, 01:19"
       }
     },
     {
       "artist": {
-        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
-        "#text": "Piero Piccioni"
+        "mbid": "d538d883-3889-44ad-8f32-6167cf4d85ec",
+        "#text": "Summrs"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/a8ac65562504c91a9d1359e45eda6d3e.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/a8ac65562504c91a9d1359e45eda6d3e.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/a8ac65562504c91a9d1359e45eda6d3e.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0c059132eeb8f2f6b8d6e5fccd0d83e7.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a8ac65562504c91a9d1359e45eda6d3e.jpg"
         }
       ],
-      "mbid": "",
+      "mbid": "32537caf-6687-4876-a50c-d51dcd5597a8",
       "album": {
         "mbid": "",
-        "#text": "Camille 2000 (Original Motion Picture Soundtrack)"
+        "#text": "Marble Floors"
       },
-      "name": "Easy Lovers - Alternate Take",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Easy+Lovers+-+Alternate+Take",
+      "name": "Marble Floors",
+      "url": "https://www.last.fm/music/Summrs/_/Marble+Floors",
       "date": {
-        "uts": "1793595353",
-        "#text": "02 Nov 2026, 04:55"
+        "uts": "1793668620",
+        "#text": "03 Nov 2026, 01:17"
       }
     },
     {
       "artist": {
-        "mbid": "fbe054ec-a143-4101-9e9e-64abc5ff5ac9",
-        "#text": "Nat King Cole"
+        "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d",
+        "#text": "ScHoolboy Q"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/93b1be714083c7d8e8b369412e22e50a.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/93b1be714083c7d8e8b369412e22e50a.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/93b1be714083c7d8e8b369412e22e50a.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/93b1be714083c7d8e8b369412e22e50a.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
         }
       ],
-      "mbid": "226658e1-ca7b-4f3e-993d-d044f3b3b13b",
+      "mbid": "006582e3-eb07-4076-81f1-02f3d1736855",
       "album": {
         "mbid": "",
-        "#text": "The Christmas Song (Expanded Edition)"
+        "#text": "Oxymoron (Deluxe)"
       },
-      "name": "The Christmas Song (Merry Christmas To You)",
-      "url": "https://www.last.fm/music/Nat+King+Cole/_/The+Christmas+Song+(Merry+Christmas+To+You)",
+      "name": "Collard Greens",
+      "url": "https://www.last.fm/music/ScHoolboy+Q/_/Collard+Greens",
       "date": {
-        "uts": "1793571180",
-        "#text": "01 Nov 2026, 22:13"
+        "uts": "1793668321",
+        "#text": "03 Nov 2026, 01:12"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
+        }
+      ],
+      "mbid": "f55b3a5f-719b-4ce7-ad69-51cdbc6e0e63",
+      "album": {
+        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
+        "#text": "Die Lit"
+      },
+      "name": "Shoota (feat. Lil Uzi Vert)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Shoota+(feat.+Lil+Uzi+Vert)",
+      "date": {
+        "uts": "1793668140",
+        "#text": "03 Nov 2026, 01:09"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
+        }
+      ],
+      "mbid": "3cb0dfbb-c27f-4c63-b071-4ba61309b882",
+      "album": {
+        "mbid": "",
+        "#text": "Eternal Atake (Deluxe) - LUV vs. The World 2"
+      },
+      "name": "Come This Way",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/Come+This+Way",
+      "date": {
+        "uts": "1793667967",
+        "#text": "03 Nov 2026, 01:06"
       }
     }
   ]
