@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-03T21:55:31.932Z",
+  "updatedAt": "2026-11-04T01:53:19.971Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Flex Musix"
+      },
+      "name": "Pop",
+      "url": "https://www.last.fm/music/OsamaSon/_/Pop",
+      "date": {
+        "uts": "1793748074",
+        "#text": "03 Nov 2026, 23:21"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "a668565b-41b8-44a8-9d5c-8e609dbf69fc",
+        "#text": "Lil Yachty"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        }
+      ],
+      "mbid": "28b7dfcd-08b5-474c-8a09-1526a0f6d512",
+      "album": {
+        "mbid": "2065302b-9776-42bc-9dd8-a9af02d355f8",
+        "#text": "Nuthin' 2 Prove"
+      },
+      "name": "Get Dripped (feat. Playboi Carti)",
+      "url": "https://www.last.fm/music/Lil+Yachty/_/Get+Dripped+(feat.+Playboi+Carti)",
+      "date": {
+        "uts": "1793747909",
+        "#text": "03 Nov 2026, 23:18"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "a668565b-41b8-44a8-9d5c-8e609dbf69fc",
+        "#text": "Lil Yachty"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        }
+      ],
+      "mbid": "28b7dfcd-08b5-474c-8a09-1526a0f6d512",
+      "album": {
+        "mbid": "2065302b-9776-42bc-9dd8-a9af02d355f8",
+        "#text": "Nuthin' 2 Prove"
+      },
+      "name": "Get Dripped (feat. Playboi Carti)",
+      "url": "https://www.last.fm/music/Lil+Yachty/_/Get+Dripped+(feat.+Playboi+Carti)",
+      "date": {
+        "uts": "1793747569",
+        "#text": "03 Nov 2026, 23:12"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "a668565b-41b8-44a8-9d5c-8e609dbf69fc",
+        "#text": "Lil Yachty"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7c0849677d84c214d0c9cb3edd0be1b0.jpg"
+        }
+      ],
+      "mbid": "28b7dfcd-08b5-474c-8a09-1526a0f6d512",
+      "album": {
+        "mbid": "2065302b-9776-42bc-9dd8-a9af02d355f8",
+        "#text": "Nuthin' 2 Prove"
+      },
+      "name": "Get Dripped (feat. Playboi Carti)",
+      "url": "https://www.last.fm/music/Lil+Yachty/_/Get+Dripped+(feat.+Playboi+Carti)",
+      "date": {
+        "uts": "1793743830",
+        "#text": "03 Nov 2026, 22:10"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1793738177",
+        "#text": "03 Nov 2026, 20:36"
+      }
+    },
     {
       "artist": {
         "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
@@ -179,186 +359,6 @@
       "date": {
         "uts": "1793679861",
         "#text": "03 Nov 2026, 04:24"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "adixu's stuff"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/14ad3211b2ebd6054711559a89dba2dc.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/14ad3211b2ebd6054711559a89dba2dc.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/14ad3211b2ebd6054711559a89dba2dc.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/14ad3211b2ebd6054711559a89dba2dc.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Play This"
-      },
-      "name": "Play This",
-      "url": "https://www.last.fm/music/adixu%27s+stuff/_/Play+This",
-      "date": {
-        "uts": "1793679780",
-        "#text": "03 Nov 2026, 04:23"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "b29020d6-5dbf-4c99-b16f-c009f8a712ff",
-        "#text": "Steve Lacy"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/12dcf1122cccf14bd8d943480d04cd58.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/12dcf1122cccf14bd8d943480d04cd58.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/12dcf1122cccf14bd8d943480d04cd58.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/12dcf1122cccf14bd8d943480d04cd58.jpg"
-        }
-      ],
-      "mbid": "c3f5c981-1db3-4acb-a83b-5e2cdbcedc10",
-      "album": {
-        "mbid": "6d50b672-4f8e-4b7a-917b-1ded22808632",
-        "#text": "Gemini Rights"
-      },
-      "name": "Give You the World",
-      "url": "https://www.last.fm/music/Steve+Lacy/_/Give+You+the+World",
-      "date": {
-        "uts": "1793679500",
-        "#text": "03 Nov 2026, 04:18"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Kanye West"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8a071c4b073625018de5f0ac58727511.png"
-        }
-      ],
-      "mbid": "3569411e-6393-4474-8ed7-c7f08dfec8a8",
-      "album": {
-        "mbid": "0fb96892-3890-40d8-b374-43b7e5c67d27",
-        "#text": "My Beautiful Dark Twisted Fantasy"
-      },
-      "name": "Devil in a New Dress",
-      "url": "https://www.last.fm/music/Kanye+West/_/Devil+in+a+New+Dress",
-      "date": {
-        "uts": "1793678898",
-        "#text": "03 Nov 2026, 04:08"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d",
-        "#text": "ScHoolboy Q"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4d6ef0c193ac4302c3896fa6825bad9c.jpg"
-        }
-      ],
-      "mbid": "006582e3-eb07-4076-81f1-02f3d1736855",
-      "album": {
-        "mbid": "",
-        "#text": "Oxymoron (Deluxe)"
-      },
-      "name": "Collard Greens",
-      "url": "https://www.last.fm/music/ScHoolboy+Q/_/Collard+Greens",
-      "date": {
-        "uts": "1793672220",
-        "#text": "03 Nov 2026, 02:17"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
-        "#text": "Frank Ocean"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/82c92f044b27db86328ed6be3f8a735a.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/82c92f044b27db86328ed6be3f8a735a.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/82c92f044b27db86328ed6be3f8a735a.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/82c92f044b27db86328ed6be3f8a735a.png"
-        }
-      ],
-      "mbid": "191a8d46-9b16-4acd-8c39-5dca192ecd18",
-      "album": {
-        "mbid": "08f54f68-7c89-4e22-8a0f-ac2b06e48568",
-        "#text": "Blonde"
-      },
-      "name": "Seigfried",
-      "url": "https://www.last.fm/music/Frank+Ocean/_/Seigfried",
-      "date": {
-        "uts": "1793672018",
-        "#text": "03 Nov 2026, 02:13"
       }
     }
   ]
