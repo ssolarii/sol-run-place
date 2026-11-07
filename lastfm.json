@@ -1,6 +1,258 @@
 {
-  "updatedAt": "2026-11-07T19:27:00.519Z",
+  "updatedAt": "2026-11-07T22:54:56.766Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "7527f6c2-d762-4b88-b5e2-9244f1e34c46",
+        "#text": "Deftones"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3e6814b457a9087e0c46d5a949de2766.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3e6814b457a9087e0c46d5a949de2766.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3e6814b457a9087e0c46d5a949de2766.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3e6814b457a9087e0c46d5a949de2766.jpg"
+        }
+      ],
+      "mbid": "80e856ea-b72a-4171-aa8d-f503e535018b",
+      "album": {
+        "mbid": "09a3d665-52a3-40b8-b568-a227e8a8a3fc",
+        "#text": "Around the Fur"
+      },
+      "name": "My Own Summer (Shove It)",
+      "url": "https://www.last.fm/music/Deftones/_/My+Own+Summer+(Shove+It)",
+      "date": {
+        "uts": "1794085979",
+        "#text": "07 Nov 2026, 21:12"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "be0d7749-0974-48ba-93bb-6e974ec193a2",
+        "#text": "Pi’erre Bourne"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/6aa3ab8dec56267480d83fe37079ad32.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/6aa3ab8dec56267480d83fe37079ad32.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/6aa3ab8dec56267480d83fe37079ad32.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6aa3ab8dec56267480d83fe37079ad32.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "The Life of Pi'erre 5"
+      },
+      "name": "Switching Lanes (feat. Playboi Carti)",
+      "url": "https://www.last.fm/music/Pi%E2%80%99erre+Bourne/_/Switching+Lanes+(feat.+Playboi+Carti)",
+      "date": {
+        "uts": "1794085788",
+        "#text": "07 Nov 2026, 21:09"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "7df4c4de-3181-4a69-bd36-9d663970cebb",
+        "#text": "Alex G"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/fe8349f26557d3402d9966fd7a3fe9dd.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/fe8349f26557d3402d9966fd7a3fe9dd.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/fe8349f26557d3402d9966fd7a3fe9dd.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fe8349f26557d3402d9966fd7a3fe9dd.jpg"
+        }
+      ],
+      "mbid": "70ad2ffc-5980-4f44-b43b-a8edc39aff36",
+      "album": {
+        "mbid": "141c833b-c3c4-4e12-8157-bf54356c264e",
+        "#text": "TRICK"
+      },
+      "name": "Sarah",
+      "url": "https://www.last.fm/music/Alex+G/_/Sarah",
+      "date": {
+        "uts": "1794085612",
+        "#text": "07 Nov 2026, 21:06"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "6c2a79b8-2b5c-4c2d-b495-6a446811bf9d",
+        "#text": "Malcolm Todd"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/824921f6bdcf5846a4f5c25654abbbf8.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/824921f6bdcf5846a4f5c25654abbbf8.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/824921f6bdcf5846a4f5c25654abbbf8.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/824921f6bdcf5846a4f5c25654abbbf8.jpg"
+        }
+      ],
+      "mbid": "8b4a0623-0d13-4361-8e5e-024b9d820fbd",
+      "album": {
+        "mbid": "07fa21fa-235b-4ead-8466-daf8a42899d8",
+        "#text": "Sweet Boy"
+      },
+      "name": "Earrings",
+      "url": "https://www.last.fm/music/Malcolm+Todd/_/Earrings",
+      "date": {
+        "uts": "1794085460",
+        "#text": "07 Nov 2026, 21:04"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
+        "#text": "Tyler, The Creator"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d6f4ffac0e14d1d78712f1fe21e0ef83.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d6f4ffac0e14d1d78712f1fe21e0ef83.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d6f4ffac0e14d1d78712f1fe21e0ef83.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d6f4ffac0e14d1d78712f1fe21e0ef83.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "44237978-668a-4658-ad06-f2efc763d914",
+        "#text": "CALL ME IF YOU GET LOST: The Estate Sale"
+      },
+      "name": "BOYFRIEND, GIRLFRIEND (2020 Demo) (feat. YG)",
+      "url": "https://www.last.fm/music/Tyler,+The+Creator/_/BOYFRIEND,+GIRLFRIEND+(2020+Demo)+(feat.+YG)",
+      "date": {
+        "uts": "1794085256",
+        "#text": "07 Nov 2026, 21:00"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
+        "#text": "¥$"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a73a654cac09bc1188e2b257a1db121.jpg"
+        }
+      ],
+      "mbid": "cc122de1-fce1-4403-8f96-bc43f123be47",
+      "album": {
+        "mbid": "124a70c0-451e-492a-b388-88206065e7fe",
+        "#text": "VULTURES 1"
+      },
+      "name": "BURN",
+      "url": "https://www.last.fm/music/%C2%A5$/_/BURN",
+      "date": {
+        "uts": "1794084334",
+        "#text": "07 Nov 2026, 20:45"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
+        "#text": "¥$"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a73a654cac09bc1188e2b257a1db121.jpg"
+        }
+      ],
+      "mbid": "cc122de1-fce1-4403-8f96-bc43f123be47",
+      "album": {
+        "mbid": "124a70c0-451e-492a-b388-88206065e7fe",
+        "#text": "VULTURES 1"
+      },
+      "name": "BURN",
+      "url": "https://www.last.fm/music/%C2%A5$/_/BURN",
+      "date": {
+        "uts": "1794076387",
+        "#text": "07 Nov 2026, 18:33"
+      }
+    },
     {
       "artist": {
         "mbid": "",
@@ -107,258 +359,6 @@
       "date": {
         "uts": "1794026222",
         "#text": "07 Nov 2026, 04:37"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
-        "#text": "Tyler, The Creator"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/60d769a0d403484d2398120a22a2a29e.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/60d769a0d403484d2398120a22a2a29e.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/60d769a0d403484d2398120a22a2a29e.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/60d769a0d403484d2398120a22a2a29e.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "07c120c1-fea5-40c8-81d8-eec342d1885c",
-        "#text": "Cherry Bomb"
-      },
-      "name": "2SEATER (feat. Aaron Shaw, Samantha Nelson & Austin Feinstein)",
-      "url": "https://www.last.fm/music/Tyler,+The+Creator/_/2SEATER+(feat.+Aaron+Shaw,+Samantha+Nelson+&+Austin+Feinstein)",
-      "date": {
-        "uts": "1794025813",
-        "#text": "07 Nov 2026, 04:30"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Ken Carson"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5981389b2611507fc3c9bf93a7e12aaf.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5981389b2611507fc3c9bf93a7e12aaf.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5981389b2611507fc3c9bf93a7e12aaf.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5981389b2611507fc3c9bf93a7e12aaf.gif"
-        }
-      ],
-      "mbid": "e708fd96-adb1-42ac-925f-2e81a1c9ee1d",
-      "album": {
-        "mbid": "533c8e9e-dabe-450b-b801-433bb393cef1",
-        "#text": "A Great Chaos"
-      },
-      "name": "Green Room",
-      "url": "https://www.last.fm/music/Ken+Carson/_/Green+Room",
-      "date": {
-        "uts": "1794025602",
-        "#text": "07 Nov 2026, 04:26"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "100b8734-f4f0-4536-9960-47f7c59d1b4c",
-        "#text": "Gunna"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/42363496eb3de15b8b9fc7edd023253d.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/42363496eb3de15b8b9fc7edd023253d.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/42363496eb3de15b8b9fc7edd023253d.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/42363496eb3de15b8b9fc7edd023253d.gif"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "85b82612-e0e0-4e3e-9470-03cdcae4eb3e",
-        "#text": "Drip Season 2"
-      },
-      "name": "YSL (feat. Playboi Carti)",
-      "url": "https://www.last.fm/music/Gunna/_/YSL+(feat.+Playboi+Carti)",
-      "date": {
-        "uts": "1794025443",
-        "#text": "07 Nov 2026, 04:24"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
-        "#text": "¥$"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a73a654cac09bc1188e2b257a1db121.jpg"
-        }
-      ],
-      "mbid": "cc122de1-fce1-4403-8f96-bc43f123be47",
-      "album": {
-        "mbid": "124a70c0-451e-492a-b388-88206065e7fe",
-        "#text": "VULTURES 1"
-      },
-      "name": "BURN",
-      "url": "https://www.last.fm/music/%C2%A5$/_/BURN",
-      "date": {
-        "uts": "1794025323",
-        "#text": "07 Nov 2026, 04:22"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
-        "#text": "TV Girl"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        }
-      ],
-      "mbid": "31be62f8-9f09-4b3d-a875-e24c527ff0b9",
-      "album": {
-        "mbid": "e461c1b4-4eb5-46c2-8eb1-1b29e1befdf4",
-        "#text": "French Exit"
-      },
-      "name": "Birds Dont Sing",
-      "url": "https://www.last.fm/music/TV+Girl/_/Birds+Dont+Sing",
-      "date": {
-        "uts": "1794025062",
-        "#text": "07 Nov 2026, 04:17"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Quality Control"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/f4999d84fbdea4be7b5a084d06082811.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/f4999d84fbdea4be7b5a084d06082811.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/f4999d84fbdea4be7b5a084d06082811.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f4999d84fbdea4be7b5a084d06082811.gif"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Quality Control: Control the Streets Volume 2"
-      },
-      "name": "100 Racks (Offset feat. Playboi Carti)",
-      "url": "https://www.last.fm/music/Quality+Control/_/100+Racks+(Offset+feat.+Playboi+Carti)",
-      "date": {
-        "uts": "1794024904",
-        "#text": "07 Nov 2026, 04:15"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
-        "#text": "Frank Ocean"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/553678d27570452839aec0fd0cdadd63.png"
-        }
-      ],
-      "mbid": "88429f7d-3407-4a8c-8741-e072e03fc71f",
-      "album": {
-        "mbid": "1e5803df-8923-4bed-9297-e707ffc8de92",
-        "#text": "channel ORANGE"
-      },
-      "name": "Lost",
-      "url": "https://www.last.fm/music/Frank+Ocean/_/Lost",
-      "date": {
-        "uts": "1794024670",
-        "#text": "07 Nov 2026, 04:11"
       }
     }
   ]
