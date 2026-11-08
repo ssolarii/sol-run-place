@@ -1,6 +1,150 @@
 {
-  "updatedAt": "2026-11-08T02:01:40.356Z",
+  "updatedAt": "2026-11-08T08:53:23.496Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
+        "#text": "TV Girl"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        }
+      ],
+      "mbid": "6c7901ba-f924-4815-bc3c-a584fbd8ddfe",
+      "album": {
+        "mbid": "e461c1b4-4eb5-46c2-8eb1-1b29e1befdf4",
+        "#text": "French Exit"
+      },
+      "name": "Louise",
+      "url": "https://www.last.fm/music/TV+Girl/_/Louise",
+      "date": {
+        "uts": "1794113240",
+        "#text": "08 Nov 2026, 04:47"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "#text": "SZA"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "b82458a3-7d3a-495f-861f-8698731c4dd0",
+        "#text": "SOS"
+      },
+      "name": "Open Arms (feat. Travis Scott)",
+      "url": "https://www.last.fm/music/SZA/_/Open+Arms+(feat.+Travis+Scott)",
+      "date": {
+        "uts": "1794112970",
+        "#text": "08 Nov 2026, 04:42"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
+        "#text": "Frank Ocean"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/553678d27570452839aec0fd0cdadd63.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/553678d27570452839aec0fd0cdadd63.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/553678d27570452839aec0fd0cdadd63.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/553678d27570452839aec0fd0cdadd63.png"
+        }
+      ],
+      "mbid": "223f8406-01c3-45f3-886c-cbc2124d76ca",
+      "album": {
+        "mbid": "1e5803df-8923-4bed-9297-e707ffc8de92",
+        "#text": "channel ORANGE"
+      },
+      "name": "Sweet Life",
+      "url": "https://www.last.fm/music/Frank+Ocean/_/Sweet+Life",
+      "date": {
+        "uts": "1794112703",
+        "#text": "08 Nov 2026, 04:38"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "88d17133-abbc-42db-9526-4e2c1db60336",
+        "#text": "beabadoobee"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/84c1ba3af1bff2e6f7aa1e5e21fb4195.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/84c1ba3af1bff2e6f7aa1e5e21fb4195.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/84c1ba3af1bff2e6f7aa1e5e21fb4195.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/84c1ba3af1bff2e6f7aa1e5e21fb4195.jpg"
+        }
+      ],
+      "mbid": "f220ba2e-0d12-41a2-b9ef-5a5119b967b8",
+      "album": {
+        "mbid": "8bd13673-c860-4ee2-b8ba-01a558a7087c",
+        "#text": "Glue Song"
+      },
+      "name": "Glue Song",
+      "url": "https://www.last.fm/music/beabadoobee/_/Glue+Song",
+      "date": {
+        "uts": "1794091225",
+        "#text": "07 Nov 2026, 22:40"
+      }
+    },
     {
       "artist": {
         "mbid": "7527f6c2-d762-4b88-b5e2-9244f1e34c46",
@@ -215,150 +359,6 @@
       "date": {
         "uts": "1794084334",
         "#text": "07 Nov 2026, 20:45"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
-        "#text": "¥$"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5a73a654cac09bc1188e2b257a1db121.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a73a654cac09bc1188e2b257a1db121.jpg"
-        }
-      ],
-      "mbid": "cc122de1-fce1-4403-8f96-bc43f123be47",
-      "album": {
-        "mbid": "124a70c0-451e-492a-b388-88206065e7fe",
-        "#text": "VULTURES 1"
-      },
-      "name": "BURN",
-      "url": "https://www.last.fm/music/%C2%A5$/_/BURN",
-      "date": {
-        "uts": "1794076387",
-        "#text": "07 Nov 2026, 18:33"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Kanye West"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8a071c4b073625018de5f0ac58727511.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8a071c4b073625018de5f0ac58727511.png"
-        }
-      ],
-      "mbid": "3569411e-6393-4474-8ed7-c7f08dfec8a8",
-      "album": {
-        "mbid": "0fb96892-3890-40d8-b374-43b7e5c67d27",
-        "#text": "My Beautiful Dark Twisted Fantasy"
-      },
-      "name": "Devil in a New Dress",
-      "url": "https://www.last.fm/music/Kanye+West/_/Devil+in+a+New+Dress",
-      "date": {
-        "uts": "1794027456",
-        "#text": "07 Nov 2026, 04:57"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
-        "#text": "Frank Ocean"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/553678d27570452839aec0fd0cdadd63.png"
-        }
-      ],
-      "mbid": "1c1dbdc6-43f1-4f50-b7c8-4a8300786b57",
-      "album": {
-        "mbid": "1e5803df-8923-4bed-9297-e707ffc8de92",
-        "#text": "channel ORANGE"
-      },
-      "name": "Super Rich Kids",
-      "url": "https://www.last.fm/music/Frank+Ocean/_/Super+Rich+Kids",
-      "date": {
-        "uts": "1794026432",
-        "#text": "07 Nov 2026, 04:40"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/10cf93995de9215931f95e1a2f34c37c.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/10cf93995de9215931f95e1a2f34c37c.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/10cf93995de9215931f95e1a2f34c37c.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/10cf93995de9215931f95e1a2f34c37c.jpg"
-        }
-      ],
-      "mbid": "d8385a6e-63c7-4e4f-a27a-ae87e1c0f987",
-      "album": {
-        "mbid": "e8308f36-b5c9-4e42-b110-fc70f609dae5",
-        "#text": "Music"
-      },
-      "name": "RATHER LIE (with The Weeknd)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/RATHER+LIE+(with+The+Weeknd)",
-      "date": {
-        "uts": "1794026222",
-        "#text": "07 Nov 2026, 04:37"
       }
     }
   ]
