@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>sol's quicklinks</title>
+<link rel="icon" type="image/png" href="./assets/icons/leaf.png" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCHBCRP2LX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -44,9 +45,10 @@
     display:flex;
     flex-direction:column;
     padding:max(2rem,env(safe-area-inset-top)) 1.5rem max(1.75rem,env(safe-area-inset-bottom));
-    background-image:linear-gradient(to bottom,rgba(0,0,0,.15),rgba(0,0,0,.1) 45%,rgba(0,0,0,.6) 100%),url('./background.jpg');
-    background-size:cover;
-    background-position:center;
+    background-color:#101b12;
+    background-image:linear-gradient(rgba(3,12,6,.35),rgba(3,12,6,.65)),url('./assets/runtime/foliage-leaf-upper-left.webp'),url('./assets/runtime/foliage-leaf-right.webp'),url('./assets/runtime/foliage-leaf-lower-left.webp');
+    background-size:cover, auto 58%, auto 100%, auto 90%;
+    background-position:center, left top, right center, left bottom;
     background-repeat:no-repeat;
   }
 
@@ -75,6 +77,21 @@
   .artist{font-size:.95rem;color:var(--dim);margin-top:.1rem}
   .private{display:inline-flex;align-items:center;min-height:44px;margin-top:.3rem;font-size:.85rem;color:var(--dim);text-decoration:underline;text-underline-offset:2px;cursor:pointer}.private:hover,.private:focus-visible{color:var(--white)}
 
+
+  .private-dialog{width:min(32rem,calc(100% - 2rem));max-height:calc(100dvh - 2rem);margin:auto;padding:clamp(1.35rem,4vw,2rem);border:1px solid #74836d;background:#d4d9c7;color:#18261c;box-shadow:0 1.5rem 5rem #0009;overflow:auto}
+  .private-dialog::backdrop{background:rgba(2,9,4,.82)}
+  .private-heading{display:flex;align-items:start;justify-content:space-between;gap:1rem}
+  .private-heading h2{font-size:clamp(1.6rem,5vw,2rem);line-height:1.05;font-weight:900}
+  .private-close{border:0;background:transparent;color:inherit;font:inherit;font-size:1.8rem;line-height:1;cursor:pointer;min-width:44px;min-height:44px}
+  .private-dialog p{line-height:1.45}.private-help{margin:.75rem 0 1.5rem}
+  .private-form label{display:block;font-weight:700;margin:1rem 0 .4rem}
+  .private-form label span{font-weight:400}
+  .private-form input,.private-form textarea{display:block;width:100%;border:1px solid #536554;border-radius:0;background:#edf0e6;color:#18261c;padding:.75rem;font:inherit}
+  .private-form textarea{min-height:9rem;resize:vertical}
+  .private-form button{width:100%;min-height:48px;margin-top:1rem;border:0;background:#243c2a;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+  .private-form button:hover{background:#36533b}.private-form button:disabled{opacity:.6;cursor:wait}
+  .private-form :focus-visible,.private-close:focus-visible{outline:3px solid #365d35;outline-offset:3px}
+  .private-status{min-height:1.5em;margin-top:.75rem;font-size:.9rem}.private-status[data-state="error"]{color:#70231d}
   .recent-toggle{text-align:left;align-self:flex-start;margin-top:.55rem;padding:0;border:0;background:none;color:var(--dim);font:inherit;font-size:.82rem;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
   .recent-toggle:hover,.recent-toggle:focus-visible{color:var(--white)}
   .recent-overlay[hidden]{display:none}
@@ -101,7 +118,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1><a id="world-entry" href="./world-draft/" style="display:inline-flex;align-items:center;min-height:44px;margin-top:.6rem;color:inherit;font-size:.9rem;text-underline-offset:4px">enter the world ↗</a></header>
+    <header class="title-wrap"><h1 class="title">sol&rsquo;s quicklinks</h1></header>
 
     <nav class="links" aria-label="Social links">
       <a class="link" id="discord-link" href="https://discord.com/users/903330250610577418" target="_blank" rel="noopener" aria-label="Discord">
@@ -139,15 +156,21 @@
       <p class="recent-message"><a href="https://www.last.fm/user/saltsaltsalty" target="_blank" rel="noopener" style="color:inherit">View saltsaltsalty on Last.fm ↗</a></p>
     </div>
   </section>
+  <dialog class="private-dialog" id="private-dialog" aria-labelledby="private-title" aria-describedby="private-help">
+    <div class="private-heading"><h2 id="private-title">Say something private</h2><button class="private-close" type="button" aria-label="Close private message">&times;</button></div>
+    <p class="private-help" id="private-help">Only Sol can read your message. It won’t be public.</p>
+    <form class="private-form" id="private-form">
+      <label for="private-name">Name <span>(optional)</span></label><input id="private-name" name="displayName" maxlength="60" autocomplete="nickname">
+      <label for="private-body">Your message</label><textarea id="private-body" name="body" maxlength="2000" required></textarea>
+      <button type="submit" disabled>Send private message</button>
+      <p class="private-status" id="private-status" role="status" aria-live="polite">Preparing messages…</p>
+    </form>
+  </dialog>
+  <script type="module" src="./private-message.js"></script>
   <script>
   const CONFIG = {
     discordUserId: "903330250610577418"
   };
-  for(const entryId of ['world-entry','private-link']){
-  const worldEntryUrl=new URL(document.getElementById(entryId).href);
-  for(const [key,value] of new URLSearchParams(location.search))if(key.startsWith('utm_'))worldEntryUrl.searchParams.set(key,value);
-  document.getElementById(entryId).href=worldEntryUrl.href;
-  }
 
   const els = {
     discordLink:   document.getElementById("discord-link"),
