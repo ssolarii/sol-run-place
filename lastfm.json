@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-10T03:43:11.815Z",
+  "updatedAt": "2026-11-10T11:49:30.840Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
+        "#text": "TV Girl"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        }
+      ],
+      "mbid": "4087af7e-d53e-4719-b0cd-9ea40a98caca",
+      "album": {
+        "mbid": "6ed25a3d-6d9e-4ff2-b164-180608b8569b",
+        "#text": "Who Really Cares"
+      },
+      "name": "Cigarettes out the Window",
+      "url": "https://www.last.fm/music/TV+Girl/_/Cigarettes+out+the+Window",
+      "date": {
+        "uts": "1794284197",
+        "#text": "10 Nov 2026, 04:16"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
+        "#text": "TV Girl"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7f606674cfa1fdc4603695021d3fbc95.jpg"
+        }
+      ],
+      "mbid": "8b70971f-b09b-4f2d-abca-204079c549d8",
+      "album": {
+        "mbid": "6ed25a3d-6d9e-4ff2-b164-180608b8569b",
+        "#text": "Who Really Cares"
+      },
+      "name": "Loving Machine",
+      "url": "https://www.last.fm/music/TV+Girl/_/Loving+Machine",
+      "date": {
+        "uts": "1794283970",
+        "#text": "10 Nov 2026, 04:12"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
+        "#text": "Men I Trust"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
+        "#text": "Oncle Jazz"
+      },
+      "name": "Show Me How (Album V)",
+      "url": "https://www.last.fm/music/Men+I+Trust/_/Show+Me+How+(Album+V)",
+      "date": {
+        "uts": "1794283755",
+        "#text": "10 Nov 2026, 04:09"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
+        "#text": "Men I Trust"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
+        "#text": "Oncle Jazz"
+      },
+      "name": "Numb (Album V)",
+      "url": "https://www.last.fm/music/Men+I+Trust/_/Numb+(Album+V)",
+      "date": {
+        "uts": "1794283536",
+        "#text": "10 Nov 2026, 04:05"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
+        "#text": "TV Girl"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
+        }
+      ],
+      "mbid": "59dd9888-d4b4-4ced-9bb8-98cd0dda0046",
+      "album": {
+        "mbid": "e461c1b4-4eb5-46c2-8eb1-1b29e1befdf4",
+        "#text": "French Exit"
+      },
+      "name": "The Blonde",
+      "url": "https://www.last.fm/music/TV+Girl/_/The+Blonde",
+      "date": {
+        "uts": "1794283292",
+        "#text": "10 Nov 2026, 04:01"
+      }
+    },
     {
       "artist": {
         "mbid": "",
@@ -179,186 +359,6 @@
       "date": {
         "uts": "1794274813",
         "#text": "10 Nov 2026, 01:40"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "9ccaca30-60aa-4890-ae6c-ab55225ee274",
-        "#text": "Lucki"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d9b2f36d016f7503fd2a7fe1789034a1.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d9b2f36d016f7503fd2a7fe1789034a1.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d9b2f36d016f7503fd2a7fe1789034a1.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d9b2f36d016f7503fd2a7fe1789034a1.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "New Drank"
-      },
-      "name": "New Drank",
-      "url": "https://www.last.fm/music/Lucki/_/New+Drank",
-      "date": {
-        "uts": "1794170422",
-        "#text": "08 Nov 2026, 20:40"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
-        "#text": "Frank Ocean"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/553678d27570452839aec0fd0cdadd63.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/553678d27570452839aec0fd0cdadd63.png"
-        }
-      ],
-      "mbid": "77ca0761-9bc8-48c3-8942-b8ae2eab1023",
-      "album": {
-        "mbid": "1e5803df-8923-4bed-9297-e707ffc8de92",
-        "#text": "channel ORANGE"
-      },
-      "name": "Sierra Leone",
-      "url": "https://www.last.fm/music/Frank+Ocean/_/Sierra+Leone",
-      "date": {
-        "uts": "1794169567",
-        "#text": "08 Nov 2026, 20:26"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "be0d7749-0974-48ba-93bb-6e974ec193a2",
-        "#text": "Pi’erre Bourne"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/6aa3ab8dec56267480d83fe37079ad32.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/6aa3ab8dec56267480d83fe37079ad32.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/6aa3ab8dec56267480d83fe37079ad32.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6aa3ab8dec56267480d83fe37079ad32.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "The Life of Pi'erre 5"
-      },
-      "name": "Biology 101",
-      "url": "https://www.last.fm/music/Pi%E2%80%99erre+Bourne/_/Biology+101",
-      "date": {
-        "uts": "1794169383",
-        "#text": "08 Nov 2026, 20:23"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
-        "#text": "OsamaSon"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ae8849105e2fb70f8bfb04cb5ab26479.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Flex Musix"
-      },
-      "name": "Kills",
-      "url": "https://www.last.fm/music/OsamaSon/_/Kills",
-      "date": {
-        "uts": "1794169129",
-        "#text": "08 Nov 2026, 20:18"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0db2bb3f8dcebb4279db97dc7608d090.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0db2bb3f8dcebb4279db97dc7608d090.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0db2bb3f8dcebb4279db97dc7608d090.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0db2bb3f8dcebb4279db97dc7608d090.gif"
-        }
-      ],
-      "mbid": "6cd23737-7bab-4101-964a-a6c4af77899e",
-      "album": {
-        "mbid": "43eb6482-3e42-4421-a134-6bdd3bb847a6",
-        "#text": "Whole Lotta Red"
-      },
-      "name": "Not PLaying",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Not+PLaying",
-      "date": {
-        "uts": "1794168999",
-        "#text": "08 Nov 2026, 20:16"
       }
     }
   ]
