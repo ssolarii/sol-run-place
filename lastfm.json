@@ -1,189 +1,10 @@
 {
-  "updatedAt": "2026-11-11T04:25:04.151Z",
+  "updatedAt": "2026-11-11T12:00:33.708Z",
   "tracks": [
     {
       "artist": {
-        "mbid": "19fc62c0-3241-499d-bc75-739e50cab1c1",
-        "#text": "Alessandro Alessandroni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
-        }
-      ],
-      "mbid": "226eee98-d5b6-4f09-b943-9a9debd5aa5f",
-      "album": {
-        "mbid": "",
-        "#text": "Panoramic Feelings (Mellow Carefree Lounge Music)"
-      },
-      "name": "Landscape",
-      "@attr": {
-        "nowplaying": "true"
-      },
-      "url": "https://www.last.fm/music/Alessandro+Alessandroni/_/Landscape"
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Piero Piccioni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Gioventu' di notte (Original Motion Picture Soundtrack)"
-      },
-      "name": "Gioventu' di notte - Seq. 4",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Gioventu%27+di+notte+-+Seq.+4",
-      "date": {
-        "uts": "1794370805",
-        "#text": "11 Nov 2026, 04:20"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "59098a5b-d7ab-4e5e-b12c-932e2934825e",
-        "#text": "Ben Flocks"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/44b51c93954e5d072e3d563efb69e4cb.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/44b51c93954e5d072e3d563efb69e4cb.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/44b51c93954e5d072e3d563efb69e4cb.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/44b51c93954e5d072e3d563efb69e4cb.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Mask of the Muse"
-      },
-      "name": "Shangri-La",
-      "url": "https://www.last.fm/music/Ben+Flocks/_/Shangri-La",
-      "date": {
-        "uts": "1794370576",
-        "#text": "11 Nov 2026, 04:16"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "6d3e8d4d-c0c9-4208-87d8-900ab1134b1b",
-        "#text": "Blossom Dearie"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
-        }
-      ],
-      "mbid": "10416061-24f1-469e-ae35-ab10db5cc201",
-      "album": {
-        "mbid": "01dcc411-3d0b-4ccd-85e1-677751dc6e47",
-        "#text": "The Adorable Blossom Dearie"
-      },
-      "name": "Flamingo",
-      "url": "https://www.last.fm/music/Blossom+Dearie/_/Flamingo",
-      "date": {
-        "uts": "1794370390",
-        "#text": "11 Nov 2026, 04:13"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
-        "#text": "Piero Piccioni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/ebe61a20f5ef3930b10add813b727a03.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/ebe61a20f5ef3930b10add813b727a03.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/ebe61a20f5ef3930b10add813b727a03.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ebe61a20f5ef3930b10add813b727a03.jpg"
-        }
-      ],
-      "mbid": "73dc2ff4-89b2-4058-a478-3da3d2c37176",
-      "album": {
-        "mbid": "",
-        "#text": "Incontri Proibiti (Original Motion Picture Soundtrack)"
-      },
-      "name": "Blue Mood",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Blue+Mood",
-      "date": {
-        "uts": "1794370270",
-        "#text": "11 Nov 2026, 04:11"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "e592c35e-86f5-4d90-9a3e-c5261031413d",
-        "#text": "Riz Ortolani"
+        "mbid": "16ecaa43-6a6e-4472-92c3-ddd4ff41510f",
+        "#text": "Enrico Intra"
       },
       "streamable": "0",
       "image": [
@@ -207,193 +28,337 @@
       "mbid": "",
       "album": {
         "mbid": "",
-        "#text": "Malesia Magica (Original Motion Picture Soundtrack)"
+        "#text": "Nicole"
       },
-      "name": "La donna malese",
-      "url": "https://www.last.fm/music/Riz+Ortolani/_/La+donna+malese",
+      "name": "NICOLE",
+      "url": "https://www.last.fm/music/Enrico+Intra/_/NICOLE",
       "date": {
-        "uts": "1794370092",
-        "#text": "11 Nov 2026, 04:08"
+        "uts": "1794378301",
+        "#text": "11 Nov 2026, 06:25"
       }
     },
     {
       "artist": {
-        "mbid": "83e71a21-caf7-4e48-8ff7-6512d51e88a3",
-        "#text": "Henry Mancini"
+        "mbid": "82aa7502-3849-4f5a-8603-c6b02b9b502f",
+        "#text": "Syd Dale"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8aef5a4c8329ab35609ada39f80bc2c7.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8aef5a4c8329ab35609ada39f80bc2c7.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8aef5a4c8329ab35609ada39f80bc2c7.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/57121788a9de3ea8405c8981ad34e2cf.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8aef5a4c8329ab35609ada39f80bc2c7.jpg"
+        }
+      ],
+      "mbid": "36b6b4f8-601f-3cab-9569-9deaaaf97273",
+      "album": {
+        "mbid": "",
+        "#text": "Kpm 1000 Series: Gentle Sounds - Volume 2"
+      },
+      "name": "Beguine for Trombone",
+      "url": "https://www.last.fm/music/Syd+Dale/_/Beguine+for+Trombone",
+      "date": {
+        "uts": "1794378139",
+        "#text": "11 Nov 2026, 06:22"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "e592c35e-86f5-4d90-9a3e-c5261031413d",
+        "#text": "Riz Ortolani"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4da60b85a402d1a073066400b2a838a3.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4da60b85a402d1a073066400b2a838a3.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4da60b85a402d1a073066400b2a838a3.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4da60b85a402d1a073066400b2a838a3.jpg"
+        }
+      ],
+      "mbid": "3dec8dbe-362e-4ea3-bebf-939351d9bc31",
+      "album": {
+        "mbid": "e734e9ee-d694-40d8-aca2-314039bc5b60",
+        "#text": "Le ore nude"
+      },
+      "name": "A notte fonda",
+      "url": "https://www.last.fm/music/Riz+Ortolani/_/A+notte+fonda",
+      "date": {
+        "uts": "1794377941",
+        "#text": "11 Nov 2026, 06:19"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Sven Libaek"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b3be8ea421814e9189196b0cad434427.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b3be8ea421814e9189196b0cad434427.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b3be8ea421814e9189196b0cad434427.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b3be8ea421814e9189196b0cad434427.jpg"
         }
       ],
       "mbid": "",
       "album": {
         "mbid": "",
-        "#text": "The Pink Panther: Music from the Film Score Composed and Conducted by Henry Mancini"
+        "#text": "Nature Walkabout (Original Television Soundtrack) [Remastered]"
       },
-      "name": "Piano and Strings - From the Mirisch-G & E Production \"The Pink Panther\"",
-      "url": "https://www.last.fm/music/Henry+Mancini/_/Piano+and+Strings+-+From+the+Mirisch-G+&+E+Production+%22The+Pink+Panther%22",
+      "name": "Water and Waves",
+      "url": "https://www.last.fm/music/Sven+Libaek/_/Water+and+Waves",
       "date": {
-        "uts": "1794369933",
-        "#text": "11 Nov 2026, 04:05"
+        "uts": "1794377862",
+        "#text": "11 Nov 2026, 06:17"
       }
     },
     {
       "artist": {
-        "mbid": "18386eff-ea05-4ccb-8d62-ff0c99a54018",
-        "#text": "Stelvio Cipriani"
+        "mbid": "540722f1-35b5-4a8c-82e9-5c80ff4c1be5",
+        "#text": "Alberto Baldan Bembo"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/acbb548976bd48afc844c904df03d467.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/acbb548976bd48afc844c904df03d467.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/acbb548976bd48afc844c904df03d467.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/acbb548976bd48afc844c904df03d467.jpg"
         }
       ],
-      "mbid": "1fe47420-3df8-4b05-95da-b0650c71264d",
+      "mbid": "48920ff0-2d83-4ec6-b8a3-e2e5ff838182",
       "album": {
-        "mbid": "",
-        "#text": "Anonimo Veneziano (Original Motion Picture Soundtrack)"
+        "mbid": "6cbf58aa-8b70-44cd-8221-7b3431ba20c9",
+        "#text": "Lingua D'Argento"
       },
-      "name": "Pensieri Del Passato",
-      "url": "https://www.last.fm/music/Stelvio+Cipriani/_/Pensieri+Del+Passato",
+      "name": "Sweet Oasi",
+      "url": "https://www.last.fm/music/Alberto+Baldan+Bembo/_/Sweet+Oasi",
       "date": {
-        "uts": "1794369850",
-        "#text": "11 Nov 2026, 04:04"
+        "uts": "1794377719",
+        "#text": "11 Nov 2026, 06:15"
       }
     },
     {
       "artist": {
-        "mbid": "75bd5186-9d89-4da9-95de-fce055c28895",
-        "#text": "Erroll Garner"
+        "mbid": "dfee80cb-23a0-4ad8-be1c-fb4c9ba20d14",
+        "#text": "Sandro Brugnolini"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/761b0852b251c59fd781e7ef682b411b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7705af126ea790cc2881e83b6e0efb7e.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/761b0852b251c59fd781e7ef682b411b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7705af126ea790cc2881e83b6e0efb7e.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/761b0852b251c59fd781e7ef682b411b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7705af126ea790cc2881e83b6e0efb7e.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/761b0852b251c59fd781e7ef682b411b.jpg"
-        }
-      ],
-      "mbid": "3752812d-5c0a-4246-9ca7-b8a2e4e23f03",
-      "album": {
-        "mbid": "",
-        "#text": "Serenade to \"Laura\""
-      },
-      "name": "Laura",
-      "url": "https://www.last.fm/music/Erroll+Garner/_/Laura",
-      "date": {
-        "uts": "1794369658",
-        "#text": "11 Nov 2026, 04:00"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
-        "#text": "SZA"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b2cfb5bdf137f4d6293565205965750f.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b2cfb5bdf137f4d6293565205965750f.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b2cfb5bdf137f4d6293565205965750f.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7705af126ea790cc2881e83b6e0efb7e.jpg"
         }
       ],
       "mbid": "",
       "album": {
-        "mbid": "b82458a3-7d3a-495f-861f-8698731c4dd0",
-        "#text": "SOS"
+        "mbid": "",
+        "#text": "Dov'è L'australia (Colonna sonora originale della trasmissione televisiva di Alberto Luna, testi di Paolo Cavallina)"
       },
-      "name": "Open Arms (feat. Travis Scott)",
-      "url": "https://www.last.fm/music/SZA/_/Open+Arms+(feat.+Travis+Scott)",
+      "name": "Silvana",
+      "url": "https://www.last.fm/music/Sandro+Brugnolini/_/Silvana",
       "date": {
-        "uts": "1794369346",
-        "#text": "11 Nov 2026, 03:55"
+        "uts": "1794377486",
+        "#text": "11 Nov 2026, 06:11"
       }
     },
     {
       "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
+        "mbid": "",
+        "#text": "Sven Libaek"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e9a037fff162bb04a26b1990ffda0ba4.jpg"
         }
       ],
-      "mbid": "ab2a3787-b407-40d4-af6d-cf59ec59ff07",
+      "mbid": "",
       "album": {
-        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
-        "#text": "Playboi Carti"
+        "mbid": "",
+        "#text": "The Music of Sven Libaek (Themes from 1960's Cinesound Film Soundtracks)"
       },
-      "name": "Other Shit",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Other+Shit",
+      "name": "Concours D'Elegance",
+      "url": "https://www.last.fm/music/Sven+Libaek/_/Concours+D%27Elegance",
       "date": {
-        "uts": "1794369177",
-        "#text": "11 Nov 2026, 03:52"
+        "uts": "1794377283",
+        "#text": "11 Nov 2026, 06:08"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "83c7715b-3cbf-4d6e-9980-a38367cd6889",
+        "#text": "Berto Pisano"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/833c0ca863f82ac44a6dbc7aded43901.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/833c0ca863f82ac44a6dbc7aded43901.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/833c0ca863f82ac44a6dbc7aded43901.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/833c0ca863f82ac44a6dbc7aded43901.jpg"
+        }
+      ],
+      "mbid": "e33a385f-521e-4935-b7d7-6615880484f3",
+      "album": {
+        "mbid": "",
+        "#text": "Interrabang (Original Motion Picture Soundtrack) [Remastered]"
+      },
+      "name": "Sabbia E Mare",
+      "url": "https://www.last.fm/music/Berto+Pisano/_/Sabbia+E+Mare",
+      "date": {
+        "uts": "1794377028",
+        "#text": "11 Nov 2026, 06:03"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Luigi Malatesta"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/25df51448e6672593977ccd022cb6281.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/25df51448e6672593977ccd022cb6281.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/25df51448e6672593977ccd022cb6281.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/25df51448e6672593977ccd022cb6281.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Gungala, la pantera nuda (Original Motion Picture Soundtrack)"
+      },
+      "name": "Gungala nido",
+      "url": "https://www.last.fm/music/Luigi+Malatesta/_/Gungala+nido",
+      "date": {
+        "uts": "1794376873",
+        "#text": "11 Nov 2026, 06:01"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "038595a1-00f7-4a7f-bf7b-de04417a18f2",
+        "#text": "Nora Orlandi"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Il dolce corpo di Deborah (Original Motion Picture Soundtrack)"
+      },
+      "name": "Night Story 1",
+      "url": "https://www.last.fm/music/Nora+Orlandi/_/Night+Story+1",
+      "date": {
+        "uts": "1794376747",
+        "#text": "11 Nov 2026, 05:59"
       }
     }
   ]
