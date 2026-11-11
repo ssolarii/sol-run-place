@@ -1,292 +1,363 @@
 {
-  "updatedAt": "2026-11-10T23:54:24.874Z",
+  "updatedAt": "2026-11-11T04:25:04.151Z",
   "tracks": [
     {
       "artist": {
-        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
-        "#text": "TV Girl"
+        "mbid": "19fc62c0-3241-499d-bc75-739e50cab1c1",
+        "#text": "Alessandro Alessandroni"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7f606674cfa1fdc4603695021d3fbc95.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7f606674cfa1fdc4603695021d3fbc95.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ffe94297e3e7d7a2fb621b731ea339d.jpg"
         }
       ],
-      "mbid": "4087af7e-d53e-4719-b0cd-9ea40a98caca",
+      "mbid": "226eee98-d5b6-4f09-b943-9a9debd5aa5f",
       "album": {
-        "mbid": "6ed25a3d-6d9e-4ff2-b164-180608b8569b",
-        "#text": "Who Really Cares"
+        "mbid": "",
+        "#text": "Panoramic Feelings (Mellow Carefree Lounge Music)"
       },
-      "name": "Cigarettes out the Window",
-      "url": "https://www.last.fm/music/TV+Girl/_/Cigarettes+out+the+Window",
-      "date": {
-        "uts": "1794284197",
-        "#text": "10 Nov 2026, 04:16"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
-        "#text": "TV Girl"
+      "name": "Landscape",
+      "@attr": {
+        "nowplaying": "true"
       },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7f606674cfa1fdc4603695021d3fbc95.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7f606674cfa1fdc4603695021d3fbc95.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7f606674cfa1fdc4603695021d3fbc95.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7f606674cfa1fdc4603695021d3fbc95.jpg"
-        }
-      ],
-      "mbid": "8b70971f-b09b-4f2d-abca-204079c549d8",
-      "album": {
-        "mbid": "6ed25a3d-6d9e-4ff2-b164-180608b8569b",
-        "#text": "Who Really Cares"
-      },
-      "name": "Loving Machine",
-      "url": "https://www.last.fm/music/TV+Girl/_/Loving+Machine",
-      "date": {
-        "uts": "1794283970",
-        "#text": "10 Nov 2026, 04:12"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
-        "#text": "Men I Trust"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
-        "#text": "Oncle Jazz"
-      },
-      "name": "Show Me How (Album V)",
-      "url": "https://www.last.fm/music/Men+I+Trust/_/Show+Me+How+(Album+V)",
-      "date": {
-        "uts": "1794283755",
-        "#text": "10 Nov 2026, 04:09"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "25ab7547-a4d2-480b-b028-c7f3497bc858",
-        "#text": "Men I Trust"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e4c84efa4965da3dc4c1a40c40afe389.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e4c84efa4965da3dc4c1a40c40afe389.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "0633a08c-660e-4992-ba7b-a62bcf82f43b",
-        "#text": "Oncle Jazz"
-      },
-      "name": "Numb (Album V)",
-      "url": "https://www.last.fm/music/Men+I+Trust/_/Numb+(Album+V)",
-      "date": {
-        "uts": "1794283536",
-        "#text": "10 Nov 2026, 04:05"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
-        "#text": "TV Girl"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4f091d5082e04691c6d7f4b2e2efbdc0.jpg"
-        }
-      ],
-      "mbid": "59dd9888-d4b4-4ced-9bb8-98cd0dda0046",
-      "album": {
-        "mbid": "e461c1b4-4eb5-46c2-8eb1-1b29e1befdf4",
-        "#text": "French Exit"
-      },
-      "name": "The Blonde",
-      "url": "https://www.last.fm/music/TV+Girl/_/The+Blonde",
-      "date": {
-        "uts": "1794283292",
-        "#text": "10 Nov 2026, 04:01"
-      }
+      "url": "https://www.last.fm/music/Alessandro+Alessandroni/_/Landscape"
     },
     {
       "artist": {
         "mbid": "",
-        "#text": "Ken Carson"
+        "#text": "Piero Piccioni"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/1064ca8e270b530391afefa720ff76ff.gif"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/1064ca8e270b530391afefa720ff76ff.gif"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/1064ca8e270b530391afefa720ff76ff.gif"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1064ca8e270b530391afefa720ff76ff.gif"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "3b30e058-7183-410a-925f-d0dd6654525c",
-        "#text": "More Chaos"
-      },
-      "name": "Off The Meter (with Playboi Carti & Destroy Lonely)",
-      "url": "https://www.last.fm/music/Ken+Carson/_/Off+The+Meter+(with+Playboi+Carti+&+Destroy+Lonely)",
-      "date": {
-        "uts": "1794275497",
-        "#text": "10 Nov 2026, 01:51"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
-        "#text": "Lil Uzi Vert"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/fb8afb2f8ff43be03e9e39aa431d2517.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/fb8afb2f8ff43be03e9e39aa431d2517.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/fb8afb2f8ff43be03e9e39aa431d2517.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fb8afb2f8ff43be03e9e39aa431d2517.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e9a6d39c4bd46c09ad56290b8aa815e2.jpg"
         }
       ],
       "mbid": "",
       "album": {
         "mbid": "",
-        "#text": "Red & White"
+        "#text": "Gioventu' di notte (Original Motion Picture Soundtrack)"
       },
-      "name": "For Fun",
-      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/For+Fun",
+      "name": "Gioventu' di notte - Seq. 4",
+      "url": "https://www.last.fm/music/Piero+Piccioni/_/Gioventu%27+di+notte+-+Seq.+4",
       "date": {
-        "uts": "1794275309",
-        "#text": "10 Nov 2026, 01:48"
+        "uts": "1794370805",
+        "#text": "11 Nov 2026, 04:20"
       }
     },
     {
       "artist": {
-        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
-        "#text": "OsamaSon"
+        "mbid": "59098a5b-d7ab-4e5e-b12c-932e2934825e",
+        "#text": "Ben Flocks"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/44b51c93954e5d072e3d563efb69e4cb.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/44b51c93954e5d072e3d563efb69e4cb.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/44b51c93954e5d072e3d563efb69e4cb.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/44b51c93954e5d072e3d563efb69e4cb.jpg"
         }
       ],
-      "mbid": "eadf18ca-06a7-48ea-b6ad-2494d3f0db68",
+      "mbid": "",
       "album": {
-        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
-        "#text": "Jump out"
+        "mbid": "",
+        "#text": "Mask of the Muse"
       },
-      "name": "Made Sum Plans",
-      "url": "https://www.last.fm/music/OsamaSon/_/Made+Sum+Plans",
+      "name": "Shangri-La",
+      "url": "https://www.last.fm/music/Ben+Flocks/_/Shangri-La",
       "date": {
-        "uts": "1794275182",
-        "#text": "10 Nov 2026, 01:46"
+        "uts": "1794370576",
+        "#text": "11 Nov 2026, 04:16"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "6d3e8d4d-c0c9-4208-87d8-900ab1134b1b",
+        "#text": "Blossom Dearie"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d49a416467aa442fa0ab7f09ac8f4f0d.jpg"
+        }
+      ],
+      "mbid": "10416061-24f1-469e-ae35-ab10db5cc201",
+      "album": {
+        "mbid": "01dcc411-3d0b-4ccd-85e1-677751dc6e47",
+        "#text": "The Adorable Blossom Dearie"
+      },
+      "name": "Flamingo",
+      "url": "https://www.last.fm/music/Blossom+Dearie/_/Flamingo",
+      "date": {
+        "uts": "1794370390",
+        "#text": "11 Nov 2026, 04:13"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
+        "#text": "Piero Piccioni"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/ebe61a20f5ef3930b10add813b727a03.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/ebe61a20f5ef3930b10add813b727a03.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/ebe61a20f5ef3930b10add813b727a03.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ebe61a20f5ef3930b10add813b727a03.jpg"
+        }
+      ],
+      "mbid": "73dc2ff4-89b2-4058-a478-3da3d2c37176",
+      "album": {
+        "mbid": "",
+        "#text": "Incontri Proibiti (Original Motion Picture Soundtrack)"
+      },
+      "name": "Blue Mood",
+      "url": "https://www.last.fm/music/Piero+Piccioni/_/Blue+Mood",
+      "date": {
+        "uts": "1794370270",
+        "#text": "11 Nov 2026, 04:11"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "e592c35e-86f5-4d90-9a3e-c5261031413d",
+        "#text": "Riz Ortolani"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Malesia Magica (Original Motion Picture Soundtrack)"
+      },
+      "name": "La donna malese",
+      "url": "https://www.last.fm/music/Riz+Ortolani/_/La+donna+malese",
+      "date": {
+        "uts": "1794370092",
+        "#text": "11 Nov 2026, 04:08"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "83e71a21-caf7-4e48-8ff7-6512d51e88a3",
+        "#text": "Henry Mancini"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/57121788a9de3ea8405c8981ad34e2cf.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/57121788a9de3ea8405c8981ad34e2cf.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "The Pink Panther: Music from the Film Score Composed and Conducted by Henry Mancini"
+      },
+      "name": "Piano and Strings - From the Mirisch-G & E Production \"The Pink Panther\"",
+      "url": "https://www.last.fm/music/Henry+Mancini/_/Piano+and+Strings+-+From+the+Mirisch-G+&+E+Production+%22The+Pink+Panther%22",
+      "date": {
+        "uts": "1794369933",
+        "#text": "11 Nov 2026, 04:05"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "18386eff-ea05-4ccb-8d62-ff0c99a54018",
+        "#text": "Stelvio Cipriani"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9cf3ad3c5b94480a1f0fceb14658bf59.jpg"
+        }
+      ],
+      "mbid": "1fe47420-3df8-4b05-95da-b0650c71264d",
+      "album": {
+        "mbid": "",
+        "#text": "Anonimo Veneziano (Original Motion Picture Soundtrack)"
+      },
+      "name": "Pensieri Del Passato",
+      "url": "https://www.last.fm/music/Stelvio+Cipriani/_/Pensieri+Del+Passato",
+      "date": {
+        "uts": "1794369850",
+        "#text": "11 Nov 2026, 04:04"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "75bd5186-9d89-4da9-95de-fce055c28895",
+        "#text": "Erroll Garner"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/761b0852b251c59fd781e7ef682b411b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/761b0852b251c59fd781e7ef682b411b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/761b0852b251c59fd781e7ef682b411b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/761b0852b251c59fd781e7ef682b411b.jpg"
+        }
+      ],
+      "mbid": "3752812d-5c0a-4246-9ca7-b8a2e4e23f03",
+      "album": {
+        "mbid": "",
+        "#text": "Serenade to \"Laura\""
+      },
+      "name": "Laura",
+      "url": "https://www.last.fm/music/Erroll+Garner/_/Laura",
+      "date": {
+        "uts": "1794369658",
+        "#text": "11 Nov 2026, 04:00"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "#text": "SZA"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "b82458a3-7d3a-495f-861f-8698731c4dd0",
+        "#text": "SOS"
+      },
+      "name": "Open Arms (feat. Travis Scott)",
+      "url": "https://www.last.fm/music/SZA/_/Open+Arms+(feat.+Travis+Scott)",
+      "date": {
+        "uts": "1794369346",
+        "#text": "11 Nov 2026, 03:55"
       }
     },
     {
@@ -298,67 +369,31 @@
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
         }
       ],
-      "mbid": "ef577bac-5e90-4769-9d7c-d394565416dd",
+      "mbid": "ab2a3787-b407-40d4-af6d-cf59ec59ff07",
       "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "No Time (feat. Gunna)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/No+Time+(feat.+Gunna)",
-      "date": {
-        "uts": "1794274962",
-        "#text": "10 Nov 2026, 01:42"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
         "#text": "Playboi Carti"
       },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
-        }
-      ],
-      "mbid": "1be446bc-b3b9-49e6-85bb-088d7b89c442",
-      "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "Mileage (feat. Chief Keef)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Mileage+(feat.+Chief+Keef)",
+      "name": "Other Shit",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Other+Shit",
       "date": {
-        "uts": "1794274813",
-        "#text": "10 Nov 2026, 01:40"
+        "uts": "1794369177",
+        "#text": "11 Nov 2026, 03:52"
       }
     }
   ]
