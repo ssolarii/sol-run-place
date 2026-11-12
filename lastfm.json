@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-12T01:38:49.316Z",
+  "updatedAt": "2026-11-12T08:50:40.643Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        }
+      ],
+      "mbid": "944c1f78-1eb8-4462-aa8b-4e0d1a153052",
+      "album": {
+        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
+        "#text": "Playboi Carti"
+      },
+      "name": "Kelly K",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Kelly+K",
+      "date": {
+        "uts": "1794453627",
+        "#text": "12 Nov 2026, 03:20"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
+        }
+      ],
+      "mbid": "1be446bc-b3b9-49e6-85bb-088d7b89c442",
+      "album": {
+        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
+        "#text": "Die Lit"
+      },
+      "name": "Mileage (feat. Chief Keef)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Mileage+(feat.+Chief+Keef)",
+      "date": {
+        "uts": "1794453477",
+        "#text": "12 Nov 2026, 03:17"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
+        "#text": "¥$"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5a73a654cac09bc1188e2b257a1db121.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5a73a654cac09bc1188e2b257a1db121.jpg"
+        }
+      ],
+      "mbid": "cc122de1-fce1-4403-8f96-bc43f123be47",
+      "album": {
+        "mbid": "124a70c0-451e-492a-b388-88206065e7fe",
+        "#text": "VULTURES 1"
+      },
+      "name": "BURN",
+      "url": "https://www.last.fm/music/%C2%A5$/_/BURN",
+      "date": {
+        "uts": "1794453351",
+        "#text": "12 Nov 2026, 03:15"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "25b7b584-d952-4662-a8b9-dd8cdfbfeb64",
+        "#text": "A$AP Rocky"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/64cd270bb5eb963ef4afa51a42b41200.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/64cd270bb5eb963ef4afa51a42b41200.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/64cd270bb5eb963ef4afa51a42b41200.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/64cd270bb5eb963ef4afa51a42b41200.jpg"
+        }
+      ],
+      "mbid": "9c6dacea-2d05-4b83-9b2d-0e70f1c42e77",
+      "album": {
+        "mbid": "4a6d1c23-1be8-4a9b-ad72-a69d938b88e1",
+        "#text": "Highjack"
+      },
+      "name": "Highjack",
+      "url": "https://www.last.fm/music/A$AP+Rocky/_/Highjack",
+      "date": {
+        "uts": "1794453200",
+        "#text": "12 Nov 2026, 03:13"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "b29020d6-5dbf-4c99-b16f-c009f8a712ff",
+        "#text": "Steve Lacy"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/06c9ee82c4cb73aceba1cea79312f4c6.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/06c9ee82c4cb73aceba1cea79312f4c6.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/06c9ee82c4cb73aceba1cea79312f4c6.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/06c9ee82c4cb73aceba1cea79312f4c6.jpg"
+        }
+      ],
+      "mbid": "5082efe8-fb98-4a23-8e47-6770af696480",
+      "album": {
+        "mbid": "c3530a7e-9590-4e26-9a25-255037de4bf3",
+        "#text": "Steve Lacy's Demo"
+      },
+      "name": "Ryd",
+      "url": "https://www.last.fm/music/Steve+Lacy/_/Ryd",
+      "date": {
+        "uts": "1794443216",
+        "#text": "12 Nov 2026, 00:26"
+      }
+    },
     {
       "artist": {
         "mbid": "dfee80cb-23a0-4ad8-be1c-fb4c9ba20d14",
@@ -179,186 +359,6 @@
       "date": {
         "uts": "1794377862",
         "#text": "11 Nov 2026, 06:17"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "540722f1-35b5-4a8c-82e9-5c80ff4c1be5",
-        "#text": "Alberto Baldan Bembo"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/acbb548976bd48afc844c904df03d467.jpg"
-        }
-      ],
-      "mbid": "48920ff0-2d83-4ec6-b8a3-e2e5ff838182",
-      "album": {
-        "mbid": "6cbf58aa-8b70-44cd-8221-7b3431ba20c9",
-        "#text": "Lingua D'Argento"
-      },
-      "name": "Sweet Oasi",
-      "url": "https://www.last.fm/music/Alberto+Baldan+Bembo/_/Sweet+Oasi",
-      "date": {
-        "uts": "1794377719",
-        "#text": "11 Nov 2026, 06:15"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "dfee80cb-23a0-4ad8-be1c-fb4c9ba20d14",
-        "#text": "Sandro Brugnolini"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/7705af126ea790cc2881e83b6e0efb7e.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/7705af126ea790cc2881e83b6e0efb7e.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/7705af126ea790cc2881e83b6e0efb7e.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7705af126ea790cc2881e83b6e0efb7e.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Dov'è L'australia (Colonna sonora originale della trasmissione televisiva di Alberto Luna, testi di Paolo Cavallina)"
-      },
-      "name": "Silvana",
-      "url": "https://www.last.fm/music/Sandro+Brugnolini/_/Silvana",
-      "date": {
-        "uts": "1794377486",
-        "#text": "11 Nov 2026, 06:11"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Sven Libaek"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e9a037fff162bb04a26b1990ffda0ba4.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e9a037fff162bb04a26b1990ffda0ba4.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "The Music of Sven Libaek (Themes from 1960's Cinesound Film Soundtracks)"
-      },
-      "name": "Concours D'Elegance",
-      "url": "https://www.last.fm/music/Sven+Libaek/_/Concours+D%27Elegance",
-      "date": {
-        "uts": "1794377283",
-        "#text": "11 Nov 2026, 06:08"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "83c7715b-3cbf-4d6e-9980-a38367cd6889",
-        "#text": "Berto Pisano"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/833c0ca863f82ac44a6dbc7aded43901.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/833c0ca863f82ac44a6dbc7aded43901.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/833c0ca863f82ac44a6dbc7aded43901.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/833c0ca863f82ac44a6dbc7aded43901.jpg"
-        }
-      ],
-      "mbid": "e33a385f-521e-4935-b7d7-6615880484f3",
-      "album": {
-        "mbid": "",
-        "#text": "Interrabang (Original Motion Picture Soundtrack) [Remastered]"
-      },
-      "name": "Sabbia E Mare",
-      "url": "https://www.last.fm/music/Berto+Pisano/_/Sabbia+E+Mare",
-      "date": {
-        "uts": "1794377028",
-        "#text": "11 Nov 2026, 06:03"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Luigi Malatesta"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/25df51448e6672593977ccd022cb6281.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/25df51448e6672593977ccd022cb6281.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/25df51448e6672593977ccd022cb6281.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/25df51448e6672593977ccd022cb6281.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Gungala, la pantera nuda (Original Motion Picture Soundtrack)"
-      },
-      "name": "Gungala nido",
-      "url": "https://www.last.fm/music/Luigi+Malatesta/_/Gungala+nido",
-      "date": {
-        "uts": "1794376873",
-        "#text": "11 Nov 2026, 06:01"
       }
     }
   ]
