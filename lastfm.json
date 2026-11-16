@@ -1,6 +1,114 @@
 {
-  "updatedAt": "2026-11-15T23:58:34.534Z",
+  "updatedAt": "2026-11-16T05:58:10.725Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "#text": "SZA"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b2cfb5bdf137f4d6293565205965750f.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "b82458a3-7d3a-495f-861f-8698731c4dd0",
+        "#text": "SOS"
+      },
+      "name": "Open Arms (feat. Travis Scott)",
+      "url": "https://www.last.fm/music/SZA/_/Open+Arms+(feat.+Travis+Scott)",
+      "date": {
+        "uts": "1794805756",
+        "#text": "16 Nov 2026, 05:09"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
+        "#text": "Dean Blunt"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3a88c4198878470399b810ab96a09614.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3a88c4198878470399b810ab96a09614.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3a88c4198878470399b810ab96a09614.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3a88c4198878470399b810ab96a09614.jpg"
+        }
+      ],
+      "mbid": "bf045c2c-2c7e-36af-a2d0-0e37d703c042",
+      "album": {
+        "mbid": "7fccc371-d94a-4056-8ed1-2a9f4cc0b447",
+        "#text": "The Narcissist II"
+      },
+      "name": "Galice",
+      "url": "https://www.last.fm/music/Dean+Blunt/_/Galice",
+      "date": {
+        "uts": "1794804605",
+        "#text": "16 Nov 2026, 04:50"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
+        "#text": "Dean Blunt"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/01d661dcae688e740527b0fbd9c021da.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/01d661dcae688e740527b0fbd9c021da.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/01d661dcae688e740527b0fbd9c021da.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/01d661dcae688e740527b0fbd9c021da.jpg"
+        }
+      ],
+      "mbid": "35549e3f-bf88-4253-b705-a9d583014206",
+      "album": {
+        "mbid": "5f8ab235-4dfd-41b3-8323-723d3a9939e4",
+        "#text": "Black Metal"
+      },
+      "name": "100",
+      "url": "https://www.last.fm/music/Dean+Blunt/_/100",
+      "date": {
+        "uts": "1794783431",
+        "#text": "15 Nov 2026, 22:57"
+      }
+    },
     {
       "artist": {
         "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
@@ -251,114 +359,6 @@
       "date": {
         "uts": "1794551948",
         "#text": "13 Nov 2026, 06:39"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "18386eff-ea05-4ccb-8d62-ff0c99a54018",
-        "#text": "Stelvio Cipriani"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/990062de0c184dbcba251111ac056ff8.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/990062de0c184dbcba251111ac056ff8.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/990062de0c184dbcba251111ac056ff8.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/990062de0c184dbcba251111ac056ff8.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "6781a404-2f4f-4e2b-acd0-3810ada70471",
-        "#text": "Uccidere in silenzio"
-      },
-      "name": "Uccidere in silenzio 3",
-      "url": "https://www.last.fm/music/Stelvio+Cipriani/_/Uccidere+in+silenzio+3",
-      "date": {
-        "uts": "1794551856",
-        "#text": "13 Nov 2026, 06:37"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "18386eff-ea05-4ccb-8d62-ff0c99a54018",
-        "#text": "Stelvio Cipriani"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/159afa73f3d2e0723fc2a0d92b82036b.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/159afa73f3d2e0723fc2a0d92b82036b.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/159afa73f3d2e0723fc2a0d92b82036b.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/159afa73f3d2e0723fc2a0d92b82036b.jpg"
-        }
-      ],
-      "mbid": "928f7f01-f0cf-4af8-ad63-e30e31ce45de",
-      "album": {
-        "mbid": "",
-        "#text": "Femina ridens (Original Motion Picture Soundtrack)"
-      },
-      "name": "Mary's theme",
-      "url": "https://www.last.fm/music/Stelvio+Cipriani/_/Mary%27s+theme",
-      "date": {
-        "uts": "1794551726",
-        "#text": "13 Nov 2026, 06:35"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Armando Trovajoli"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "La Matriarca - The Libertine (Original Motion Picture Soundtrack)"
-      },
-      "name": "L'amore dice Ciao (Slow Take) - Remastered",
-      "url": "https://www.last.fm/music/Armando+Trovajoli/_/L%27amore+dice+Ciao+(Slow+Take)+-+Remastered",
-      "date": {
-        "uts": "1794551468",
-        "#text": "13 Nov 2026, 06:31"
       }
     }
   ]
