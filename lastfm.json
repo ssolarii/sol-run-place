@@ -1,148 +1,255 @@
 {
-  "updatedAt": "2026-11-16T15:23:11.578Z",
+  "updatedAt": "2026-11-16T23:47:07.147Z",
   "tracks": [
     {
       "artist": {
-        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
-        "#text": "SZA"
+        "mbid": "",
+        "#text": "Ken Carson"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b2cfb5bdf137f4d6293565205965750f.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5981389b2611507fc3c9bf93a7e12aaf.gif"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b2cfb5bdf137f4d6293565205965750f.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5981389b2611507fc3c9bf93a7e12aaf.gif"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b2cfb5bdf137f4d6293565205965750f.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5981389b2611507fc3c9bf93a7e12aaf.gif"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5981389b2611507fc3c9bf93a7e12aaf.gif"
+        }
+      ],
+      "mbid": "2b259525-7169-4080-b628-d21cd3c6e30e",
+      "album": {
+        "mbid": "533c8e9e-dabe-450b-b801-433bb393cef1",
+        "#text": "A Great Chaos"
+      },
+      "name": "Like This (feat. Lil Uzi Vert, Destroy Lonely)",
+      "@attr": {
+        "nowplaying": "true"
+      },
+      "url": "https://www.last.fm/music/Ken+Carson/_/Like+This+(feat.+Lil+Uzi+Vert,+Destroy+Lonely)"
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Quality Control"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/f4999d84fbdea4be7b5a084d06082811.gif"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/f4999d84fbdea4be7b5a084d06082811.gif"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/f4999d84fbdea4be7b5a084d06082811.gif"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f4999d84fbdea4be7b5a084d06082811.gif"
         }
       ],
       "mbid": "",
       "album": {
-        "mbid": "b82458a3-7d3a-495f-861f-8698731c4dd0",
-        "#text": "SOS"
+        "mbid": "",
+        "#text": "Quality Control: Control the Streets Volume 2"
       },
-      "name": "Open Arms (feat. Travis Scott)",
-      "url": "https://www.last.fm/music/SZA/_/Open+Arms+(feat.+Travis+Scott)",
+      "name": "100 Racks (Offset feat. Playboi Carti)",
+      "url": "https://www.last.fm/music/Quality+Control/_/100+Racks+(Offset+feat.+Playboi+Carti)",
       "date": {
-        "uts": "1794805756",
-        "#text": "16 Nov 2026, 05:09"
+        "uts": "1794872524",
+        "#text": "16 Nov 2026, 23:42"
       }
     },
     {
       "artist": {
-        "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
-        "#text": "Dean Blunt"
+        "mbid": "8032cf05-d916-4b2a-9c53-6e75d4a24bd8",
+        "#text": "Trippie Redd"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2b6667f68df8bec11db3119ae815bd84.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2b6667f68df8bec11db3119ae815bd84.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2b6667f68df8bec11db3119ae815bd84.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b6667f68df8bec11db3119ae815bd84.jpg"
         }
       ],
-      "mbid": "bf045c2c-2c7e-36af-a2d0-0e37d703c042",
+      "mbid": "",
       "album": {
-        "mbid": "7fccc371-d94a-4056-8ed1-2a9f4cc0b447",
-        "#text": "The Narcissist II"
+        "mbid": "528327af-ad6d-40e6-ac2b-5b2607bb36f3",
+        "#text": "Trip at Knight"
       },
-      "name": "Galice",
-      "url": "https://www.last.fm/music/Dean+Blunt/_/Galice",
+      "name": "Matt Hardy 999",
+      "url": "https://www.last.fm/music/Trippie+Redd/_/Matt+Hardy+999",
       "date": {
-        "uts": "1794804605",
-        "#text": "16 Nov 2026, 04:50"
+        "uts": "1794872286",
+        "#text": "16 Nov 2026, 23:38"
       }
     },
     {
       "artist": {
-        "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
-        "#text": "Dean Blunt"
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/01d661dcae688e740527b0fbd9c021da.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/01d661dcae688e740527b0fbd9c021da.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/01d661dcae688e740527b0fbd9c021da.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/10cf93995de9215931f95e1a2f34c37c.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/01d661dcae688e740527b0fbd9c021da.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/10cf93995de9215931f95e1a2f34c37c.jpg"
         }
       ],
-      "mbid": "35549e3f-bf88-4253-b705-a9d583014206",
+      "mbid": "6358319b-7e3b-4f0c-becd-54bbf57c2534",
       "album": {
-        "mbid": "5f8ab235-4dfd-41b3-8323-723d3a9939e4",
-        "#text": "Black Metal"
+        "mbid": "e8308f36-b5c9-4e42-b110-fc70f609dae5",
+        "#text": "Music"
       },
-      "name": "100",
-      "url": "https://www.last.fm/music/Dean+Blunt/_/100",
+      "name": "TWIN TRIM (with Lil Uzi Vert)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/TWIN+TRIM+(with+Lil+Uzi+Vert)",
       "date": {
-        "uts": "1794783431",
-        "#text": "15 Nov 2026, 22:57"
+        "uts": "1794872191",
+        "#text": "16 Nov 2026, 23:36"
       }
     },
     {
       "artist": {
-        "mbid": "e8bd5b47-e8b4-4671-a9f6-590a92e88898",
-        "#text": "Dean Blunt"
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/544aa5fe7908d216e17bf614c7e1ab27.gif"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3a88c4198878470399b810ab96a09614.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/544aa5fe7908d216e17bf614c7e1ab27.gif"
         }
       ],
-      "mbid": "bf045c2c-2c7e-36af-a2d0-0e37d703c042",
+      "mbid": "225b59be-6174-4eb9-84f0-339593ce1223",
       "album": {
-        "mbid": "7fccc371-d94a-4056-8ed1-2a9f4cc0b447",
-        "#text": "The Narcissist II"
+        "mbid": "77c11f45-c808-4487-af46-39a26891403d",
+        "#text": "Eternal Atake"
       },
-      "name": "Galice",
-      "url": "https://www.last.fm/music/Dean+Blunt/_/Galice",
+      "name": "Chrome Heart Tags",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/Chrome+Heart+Tags",
       "date": {
-        "uts": "1794781577",
-        "#text": "15 Nov 2026, 22:26"
+        "uts": "1794871978",
+        "#text": "16 Nov 2026, 23:32"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        }
+      ],
+      "mbid": "80886e2e-3741-4ebb-96e7-82541c2811ea",
+      "album": {
+        "mbid": "",
+        "#text": "New Patek"
+      },
+      "name": "New Patek",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/New+Patek",
+      "date": {
+        "uts": "1794871580",
+        "#text": "16 Nov 2026, 23:26"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        }
+      ],
+      "mbid": "38cab557-77a8-4bb8-8728-8003c8765bab",
+      "album": {
+        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
+        "#text": "Playboi Carti"
+      },
+      "name": "Yah Mean",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Yah+Mean",
+      "date": {
+        "uts": "1794871278",
+        "#text": "16 Nov 2026, 23:21"
       }
     },
     {
@@ -169,16 +276,16 @@
           "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
         }
       ],
-      "mbid": "ef577bac-5e90-4769-9d7c-d394565416dd",
+      "mbid": "20f172c8-ff9e-4a63-9112-9441d4a96721",
       "album": {
         "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
         "#text": "Die Lit"
       },
-      "name": "No Time (feat. Gunna)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/No+Time+(feat.+Gunna)",
+      "name": "Right Now (feat. Pi'erre Bourne)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Right+Now+(feat.+Pi%27erre+Bourne)",
       "date": {
-        "uts": "1794695780",
-        "#text": "14 Nov 2026, 22:36"
+        "uts": "1794871071",
+        "#text": "16 Nov 2026, 23:17"
       }
     },
     {
@@ -213,152 +320,80 @@
       "name": "Come Here!",
       "url": "https://www.last.fm/music/Ethereal/_/Come+Here!",
       "date": {
-        "uts": "1794679883",
-        "#text": "14 Nov 2026, 18:11"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
-        }
-      ],
-      "mbid": "20f172c8-ff9e-4a63-9112-9441d4a96721",
-      "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "Right Now (feat. Pi'erre Bourne)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Right+Now+(feat.+Pi%27erre+Bourne)",
-      "date": {
-        "uts": "1794679644",
-        "#text": "14 Nov 2026, 18:07"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
-        }
-      ],
-      "mbid": "20f172c8-ff9e-4a63-9112-9441d4a96721",
-      "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "Right Now (feat. Pi'erre Bourne)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Right+Now+(feat.+Pi%27erre+Bourne)",
-      "date": {
-        "uts": "1794676778",
-        "#text": "14 Nov 2026, 17:19"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
-        "#text": "Lil Uzi Vert"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/babf1bfacacf3f00b73adc9ed4fa6bf8.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/babf1bfacacf3f00b73adc9ed4fa6bf8.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/babf1bfacacf3f00b73adc9ed4fa6bf8.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/babf1bfacacf3f00b73adc9ed4fa6bf8.jpg"
-        }
-      ],
-      "mbid": "ec0a778c-979a-453b-ad2c-87169f497dca",
-      "album": {
-        "mbid": "2633b083-49de-47f0-bf75-11279ee3cad7",
-        "#text": "What You Saying"
-      },
-      "name": "What You Saying",
-      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/What+You+Saying",
-      "date": {
-        "uts": "1794626714",
-        "#text": "14 Nov 2026, 03:25"
+        "uts": "1794863968",
+        "#text": "16 Nov 2026, 21:19"
       }
     },
     {
       "artist": {
         "mbid": "",
-        "#text": "Martial Solal"
+        "#text": "Ethereal"
       },
       "streamable": "0",
       "image": [
         {
           "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/232df5bd8fe23c10944bb088695044e9.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/55f24ceffaf06f56b1142a9f5e211760.jpg"
         },
         {
           "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/232df5bd8fe23c10944bb088695044e9.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/55f24ceffaf06f56b1142a9f5e211760.jpg"
         },
         {
           "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/232df5bd8fe23c10944bb088695044e9.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/55f24ceffaf06f56b1142a9f5e211760.jpg"
         },
         {
           "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/232df5bd8fe23c10944bb088695044e9.jpg"
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/55f24ceffaf06f56b1142a9f5e211760.jpg"
         }
       ],
       "mbid": "",
       "album": {
-        "mbid": "",
-        "#text": "À Bout de Souffle (Breathless)"
+        "mbid": "374227d2-d5cc-491d-94c8-58a9e79fe821",
+        "#text": "Cactus Jack"
       },
-      "name": "New York Herald Tribune - Bande originale du film \"À bout de souffle\"",
-      "url": "https://www.last.fm/music/Martial+Solal/_/New+York+Herald+Tribune+-+Bande+originale+du+film+%22%C3%80+bout+de+souffle%22",
+      "name": "iknowuknow",
+      "url": "https://www.last.fm/music/Ethereal/_/iknowuknow",
       "date": {
-        "uts": "1794551948",
-        "#text": "13 Nov 2026, 06:39"
+        "uts": "1794861278",
+        "#text": "16 Nov 2026, 20:34"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9115b9fbc7cf8db99d504319cdf6bd90.png"
+        }
+      ],
+      "mbid": "3a82ad2a-ad96-4aac-9e6f-7d8e33269b6f",
+      "album": {
+        "mbid": "0d70a1d7-5465-4fa6-8520-9891527fbe6e",
+        "#text": "Playboi Carti"
+      },
+      "name": "Location",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Location",
+      "date": {
+        "uts": "1794861109",
+        "#text": "16 Nov 2026, 20:31"
       }
     }
   ]
