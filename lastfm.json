@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-18T03:51:55.805Z",
+  "updatedAt": "2026-11-18T12:24:58.174Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "88d17133-abbc-42db-9526-4e2c1db60336",
+        "#text": "beabadoobee"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b7bf7eb6977b293768e4d7e7af0ac45b.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b7bf7eb6977b293768e4d7e7af0ac45b.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b7bf7eb6977b293768e4d7e7af0ac45b.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b7bf7eb6977b293768e4d7e7af0ac45b.png"
+        }
+      ],
+      "mbid": "0b00cf4a-e324-436b-8ca2-9f5ce5b870a6",
+      "album": {
+        "mbid": "7c678e31-8af0-46e9-9c02-5fe2ad48cb51",
+        "#text": "Loveworm"
+      },
+      "name": "Apple Cider",
+      "url": "https://www.last.fm/music/beabadoobee/_/Apple+Cider",
+      "date": {
+        "uts": "1794974751",
+        "#text": "18 Nov 2026, 04:05"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "5ec1ecc6-4535-4911-a27a-e26343f4a189",
+        "#text": "Kodak Black"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b75bd641847629a861d75c74ad4b48c3.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b75bd641847629a861d75c74ad4b48c3.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b75bd641847629a861d75c74ad4b48c3.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b75bd641847629a861d75c74ad4b48c3.jpg"
+        }
+      ],
+      "mbid": "bef79819-881d-451e-b389-6c2dd3ff35fb",
+      "album": {
+        "mbid": "7124b4a7-66d8-422b-9c88-6c7967d190cf",
+        "#text": "Institution"
+      },
+      "name": "Shake Back",
+      "url": "https://www.last.fm/music/Kodak+Black/_/Shake+Back",
+      "date": {
+        "uts": "1794974567",
+        "#text": "18 Nov 2026, 04:02"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "PinkPantheress"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b61a72706919e942872cbdf59b604275.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b61a72706919e942872cbdf59b604275.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b61a72706919e942872cbdf59b604275.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b61a72706919e942872cbdf59b604275.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "2ec40945-e292-48bf-a665-6a3ef5cc8f5f",
+        "#text": "to hell with it"
+      },
+      "name": "Break It Off - Bonus",
+      "url": "https://www.last.fm/music/PinkPantheress/_/Break+It+Off+-+Bonus",
+      "date": {
+        "uts": "1794974471",
+        "#text": "18 Nov 2026, 04:01"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "b46e298d-d3a5-4695-a03e-63e8c523b23e",
+        "#text": "Daniel Caesar"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/fcc1f99ede88299b3674522c6b2923eb.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/fcc1f99ede88299b3674522c6b2923eb.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/fcc1f99ede88299b3674522c6b2923eb.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fcc1f99ede88299b3674522c6b2923eb.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "209ad4ec-df53-4667-b45f-38413802b94b",
+        "#text": "Freudian"
+      },
+      "name": "Best Part (feat. H.E.R.)",
+      "url": "https://www.last.fm/music/Daniel+Caesar/_/Best+Part+(feat.+H.E.R.)",
+      "date": {
+        "uts": "1794974261",
+        "#text": "18 Nov 2026, 03:57"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "#text": "SZA"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9dcae165f522e0d818f7e75a3b5b6e16.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9dcae165f522e0d818f7e75a3b5b6e16.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9dcae165f522e0d818f7e75a3b5b6e16.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9dcae165f522e0d818f7e75a3b5b6e16.jpg"
+        }
+      ],
+      "mbid": "4c34b5e9-7a0f-4081-aed0-0350bca19d9f",
+      "album": {
+        "mbid": "20bfc869-e36d-481f-ac9b-37f586001b9d",
+        "#text": "Ctrl"
+      },
+      "name": "Normal Girl",
+      "url": "https://www.last.fm/music/SZA/_/Normal+Girl",
+      "date": {
+        "uts": "1794974008",
+        "#text": "18 Nov 2026, 03:53"
+      }
+    },
     {
       "artist": {
         "mbid": "",
@@ -31,10 +211,11 @@
         "#text": "My Beautiful Dark Twisted Fantasy"
       },
       "name": "Devil in a New Dress",
-      "@attr": {
-        "nowplaying": "true"
-      },
-      "url": "https://www.last.fm/music/Kanye+West/_/Devil+in+a+New+Dress"
+      "url": "https://www.last.fm/music/Kanye+West/_/Devil+in+a+New+Dress",
+      "date": {
+        "uts": "1794973656",
+        "#text": "18 Nov 2026, 03:47"
+      }
     },
     {
       "artist": {
@@ -178,222 +359,6 @@
       "date": {
         "uts": "1794972971",
         "#text": "18 Nov 2026, 03:36"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "f89aa182-ceec-4ef7-a96d-eb47a9fe6b15",
-        "#text": "A$AP ANT"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/27c5130c4c43005277740761b3c02197.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/27c5130c4c43005277740761b3c02197.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/27c5130c4c43005277740761b3c02197.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/27c5130c4c43005277740761b3c02197.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Shanghai"
-      },
-      "name": "Shanghai",
-      "url": "https://www.last.fm/music/A$AP+ANT/_/Shanghai",
-      "date": {
-        "uts": "1794972749",
-        "#text": "18 Nov 2026, 03:32"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "9ccaca30-60aa-4890-ae6c-ab55225ee274",
-        "#text": "Lucki"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Leave Her"
-      },
-      "name": "Leave Her",
-      "url": "https://www.last.fm/music/Lucki/_/Leave+Her",
-      "date": {
-        "uts": "1794972612",
-        "#text": "18 Nov 2026, 03:30"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
-        }
-      ],
-      "mbid": "20f172c8-ff9e-4a63-9112-9441d4a96721",
-      "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "Right Now (feat. Pi'erre Bourne)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Right+Now+(feat.+Pi%27erre+Bourne)",
-      "date": {
-        "uts": "1794972405",
-        "#text": "18 Nov 2026, 03:26"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
-        "#text": "TV Girl"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/03b7f27f311665fe3f8952a902683499.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/03b7f27f311665fe3f8952a902683499.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/03b7f27f311665fe3f8952a902683499.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/03b7f27f311665fe3f8952a902683499.jpg"
-        }
-      ],
-      "mbid": "a67476bd-d8b1-43af-8185-d0467d42e3cf",
-      "album": {
-        "mbid": "f5b80ccd-4e84-4879-876b-c5c04a97f720",
-        "#text": "The Night in Question: French Exit Outtakes"
-      },
-      "name": "It Almost Worked",
-      "url": "https://www.last.fm/music/TV+Girl/_/It+Almost+Worked",
-      "date": {
-        "uts": "1794883882",
-        "#text": "17 Nov 2026, 02:51"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "7441014f-f8f5-494f-81db-ff166fbc078d",
-        "#text": "PinkPantheress"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/dc6bd19fc359b601a3c25b0df549ccf4.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/dc6bd19fc359b601a3c25b0df549ccf4.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/dc6bd19fc359b601a3c25b0df549ccf4.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dc6bd19fc359b601a3c25b0df549ccf4.jpg"
-        }
-      ],
-      "mbid": "f023b965-beb9-44d9-95e6-71cf95d848ac",
-      "album": {
-        "mbid": "50604d07-3c31-4fde-a563-533509200bfd",
-        "#text": "Boy's a Liar"
-      },
-      "name": "Boy's a liar",
-      "url": "https://www.last.fm/music/PinkPantheress/_/Boy%27s+a+liar",
-      "date": {
-        "uts": "1794883751",
-        "#text": "17 Nov 2026, 02:49"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "149f91ef-1287-46da-9a8e-87fee02f1471",
-        "#text": "Pharrell Williams"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Despicable Me 3 (Original Motion Picture Soundtrack)"
-      },
-      "name": "Hug Me",
-      "url": "https://www.last.fm/music/Pharrell+Williams/_/Hug+Me",
-      "date": {
-        "uts": "1794883610",
-        "#text": "17 Nov 2026, 02:46"
       }
     }
   ]
