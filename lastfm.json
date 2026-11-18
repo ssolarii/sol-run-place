@@ -1,6 +1,293 @@
 {
-  "updatedAt": "2026-11-17T22:39:15.291Z",
+  "updatedAt": "2026-11-18T03:51:55.805Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Kanye West"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8a071c4b073625018de5f0ac58727511.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8a071c4b073625018de5f0ac58727511.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8a071c4b073625018de5f0ac58727511.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8a071c4b073625018de5f0ac58727511.png"
+        }
+      ],
+      "mbid": "3569411e-6393-4474-8ed7-c7f08dfec8a8",
+      "album": {
+        "mbid": "0fb96892-3890-40d8-b374-43b7e5c67d27",
+        "#text": "My Beautiful Dark Twisted Fantasy"
+      },
+      "name": "Devil in a New Dress",
+      "@attr": {
+        "nowplaying": "true"
+      },
+      "url": "https://www.last.fm/music/Kanye+West/_/Devil+in+a+New+Dress"
+    },
+    {
+      "artist": {
+        "mbid": "8032cf05-d916-4b2a-9c53-6e75d4a24bd8",
+        "#text": "Trippie Redd"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2b6667f68df8bec11db3119ae815bd84.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2b6667f68df8bec11db3119ae815bd84.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2b6667f68df8bec11db3119ae815bd84.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2b6667f68df8bec11db3119ae815bd84.jpg"
+        }
+      ],
+      "mbid": "2b4444c6-fb87-4b46-a25e-608a5467d828",
+      "album": {
+        "mbid": "528327af-ad6d-40e6-ac2b-5b2607bb36f3",
+        "#text": "Trip at Knight"
+      },
+      "name": "Miss The Rage",
+      "url": "https://www.last.fm/music/Trippie+Redd/_/Miss+The+Rage",
+      "date": {
+        "uts": "1794973419",
+        "#text": "18 Nov 2026, 03:43"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "9e6a6a2f-f696-4cc0-87f1-e4f712e46802",
+        "#text": "Yeat"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/6ef8e656f875b90b911f4f4f725c43d3.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/6ef8e656f875b90b911f4f4f725c43d3.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/6ef8e656f875b90b911f4f4f725c43d3.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6ef8e656f875b90b911f4f4f725c43d3.jpg"
+        }
+      ],
+      "mbid": "05ea8b4f-05df-4452-9c2d-8c304b30408c",
+      "album": {
+        "mbid": "b5aeb292-ea5c-46a1-be10-e4bbd18a4e4a",
+        "#text": "4L"
+      },
+      "name": "Sorry Bout That",
+      "url": "https://www.last.fm/music/Yeat/_/Sorry+Bout+That",
+      "date": {
+        "uts": "1794973213",
+        "#text": "18 Nov 2026, 03:40"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "nicopatty"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/69023b79b62240149db3f5804985c158.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/69023b79b62240149db3f5804985c158.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/69023b79b62240149db3f5804985c158.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/69023b79b62240149db3f5804985c158.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "b4e31abf-89b1-4a37-a4ba-e60143a0592c",
+        "#text": "awake"
+      },
+      "name": "awake",
+      "url": "https://www.last.fm/music/nicopatty/_/awake",
+      "date": {
+        "uts": "1794973073",
+        "#text": "18 Nov 2026, 03:37"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "nicopatty"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/1e85537f7d7a431f48022eafe556b729.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/1e85537f7d7a431f48022eafe556b729.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/1e85537f7d7a431f48022eafe556b729.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1e85537f7d7a431f48022eafe556b729.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "outta luck"
+      },
+      "name": "outta luck",
+      "url": "https://www.last.fm/music/nicopatty/_/outta+luck",
+      "date": {
+        "uts": "1794972971",
+        "#text": "18 Nov 2026, 03:36"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "f89aa182-ceec-4ef7-a96d-eb47a9fe6b15",
+        "#text": "A$AP ANT"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/27c5130c4c43005277740761b3c02197.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/27c5130c4c43005277740761b3c02197.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/27c5130c4c43005277740761b3c02197.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/27c5130c4c43005277740761b3c02197.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Shanghai"
+      },
+      "name": "Shanghai",
+      "url": "https://www.last.fm/music/A$AP+ANT/_/Shanghai",
+      "date": {
+        "uts": "1794972749",
+        "#text": "18 Nov 2026, 03:32"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "9ccaca30-60aa-4890-ae6c-ab55225ee274",
+        "#text": "Lucki"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8b61cecf3a9155156b6c61ac7918a3d7.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "Leave Her"
+      },
+      "name": "Leave Her",
+      "url": "https://www.last.fm/music/Lucki/_/Leave+Her",
+      "date": {
+        "uts": "1794972612",
+        "#text": "18 Nov 2026, 03:30"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
+        }
+      ],
+      "mbid": "20f172c8-ff9e-4a63-9112-9441d4a96721",
+      "album": {
+        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
+        "#text": "Die Lit"
+      },
+      "name": "Right Now (feat. Pi'erre Bourne)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Right+Now+(feat.+Pi%27erre+Bourne)",
+      "date": {
+        "uts": "1794972405",
+        "#text": "18 Nov 2026, 03:26"
+      }
+    },
     {
       "artist": {
         "mbid": "38f0c7ac-46eb-49ca-b3ab-c785ccd05a60",
@@ -107,258 +394,6 @@
       "date": {
         "uts": "1794883610",
         "#text": "17 Nov 2026, 02:46"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "149f91ef-1287-46da-9a8e-87fee02f1471",
-        "#text": "Pharrell Williams"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3f4b6aa90e0d8ffa4a1074a1a75ecdab.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "Despicable Me 3 (Original Motion Picture Soundtrack)"
-      },
-      "name": "Hug Me",
-      "url": "https://www.last.fm/music/Pharrell+Williams/_/Hug+Me",
-      "date": {
-        "uts": "1794883470",
-        "#text": "17 Nov 2026, 02:44"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
-        "#text": "Lil Uzi Vert"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d97f81b9502a57fb352fb6fb2b9c9dc1.gif"
-        }
-      ],
-      "mbid": "8a0ea233-7fad-44e9-8fc8-06fc767f9911",
-      "album": {
-        "mbid": "",
-        "#text": "Eternal Atake (Deluxe) - LUV vs. The World 2"
-      },
-      "name": "Lotus",
-      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/Lotus",
-      "date": {
-        "uts": "1794880407",
-        "#text": "17 Nov 2026, 01:53"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "8032cf05-d916-4b2a-9c53-6e75d4a24bd8",
-        "#text": "Trippie Redd"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/47c9da010417f0d9504af918964f2add.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/47c9da010417f0d9504af918964f2add.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/47c9da010417f0d9504af918964f2add.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/47c9da010417f0d9504af918964f2add.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "96364004-da75-4bfd-a104-7c51e292486b",
-        "#text": "A Love Letter to You"
-      },
-      "name": "Poles 1469",
-      "url": "https://www.last.fm/music/Trippie+Redd/_/Poles+1469",
-      "date": {
-        "uts": "1794880257",
-        "#text": "17 Nov 2026, 01:50"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
-        "#text": "Playboi Carti"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
-        }
-      ],
-      "mbid": "f55b3a5f-719b-4ce7-ad69-51cdbc6e0e63",
-      "album": {
-        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
-        "#text": "Die Lit"
-      },
-      "name": "Shoota (feat. Lil Uzi Vert)",
-      "url": "https://www.last.fm/music/Playboi+Carti/_/Shoota+(feat.+Lil+Uzi+Vert)",
-      "date": {
-        "uts": "1794880104",
-        "#text": "17 Nov 2026, 01:48"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "987d3d86-0d7a-4292-ae96-a8d59e456436",
-        "#text": "Destroy Lonely"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b78805e337c92deae281bf3196fc73b7.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b78805e337c92deae281bf3196fc73b7.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b78805e337c92deae281bf3196fc73b7.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b78805e337c92deae281bf3196fc73b7.jpg"
-        }
-      ],
-      "mbid": "9e3e78d8-893e-41ba-bac5-981550a64525",
-      "album": {
-        "mbid": "",
-        "#text": "No Stylist"
-      },
-      "name": "NOSTYLIST",
-      "url": "https://www.last.fm/music/Destroy+Lonely/_/NOSTYLIST",
-      "date": {
-        "uts": "1794879871",
-        "#text": "17 Nov 2026, 01:44"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "a0723a3c-4135-438e-85c5-012712144ede",
-        "#text": "Don Toliver"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/778e527ba305e1d65d002df7ac9b7fa5.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/778e527ba305e1d65d002df7ac9b7fa5.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/778e527ba305e1d65d002df7ac9b7fa5.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/778e527ba305e1d65d002df7ac9b7fa5.jpg"
-        }
-      ],
-      "mbid": "f06d56b8-c680-445c-82c8-b76fcc28ae80",
-      "album": {
-        "mbid": "00a2aacb-0110-4723-a019-96ccbb7341b8",
-        "#text": "Heaven or Hell"
-      },
-      "name": "After Party",
-      "url": "https://www.last.fm/music/Don+Toliver/_/After+Party",
-      "date": {
-        "uts": "1794873317",
-        "#text": "16 Nov 2026, 23:55"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
-        "#text": "Lil Uzi Vert"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/544aa5fe7908d216e17bf614c7e1ab27.gif"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/544aa5fe7908d216e17bf614c7e1ab27.gif"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/544aa5fe7908d216e17bf614c7e1ab27.gif"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/544aa5fe7908d216e17bf614c7e1ab27.gif"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "77c11f45-c808-4487-af46-39a26891403d",
-        "#text": "Eternal Atake"
-      },
-      "name": "Futsal Shuffle 2020 - Bonus Track",
-      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/Futsal+Shuffle+2020+-+Bonus+Track",
-      "date": {
-        "uts": "1794873118",
-        "#text": "16 Nov 2026, 23:51"
       }
     }
   ]
