@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-25T16:09:41.177Z",
+  "updatedAt": "2026-11-26T18:38:30.050Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
+        "#text": "Piero Piccioni"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/b47b9cef304f95e5617f7cad414a3a29.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/b47b9cef304f95e5617f7cad414a3a29.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/b47b9cef304f95e5617f7cad414a3a29.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b47b9cef304f95e5617f7cad414a3a29.jpg"
+        }
+      ],
+      "mbid": "079ac84f-0105-3b8c-88c1-97db2d53eca6",
+      "album": {
+        "mbid": "",
+        "#text": "Il medico della mutua (Original Motion Picture Soundtrack)"
+      },
+      "name": "Lady Love",
+      "url": "https://www.last.fm/music/Piero+Piccioni/_/Lady+Love",
+      "date": {
+        "uts": "1795666454",
+        "#text": "26 Nov 2026, 04:14"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "The Melachrino Strings and Orchestra"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
+        }
+      ],
+      "mbid": "",
+      "album": {
+        "mbid": "",
+        "#text": "You and the Night and the Music"
+      },
+      "name": "In the Blue of Evening",
+      "url": "https://www.last.fm/music/The+Melachrino+Strings+and+Orchestra/_/In+the+Blue+of+Evening",
+      "date": {
+        "uts": "1795666244",
+        "#text": "26 Nov 2026, 04:10"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "d89c963e-3aec-4063-85e6-90574da2578e",
+        "#text": "Michel Colombier"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
+        }
+      ],
+      "mbid": "19599e25-1b02-4de8-9728-630425041cef",
+      "album": {
+        "mbid": "",
+        "#text": "Colossus: The Forbin Project (Original Motion Picture Soundtrack)"
+      },
+      "name": "Mistress Arrives",
+      "url": "https://www.last.fm/music/Michel+Colombier/_/Mistress+Arrives",
+      "date": {
+        "uts": "1795666179",
+        "#text": "26 Nov 2026, 04:09"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
+        "#text": "Piero Piccioni"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c21a25b9a0335b4554798cc6a216ab2.jpg"
+        }
+      ],
+      "mbid": "8511b5da-d82d-3ca3-87a0-7b4bdb4ef97d",
+      "album": {
+        "mbid": "40747aa7-9041-415a-8ec3-b62b8eecde16",
+        "#text": "Colpo Rovente - Red Hot Shot (Original Motion Picture Soundtrack)"
+      },
+      "name": "Mexican Dream",
+      "url": "https://www.last.fm/music/Piero+Piccioni/_/Mexican+Dream",
+      "date": {
+        "uts": "1795666058",
+        "#text": "26 Nov 2026, 04:07"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1795639334",
+        "#text": "25 Nov 2026, 20:42"
+      }
+    },
     {
       "artist": {
         "mbid": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
@@ -179,186 +359,6 @@
       "date": {
         "uts": "1795497421",
         "#text": "24 Nov 2026, 05:17"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "c23280a8-abc8-4435-ab44-43762ce0c89c",
-        "#text": "Laurindo Almeida"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/9351c4917ef34fc194b9bc9c3617aecf.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/9351c4917ef34fc194b9bc9c3617aecf.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/9351c4917ef34fc194b9bc9c3617aecf.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9351c4917ef34fc194b9bc9c3617aecf.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "122f9959-2a3e-4579-a82f-6cb6ec5eb563",
-        "#text": "Classical Current"
-      },
-      "name": "Baubles, Bangles And Beads",
-      "url": "https://www.last.fm/music/Laurindo+Almeida/_/Baubles,+Bangles+And+Beads",
-      "date": {
-        "uts": "1795497237",
-        "#text": "24 Nov 2026, 05:13"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Armando Trovajoli"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "La Matriarca - The Libertine (Original Motion Picture Soundtrack)"
-      },
-      "name": "L'amore dice Ciao (Main Titles) - Remastered",
-      "url": "https://www.last.fm/music/Armando+Trovajoli/_/L%27amore+dice+Ciao+(Main+Titles)+-+Remastered",
-      "date": {
-        "uts": "1795497045",
-        "#text": "24 Nov 2026, 05:10"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Armando Trovajoli"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d2ea0e2b9af620a0b9c7074989eaddd4.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "La Matriarca - The Libertine (Original Motion Picture Soundtrack)"
-      },
-      "name": "L'amore dice Ciao (Piano Solo) - Remastered",
-      "url": "https://www.last.fm/music/Armando+Trovajoli/_/L%27amore+dice+Ciao+(Piano+Solo)+-+Remastered",
-      "date": {
-        "uts": "1795496964",
-        "#text": "24 Nov 2026, 05:09"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "540722f1-35b5-4a8c-82e9-5c80ff4c1be5",
-        "#text": "Alberto Baldan Bembo"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/acbb548976bd48afc844c904df03d467.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/acbb548976bd48afc844c904df03d467.jpg"
-        }
-      ],
-      "mbid": "e66f45aa-14f7-4bcc-8353-63a89e4008f7",
-      "album": {
-        "mbid": "6cbf58aa-8b70-44cd-8221-7b3431ba20c9",
-        "#text": "Lingua D'Argento"
-      },
-      "name": "Samoa",
-      "url": "https://www.last.fm/music/Alberto+Baldan+Bembo/_/Samoa",
-      "date": {
-        "uts": "1795496860",
-        "#text": "24 Nov 2026, 05:07"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
-        "#text": "Piero Piccioni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2556d27851e94bd680e3adbf09339753.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2556d27851e94bd680e3adbf09339753.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2556d27851e94bd680e3adbf09339753.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2556d27851e94bd680e3adbf09339753.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "3ed7f1ee-be16-42d8-8222-0d1d3a64df13",
-        "#text": "Appassionata"
-      },
-      "name": "Strano mercoledi - Original",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Strano+mercoledi+-+Original",
-      "date": {
-        "uts": "1795496618",
-        "#text": "24 Nov 2026, 05:03"
       }
     }
   ]
