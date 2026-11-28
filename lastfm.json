@@ -1,6 +1,222 @@
 {
-  "updatedAt": "2026-11-27T19:37:35.576Z",
+  "updatedAt": "2026-11-28T02:09:42.726Z",
   "tracks": [
+    {
+      "artist": {
+        "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+        "#text": "Playboi Carti"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1761236c12379d3e1dfce76023231f6.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d1761236c12379d3e1dfce76023231f6.jpg"
+        }
+      ],
+      "mbid": "92fdad18-fc72-4a36-804c-9c271fdb97ac",
+      "album": {
+        "mbid": "11fe09ea-695d-44ae-9a7e-e7f94108b4c7",
+        "#text": "Die Lit"
+      },
+      "name": "Choppa Won't Miss (feat. Young Thug)",
+      "url": "https://www.last.fm/music/Playboi+Carti/_/Choppa+Won%27t+Miss+(feat.+Young+Thug)",
+      "date": {
+        "uts": "1795813585",
+        "#text": "27 Nov 2026, 21:06"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "8837b875-3689-4646-b3fd-d8b53815c7a8",
+        "#text": "Lil Uzi Vert"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3dc9bd729b5de7c9db4e884e01eefa8d.jpg"
+        }
+      ],
+      "mbid": "80886e2e-3741-4ebb-96e7-82541c2811ea",
+      "album": {
+        "mbid": "",
+        "#text": "New Patek"
+      },
+      "name": "New Patek",
+      "url": "https://www.last.fm/music/Lil+Uzi+Vert/_/New+Patek",
+      "date": {
+        "uts": "1795813173",
+        "#text": "27 Nov 2026, 20:59"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1795813054",
+        "#text": "27 Nov 2026, 20:57"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1795812869",
+        "#text": "27 Nov 2026, 20:54"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1795812718",
+        "#text": "27 Nov 2026, 20:51"
+      }
+    },
+    {
+      "artist": {
+        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
+        "#text": "OsamaSon"
+      },
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
+        }
+      ],
+      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
+      "album": {
+        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
+        "#text": "Jump out"
+      },
+      "name": "fool",
+      "url": "https://www.last.fm/music/OsamaSon/_/fool",
+      "date": {
+        "uts": "1795812582",
+        "#text": "27 Nov 2026, 20:49"
+      }
+    },
     {
       "artist": {
         "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
@@ -143,222 +359,6 @@
       "date": {
         "uts": "1795666454",
         "#text": "26 Nov 2026, 04:14"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "The Melachrino Strings and Orchestra"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5d5bf3830b8b5651a7d1b137ecee97d1.jpg"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "",
-        "#text": "You and the Night and the Music"
-      },
-      "name": "In the Blue of Evening",
-      "url": "https://www.last.fm/music/The+Melachrino+Strings+and+Orchestra/_/In+the+Blue+of+Evening",
-      "date": {
-        "uts": "1795666244",
-        "#text": "26 Nov 2026, 04:10"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "d89c963e-3aec-4063-85e6-90574da2578e",
-        "#text": "Michel Colombier"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e0c5b6bc74db7bc2cb50ce13b68a8de3.png"
-        }
-      ],
-      "mbid": "19599e25-1b02-4de8-9728-630425041cef",
-      "album": {
-        "mbid": "",
-        "#text": "Colossus: The Forbin Project (Original Motion Picture Soundtrack)"
-      },
-      "name": "Mistress Arrives",
-      "url": "https://www.last.fm/music/Michel+Colombier/_/Mistress+Arrives",
-      "date": {
-        "uts": "1795666179",
-        "#text": "26 Nov 2026, 04:09"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "52e50090-9a6d-463b-9cf9-ea5de196026a",
-        "#text": "Piero Piccioni"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/6c21a25b9a0335b4554798cc6a216ab2.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c21a25b9a0335b4554798cc6a216ab2.jpg"
-        }
-      ],
-      "mbid": "8511b5da-d82d-3ca3-87a0-7b4bdb4ef97d",
-      "album": {
-        "mbid": "40747aa7-9041-415a-8ec3-b62b8eecde16",
-        "#text": "Colpo Rovente - Red Hot Shot (Original Motion Picture Soundtrack)"
-      },
-      "name": "Mexican Dream",
-      "url": "https://www.last.fm/music/Piero+Piccioni/_/Mexican+Dream",
-      "date": {
-        "uts": "1795666058",
-        "#text": "26 Nov 2026, 04:07"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "35214d53-009b-45d9-8a00-6664325b9e2a",
-        "#text": "OsamaSon"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0bdaf0cf47d6ca7654896ed185c59e5b.jpg"
-        }
-      ],
-      "mbid": "57e19fab-39c1-482d-a4b0-9b732089e1e4",
-      "album": {
-        "mbid": "d19f959f-9f02-4bf7-92a9-66f8c9374ba1",
-        "#text": "Jump out"
-      },
-      "name": "fool",
-      "url": "https://www.last.fm/music/OsamaSon/_/fool",
-      "date": {
-        "uts": "1795639334",
-        "#text": "25 Nov 2026, 20:42"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
-        "#text": "Devon Hendryx"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/106b48073d5472809b6a07ed2b265bcf.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/106b48073d5472809b6a07ed2b265bcf.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/106b48073d5472809b6a07ed2b265bcf.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/106b48073d5472809b6a07ed2b265bcf.jpg"
-        }
-      ],
-      "mbid": "21dd8f24-ece4-4745-88b0-a6890aa45f2f",
-      "album": {
-        "mbid": "",
-        "#text": "JOECHILLWORLD"
-      },
-      "name": "Neon Kitchen",
-      "url": "https://www.last.fm/music/Devon+Hendryx/_/Neon+Kitchen",
-      "date": {
-        "uts": "1795562464",
-        "#text": "24 Nov 2026, 23:21"
-      }
-    },
-    {
-      "artist": {
-        "mbid": "",
-        "#text": "Jet Age of Tomorrow"
-      },
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/bd4f0389aba548638182e500f8b2fc68.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/bd4f0389aba548638182e500f8b2fc68.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/bd4f0389aba548638182e500f8b2fc68.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bd4f0389aba548638182e500f8b2fc68.png"
-        }
-      ],
-      "mbid": "",
-      "album": {
-        "mbid": "da5820ab-f41c-422e-bd77-cd9a0450f2f1",
-        "#text": "12 Odd Future Songs"
-      },
-      "name": "Welcome Home Son (feat. Tyler, The Creator & Casey Veggies)",
-      "url": "https://www.last.fm/music/+noredirect/Jet+Age+of+Tomorrow/_/Welcome+Home+Son+(feat.+Tyler,+The+Creator+&+Casey+Veggies)",
-      "date": {
-        "uts": "1795562318",
-        "#text": "24 Nov 2026, 23:18"
       }
     }
   ]
